@@ -26,10 +26,8 @@ function App() {
       <DEEPricingComponent />
       <TestimonialsComponent />
       <PressNewsComponent />
-      {/* Not responsive */}
       <PricePlan />
       <FooterComponent />
-      {/* Not responsive */}
     </>
   );
 }

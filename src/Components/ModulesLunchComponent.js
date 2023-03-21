@@ -1,7 +1,7 @@
 import React from "react";
-import { ReactComponent as Countires } from "../assets/countires.svg";
-import { ReactComponent as GlobleNode } from "../assets/globleNodes.svg";
-import { ReactComponent as HealthCare } from "../assets/HealthCare.svg";
+import Countires from "../assets/Mask group1.png";
+import GlobleNode from "../assets/Mask group(1).png";
+import HealthCare from "../assets/Mask group (2).png";
 
 export const ModulesLunchComponent = () => {
   return (
@@ -11,8 +11,11 @@ export const ModulesLunchComponent = () => {
           Meet The First Two Launch Modules.
           <br /> <span>Available 6-1-2023:</span>
         </h1>
-        <p>
-          R-DEE Connect empowers the industry. <br /> R-DEE Go enfranchises
+        <p className="responsive-text">
+          R-DEE {""} <span className="connect-text">Connect</span>
+          {""} empowers the industry.
+          <br /> R-DEE {""}
+          <span className="medilock-text">MediLock</span> {""}enfranchises
           patients.
         </p>
       </div>
@@ -20,19 +23,19 @@ export const ModulesLunchComponent = () => {
       <div className="card-box container">
         <div className="countries-box">
           <div className="icon">
-            <Countires />
+            <img src={Countires} alt="" />
           </div>
           <p>66 Countries</p>
         </div>
         <div className="countries-box">
           <div className="icon">
-            <GlobleNode />
+            <img src={GlobleNode} alt="" />
           </div>
           <p>5000 Global Nodes</p>
         </div>
         <div className="countries-box">
           <div className="icon">
-            <HealthCare />
+            <img src={HealthCare} alt="" />
           </div>
           <p>
             1800 Terabytes of Healthcare <br /> Data Secured
@@ -44,10 +47,16 @@ export const ModulesLunchComponent = () => {
           Healthcare is about more than just medical treatment. It is about
           ensuring data integrity and saving time. This helps save lives.
         </p>
-        <h3>R-DEE Connect Transforms An Industry into a Network</h3>
-        <p>
+        <h3>
+          <span>
+            R-DEE Connect<sup>TM</sup>
+          </span>{" "}
+          Transforms An <br /> Industry into a Network
+        </h3>
+        <p className="healtcare">
           Healthcare workflow reimagined. Handle sensitive healthcare
-          communication and data with peace of mind and ease.
+          communication
+          <br /> and data with peace of mind and ease.
         </p>
       </div>
     </>

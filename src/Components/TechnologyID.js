@@ -1,7 +1,9 @@
 import React from "react";
-import phoneImage from "../assets/iphone131.png";
+import phoneImage from "../assets/iphone132.png";
 import circleImage from "../assets/Ellipse45.png";
-import { ReactComponent as EasyToUse } from "../assets/easyToUse.svg";
+import SimpleToUse from "../assets/SimpleToUse.png";
+import Technology from "../assets/technology.png";
+import permanent from "../assets/permanent.png";
 
 export const TechnologyID = () => {
   return (
@@ -13,8 +15,8 @@ export const TechnologyID = () => {
         <div className="data-forever">
           <div className="date-forever-box">
             <div className="date-forever-border tech-box__background">
-              <div className="biometric-icon">
-                <EasyToUse />
+              <div className="biometric-icon simple-bg">
+                <img src={SimpleToUse} alt="" />
               </div>
               <h3>Simple To Use</h3>
               <p>
@@ -24,8 +26,8 @@ export const TechnologyID = () => {
               </p>
             </div>
             <div className="date-forever-border tech-box__background">
-              <div className="biometric-icon">
-                <EasyToUse />
+              <div className="biometric-icon technology-bg">
+                <img src={Technology} alt="" />
               </div>
               <h3>Unparalleled ID Technology</h3>
               <p>
@@ -36,14 +38,16 @@ export const TechnologyID = () => {
             </div>
           </div>
           <div className="date-forever-border tech-box__background tech-box__background2">
-            <div className="biometric-icon">
-              <EasyToUse />
+            <div className="biometric-icon permanent-bg">
+              <img src={permanent} alt="" />
             </div>
             <h3>Permanent Health Record.</h3>
             <p>
-              Next-gen distributed network provides redundancy and backup to all
-              <br />
-              stored health records.
+              Push-button automated requests and uploads from any R-DEE Connect
+              provider or anyone outside, including AI tools and health
+              trackers, make keeping and managing your entire health records
+              safe, secure, and available anywhere you go. Your health, your
+              data, your control.
             </p>
           </div>
         </div>
@@ -60,7 +64,7 @@ export const TechnologyID = () => {
           alt=""
           style={{
             position: "absolute",
-            left: "52%",
+            left: "50%",
             top: "275px",
             transform: "translate(-50%,-50%)",
           }}

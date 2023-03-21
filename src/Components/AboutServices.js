@@ -1,5 +1,12 @@
 import React from "react";
-import { ReactComponent as EasyToUse } from "../assets/easyToUse.svg";
+import EasyToUse from "../assets/Mask group (1).png";
+import lessClutter from "../assets/Mask group (7).png";
+import technology from "../assets/Mask group (3).png";
+import Audit from "../assets/Mask group (4).png";
+import Secure from "../assets/Mask group (5).png";
+import Seamless from "../assets/Mask group (7).png";
+import Healthcare from "../assets/image 50.png";
+import tools from "../assets/doctor.png";
 import phoneImage from "../assets/iphone131.png";
 import circleImage from "../assets/Ellipse45.png";
 
@@ -19,19 +26,19 @@ export const AboutServices = () => {
         <section>
           <div className="about-services-box">
             <div className="easy-to-use-icon">
-              <EasyToUse />
+              <img src={EasyToUse} alt="" />
             </div>
             <p>Easy to use</p>
           </div>
           <div className="about-services-box">
             <div className="easy-to-use-icon">
-              <EasyToUse />
+              <img src={lessClutter} alt="" />
             </div>
             <p>Less clutter</p>
           </div>
           <div className="about-services-box">
             <div className="easy-to-use-icon">
-              <EasyToUse />
+              <img src={technology} alt="" />
             </div>
             <p>Unparalleled ID technology</p>
           </div>
@@ -58,19 +65,21 @@ export const AboutServices = () => {
         <section>
           <div className="about-services-box">
             <div className="easy-to-use-icon">
-              <EasyToUse />
+              <img src={Audit} alt="" />
             </div>
-            <p>Audit Trails- Track all data access.</p>
+            <p>
+              Audit Trails- Track all <br /> data access.
+            </p>
           </div>
           <div className="about-services-box">
             <div className="easy-to-use-icon">
-              <EasyToUse />
+              <img src={Secure} alt="" />
             </div>
             <p>Secure social media-type features</p>
           </div>
           <div className="about-services-box">
             <div className="easy-to-use-icon">
-              <EasyToUse />
+              <img src={Seamless} alt="" />
             </div>
             <p>Seamless integration with any health IT platforms.</p>
           </div>
@@ -79,7 +88,7 @@ export const AboutServices = () => {
       <div className="container kyc-biometric-box">
         <div className="biometric-box">
           <div className="biometric-box-icon">
-            <EasyToUse />
+            <img src={Healthcare} alt="" />
           </div>
           <p>
             Built-in KYC and a biometric technology that positively Identifies
@@ -88,11 +97,10 @@ export const AboutServices = () => {
         </div>
         <div className="biometric-box">
           <div className="biometric-box-icon">
-            <EasyToUse />
+            <img src={tools} alt="" />
           </div>
           <p>
-            Built-in KYC and a biometric technology that positively Identifies
-            users while eliminating inefficient usernames and passwords
+            AI tools help reduce costly data errors and workflow by up to 90%*.
           </p>
         </div>
       </div>

@@ -1,0 +1,189 @@
+@media (max-width: 1024px) {
+  .image-box {
+    margin-left: 29px !important;
+  }
+  .health-type {
+    margin-left: 50px !important;
+  }
+  .description {
+    padding-top: 110px !important;
+  }
+  .get-r-dee-box {
+    align-items: center !important;
+  }
+  .web3-container {
+    align-items: center;
+  }
+  .web3-info-box {
+    width: 60%;
+  }
+  .date-forever-box {
+    justify-content: space-between !important;
+  }
+  .bg-none {
+    display: none;
+  }
+}
+@media (max-width: 786px) {
+  .iphone-image {
+    left: 351px !important;
+  }
+  .health-care-info p:first-child {
+    font-size: 15.5px !important;
+  }
+  .health-care-info h3 {
+    font-size: 25px !important;
+  }
+  .web3-info-box {
+    width: 80%;
+  }
+  .date-forever-border,
+  .trust-solved {
+    height: 373px !important;
+  }
+  .empowered-box {
+    height: fit-content !important;
+    width: 357px !important;
+  }
+}
+@media (max-width: 425px) {
+  .health-care-box h1 {
+    font-size: 43px !important;
+  }
+  .responsive-btn {
+    flex-direction: column;
+    align-items: center;
+  }
+  .patients_btn {
+    margin: 0 !important;
+    margin-top: 20px !important;
+  }
+  .health-care-box p:first-child {
+    font-size: 12px;
+  }
+  .lines-bg,
+  .circle-bg {
+    height: 57vh !important;
+  }
+  .iphone-image {
+    left: 50px !important;
+  }
+  .responsive-cards,
+  .tech-box .data-forever {
+    margin-top: 310% !important;
+  }
+  .responsive-text {
+    font-size: 10px !important;
+    padding-top: 20px;
+  }
+  .date-forever-border,
+  .trust-solved {
+    width: 331px !important;
+  }
+  .date-forever-border,
+  .trust-solved,
+  .empowered-box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .web3-info-box {
+    padding-right: 0 !important;
+    width: 95%;
+  }
+  .empowered-box p {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 375px) {
+  .health-care-box h1 {
+    font-size: 30px !important;
+  }
+  .web3-network-box {
+    font-size: 10px !important;
+  }
+  .health-care-box h1 sup {
+    font-size: 10px !important;
+  }
+  .lines-bg {
+    background-image: none !important;
+    height: 38vh !important;
+  }
+  .mobile-bg {
+    height: 46vh !important;
+  }
+  .circle-bg {
+    height: 38vh !important;
+  }
+  .iphone-image {
+    left: 35px !important;
+  }
+  .responsive-cards,
+  .tech-box .data-forever {
+    margin-top: 370% !important;
+  }
+  .container.health-care-info {
+    text-align: left !important;
+  }
+  .biometric-box {
+    flex-direction: column;
+  }
+
+  .empowered-box,
+  .date-forever-border,
+  .trust-solved {
+    width: 284px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .web3-network-box {
+    font-size: 7px !important;
+  }
+  .health-care-box button {
+    font-size: 12px !important;
+  }
+  .mobile-bg {
+    height: 50vh !important;
+  }
+  .iphone-image {
+    left: 5px !important;
+  }
+  .card-container2 {
+    height: fit-content !important;
+  }
+  .responsive-cards,
+  .tech-box .data-forever {
+    margin-top: 490% !important;
+  }
+  .countries-box p {
+    font-size: 10px !important;
+  }
+  .health-care-info p:first-child {
+    font-size: 12.5px !important;
+  }
+  .meetUp-container {
+    margin-top: 229px !important;
+  }
+  .about-services-box {
+    width: 269px !important;
+  }
+  .responsive-image {
+    width: 250px !important;
+  }
+  .responsive__mobile-image {
+    width: 155px !important;
+    top: 176px !important;
+  }
+  .empowered-box {
+    margin-left: -29px;
+  }
+  .box-text {
+    width: 90%;
+    margin-left: 8px !important;
+    margin-right: 0 !important;
+  }
+  .web3-info-box p {
+    font-size: 14px !important;
+  }
+}

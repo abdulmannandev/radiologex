@@ -1,7 +1,6 @@
 import React from "react";
 import { ReactComponent as Logo } from "../assets/HeaderLogo.svg";
 import { ReactComponent as AngleDown } from "../assets/downAngle.svg";
-import FontAwesome from "react-fontawesome";
 
 export const HeaderComponent = () => {
   return (

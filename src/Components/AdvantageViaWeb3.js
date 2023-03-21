@@ -1,5 +1,8 @@
 import React from "react";
-import { ReactComponent as EasyToUse } from "../assets/easyToUse.svg";
+import Data from "../assets/Group.png";
+import trust from "../assets/Trust.png";
+import Empowered from "../assets/Empowered.png";
+
 import bgImage from "../assets/Rectangle18.png";
 
 export const AdvantageViaWeb3 = () => {
@@ -8,7 +11,9 @@ export const AdvantageViaWeb3 = () => {
       <section className="advance-via-web3-box">
         <div className="container web3-container">
           <div className="web3-info-box">
-            <h1>The R-DEE Advantage Via Web3</h1>
+            <h1>
+              The R-DEE Advantage <br /> Via Web3
+            </h1>
             <p>
               Our data network features thousands of independent and segregated
               nodes, which provide unrivalled security, speed, and scale.
@@ -25,7 +30,7 @@ export const AdvantageViaWeb3 = () => {
             <div className="date-forever-box">
               <div className="date-forever-border">
                 <div className="biometric-icon">
-                  <EasyToUse />
+                  <img src={Data} alt="" />
                 </div>
                 <h3>Your Data Forever</h3>
                 <p>
@@ -36,8 +41,8 @@ export const AdvantageViaWeb3 = () => {
                 </p>
               </div>
               <div className="date-forever-border trust-solved">
-                <div className="biometric-icon">
-                  <EasyToUse />
+                <div className="biometric-icon trust-bg">
+                  <img src={trust} alt="" />
                 </div>
                 <h3>Trust is Solved</h3>
                 <p>
@@ -49,8 +54,8 @@ export const AdvantageViaWeb3 = () => {
               </div>
             </div>
             <div className="date-forever-border empowered-box">
-              <div className="biometric-icon">
-                <EasyToUse />
+              <div className="biometric-icon empowered-bg">
+                <img src={Empowered} alt="" />
               </div>
               <h3>Your Teams Empowered</h3>
               <p>
@@ -74,7 +79,10 @@ export const AdvantageViaWeb3 = () => {
         <div className="container box-text">
           <h4>YOUR HEALTH. YOUR DATA</h4>
           <h1>
-            <span>R-DEE Go</span> Gives Power To The Patient.
+            <span>
+              R-DEE MediLock<sup>TM</sup>
+            </span>{" "}
+            Gives Power To The Patient.
           </h1>
           <p>
             The first PHR gives full custodianship and control to the patient

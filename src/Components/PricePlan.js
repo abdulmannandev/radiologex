@@ -5,7 +5,8 @@ export const PricePlan = () => {
     <section className="price-plan-container">
       <div className="container price-plan-box">
         <h1>
-          R-DEE Pricing Plans for Healthcare <br /> Professionals
+          R-DEE Pricing Plans for Healthcare <br />{" "}
+          <span className="professional">Professionals</span>
         </h1>
         <p className="choose-plan-note">
           Choose the plan that works for you or your organizational type
@@ -74,12 +75,13 @@ export const PricePlan = () => {
       {/*  */}
       <div className="container price-plan-patients">
         <h1>
-          R-DEE Pricing Plans for <br /> Patients
+          R-DEE Pricing Plans for <br />{" "}
+          <psan className="professional">Patients</psan>
         </h1>
         <p className="choose-plan-note">
           Choose the plan that works for you or your organizational type
         </p>
-        <div className="cards">
+        <div className="cards patients-card">
           <div className="price-plan-card patient-card">
             <p className="payment-status">FREE</p>
             <h3>R-DEE Free</h3>

@@ -1,6 +1,6 @@
 import React from "react";
-import { ReactComponent as MaskIcon } from "../assets/MaskIcon.svg";
-import { ReactComponent as MaskIcon2 } from "../assets/MaskIcon2.svg";
+import MaskIcon from "../assets/MaskIcon.png";
+import MaskIcon2 from "../assets/MaskIcon2.png";
 export const CardsComponent = () => {
   return (
     <div className="background-color">
@@ -10,7 +10,7 @@ export const CardsComponent = () => {
       >
         <div className="card-container">
           <div className="icon">
-            <MaskIcon />
+            <img src={MaskIcon} alt="" />
           </div>
           <p>
             A full productivity suite for the 70 million (plus)
@@ -19,7 +19,7 @@ export const CardsComponent = () => {
         </div>
         <div className="card-container2">
           <div className="icon">
-            <MaskIcon2 />
+            <img src={MaskIcon2} alt="" />
           </div>
           <p>
             An easy-to-use and secure PHR for the 3 billion plus people globally
