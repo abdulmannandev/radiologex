@@ -1,5 +1,7 @@
 import React from "react";
 import { ReactComponent as Stars } from "../assets/star.svg";
+import { ReactComponent as NextBtn } from "../assets/nextbtn.svg";
+import { ReactComponent as PrevBtn } from "../assets/PrevBtn.svg";
 
 export const TestimonialsComponent = () => {
   return (
@@ -23,8 +25,13 @@ export const TestimonialsComponent = () => {
           <Stars className="stars" />
           <Stars className="stars" />
           <Stars className="stars" />
-          <div className="btns">
-            <div></div>
+        </div>
+        <div className="btns">
+          <div className="prev-btn">
+            <PrevBtn />
+          </div>
+          <div className="next-btn">
+            <NextBtn />
           </div>
         </div>
       </div>

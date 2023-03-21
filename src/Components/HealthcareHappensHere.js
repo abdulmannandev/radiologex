@@ -22,8 +22,9 @@ export const HealthcareHappensHere = () => {
         </h1>
         <p className="web3-network-box">
           The first WEB3 powered network designed from the ground up for global
-          healthcare. Communicate, collaborate, and produce on one powerful,
-          ultra-secure platform available
+          healthcare. Communicate,
+          <br /> collaborate, and produce on one powerful, ultra-secure platform
+          available
         </p>
         <button>Healthcare Professionals</button>
         <button className="patients_btn">Patients</button>
@@ -51,31 +52,6 @@ export const HealthcareHappensHere = () => {
             </div>
           </div>
         </section>
-        {/* <section
-          style={{
-            paddingTop: "40px",
-          }}
-        >
-          <div>
-            <img src={image} alt="" />
-            <img src={cardImage} alt="" />
-          </div>
-          <div style={{ position: "relative" }}>
-            <img src={lineImage} alt="" />
-
-            <img src={bgImage} alt="" />
-            <img
-              src={mobileImage}
-              alt=""
-              style={{ position: "absolute", top: "-105px", left: "0" }}
-              width={"100%"}
-            />
-          </div>
-          <div>
-            <img src={cardImage2} alt="" />
-            <img src={cardImage3} alt="" />
-          </div>
-        </section> */}
       </div>
     </section>
   );

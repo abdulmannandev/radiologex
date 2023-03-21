@@ -109,12 +109,11 @@ p {
   font-size: 20px;
 }
 .web3-network-box {
-  width: 60%;
   margin: 0 auto;
   line-height: 1.8;
   padding-top: 20px;
   color: white;
-  font-size: 18px;
+  font-size: 13px;
   padding-bottom: 40px;
 }
 .health-care-box button {
@@ -157,6 +156,8 @@ p {
   position: absolute;
   top: 50px;
   left: 0;
+  animation: frame 5s linear infinite;
+  animation-iteration-count: 1;
 }
 .second-image-box {
   position: absolute;
@@ -165,7 +166,46 @@ p {
 }
 .second-image-box img:first-child {
   padding-bottom: 200px;
+  animation: frame 5s linear infinite;
+  animation-iteration-count: 1;
 }
+@keyframes frame {
+  from {
+    transform: translateX(-200px);
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Button animation */
+.patients_btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.patients_btn:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
 .add-user-list {
   text-align: center;
   justify-content: center;
@@ -194,9 +234,14 @@ p {
   color: #7836ff !important;
 }
 .description-box p {
-  line-height: 2.1;
+  line-height: 2.25;
   font-size: 15px;
   color: #8e8e8e;
+  margin-bottom: 20px;
+}
+.change-color2 {
+  color: #7836ff;
+  text-decoration: underline;
 }
 .card-container {
   box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.06);
@@ -378,27 +423,25 @@ p {
 /* advance-via-web3-box */
 .web3-container {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 .advance-via-web3-box {
   background-color: #17171d;
   color: #ffffff;
   padding-top: 40px;
   padding-bottom: 30px;
-  /* margin-bottom: 30px; */
 }
 .web3-info-box {
-  width: 500px;
+  width: 400px;
 }
 .web3-info-box h1 {
-  font-size: 44px;
+  font-size: 35px;
   font-weight: 700;
-  padding-bottom: 25px;
+  padding-bottom: 45px;
 }
 .web3-info-box p {
-  padding-bottom: 25px;
+  padding-bottom: 45px;
   line-height: 1.8;
 }
 .change-color {
@@ -413,25 +456,27 @@ p {
   font-size: 14px;
 }
 .data-forever {
-  width: 600px;
+  width: 750px;
 }
 .date-forever-box {
   display: flex;
   align-items: center;
 }
-.date-forever-border {
-  width: fit-content;
-  height: fit-content;
+.empowered-box {
+  width: fit-content !important;
+}
+.date-forever-border,
+.trust-solved {
+  width: 357px;
+  height: 319px;
   margin-bottom: 30px;
   margin-right: 40px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 15px;
-  border-image: linear-gradient(380deg, rgba(255, 255, 255, 0.1), #4aea87) 1;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 40px;
   padding-top: 20px;
+  border: 2px solid #4aea87;
+  border-radius: 27px;
 }
 .date-forever-border h3 {
   padding-bottom: 10px;
@@ -503,14 +548,14 @@ p {
   margin: 0 auto;
   line-height: 1.8;
   color: #8e8e8e;
-  padding-bottom: 100px;
+  padding-bottom: 20px;
 }
 /*  */
 .testimonial-box {
   background-color: #f9f9f9;
   padding-top: 30px;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   margin-bottom: 50px;
 }
 .testimonial-box h1 {
@@ -538,12 +583,30 @@ p {
 .user-testimonial {
   line-height: 1.7;
   color: #8e8e8e;
-
   padding-bottom: 15px;
 }
 .stars {
   margin-right: 10px;
 }
+.btns {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.next-btn,
+.prev-btn {
+  background: #ffffff;
+  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.1);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
 /*  */
 .see-all-box {
   display: flex;
@@ -600,13 +663,15 @@ p {
   width: 45%;
 }
 .established__box h1 {
-  font-size: 45px;
+  font-size: 40px;
+  font-weight: 600;
   padding-bottom: 30px;
+  line-height: 1.3;
 }
 .established__box p {
-  line-height: 1.5;
-  font-size: 18px !important;
-  font-weight: 400;
+  line-height: 2.3;
+  font-size: 15px !important;
+  font-weight: 300;
   padding-bottom: 30px;
 }
 .established__box button {
@@ -657,6 +722,7 @@ p {
   font-size: 40px;
   line-height: 1.5;
   padding-bottom: 30px;
+  font-weight: 600;
 }
 .choose-plan-note {
   font-size: 16px;
@@ -679,21 +745,25 @@ p {
   border: none;
   color: #1a8bf3;
   font-size: 16px;
-  margin-top: 90px;
+  margin-top: 70px;
+  font-weight: 600;
 }
 .payment-status {
-  font-size: 18px;
+  font-size: 15px;
   color: #7836ff;
-  font-weight: 500;
-  padding-bottom: 5px;
+  font-weight: 600;
+  padding-bottom: 10px;
 }
 .price-plan-card h3 {
-  font-size: 24px;
+  font-size: 25px;
+  font-weight: 600;
   padding-bottom: 10px;
 }
 .note {
   font-size: 17px;
   padding-bottom: 10px;
+  word-spacing: 4px;
+  letter-spacing: 1px;
 }
 .cards {
   display: flex;
@@ -701,17 +771,40 @@ p {
   flex-wrap: wrap;
 }
 .price-plan-card ul {
-  padding-left: 25px;
+  padding-left: 30px;
 }
 .price-plan-card ul li {
-  padding-bottom: 10px;
+  padding-bottom: 4px;
   color: #8e8e8e;
   font-size: 16px;
   font-weight: 500;
 }
 .price-plan-card ul li::marker {
   color: #7836ff;
-  font-size: 25px;
+  font-size: 30px;
+}
+.clinical-plan .payment-status,
+.clinical-plan ul li::marker {
+  color: #fd4b4b;
+}
+.vendor-plan .payment-status,
+.vendor-plan ul li::marker {
+  color: #4aea87;
+}
+.request-plan .payment-status,
+.request-plan ul li::marker {
+  color: #1a8bf3;
+}
+.premium-plan .payment-status,
+.premium-plan ul li::marker {
+  color: #4aea87;
+}
+.patient-card button {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
 }
 .price-plan-patients {
   padding-top: 70px;
@@ -743,6 +836,10 @@ p {
 }
 .available-device img {
   margin-right: 20px;
+}
+.patient-card {
+  width: 400px;
+  height: 498px;
 }
 .footer-container {
   background-color: #111114;
@@ -796,8 +893,22 @@ p {
   box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.07);
   border-radius: 22px;
   border: none;
+  width: 315px !important;
+  height: 276px !important;
 }
-
+.tech-box__background2 {
+  width: 650px !important;
+  height: 206px !important;
+}
+.pricing__btn {
+  border: 0;
+  padding: 16px 35px;
+  border-radius: 35px;
+  background-color: #fd4b4b;
+  color: white;
+  font-size: 16px;
+  margin-top: 40px;
+}
 @media (max-width: 1024px) {
   .header-list {
     padding-left: 30px;
@@ -903,6 +1014,20 @@ p {
   .price-plan-card {
     margin-bottom: 26px;
   }
+  .image-box {
+    margin-left: 60px;
+  }
+  .image-box img {
+    width: 166px;
+  }
+  .second-image-box img {
+    width: 250px;
+    margin-right: 50px;
+  }
+  .kyc-biometric-box,
+  .web3-container {
+    flex-direction: column;
+  }
 }
 @media (max-width: 786px) {
   .responsive-cards {
@@ -952,6 +1077,25 @@ p {
   }
   .dee-pricing-box h1 {
     width: 90%;
+  }
+  .image-box {
+    margin-left: 20px;
+  }
+  .image-box img {
+    width: 146px;
+  }
+  .second-image-box {
+    display: none;
+  }
+  .lines-bg,
+  .circle-bg {
+    height: 71vh;
+  }
+  .mobile-bg {
+    height: 79vh;
+  }
+  .web3-network-box {
+    font-size: 12px;
   }
 }
 @media (max-width: 880px) {
@@ -1028,6 +1172,13 @@ p {
   .bg-none {
     display: none;
   }
+  .image-box img {
+    display: none;
+  }
+  .lines-bg,
+  .circle-bg {
+    background-image: none;
+  }
 }
 
 @media (max-width: 572px) {
@@ -1084,6 +1235,16 @@ p {
   }
   .cards {
     justify-content: center;
+  }
+  .health-care-box button {
+    margin-right: 0;
+  }
+  .date-forever-border,
+  .trust-solved {
+    height: fit-content;
+  }
+  .tech-box__background2 {
+    width: fit-content !important;
   }
 }
 @media (max-width: 375px) {

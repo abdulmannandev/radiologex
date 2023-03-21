@@ -21,19 +21,19 @@ export const AboutServices = () => {
             <div className="easy-to-use-icon">
               <EasyToUse />
             </div>
-            <p>Easy To Use</p>
+            <p>Easy to use</p>
           </div>
           <div className="about-services-box">
             <div className="easy-to-use-icon">
               <EasyToUse />
             </div>
-            <p>Less Clutter</p>
+            <p>Less clutter</p>
           </div>
           <div className="about-services-box">
             <div className="easy-to-use-icon">
               <EasyToUse />
             </div>
-            <p>Unparalleled ID Technology</p>
+            <p>Unparalleled ID technology</p>
           </div>
         </section>
         <section className="circle-bg-image">
@@ -60,13 +60,13 @@ export const AboutServices = () => {
             <div className="easy-to-use-icon">
               <EasyToUse />
             </div>
-            <p>Compliment or Replace</p>
+            <p>Audit Trails- Track all data access.</p>
           </div>
           <div className="about-services-box">
             <div className="easy-to-use-icon">
               <EasyToUse />
             </div>
-            <p>Saving Time Saves Lives.</p>
+            <p>Secure social media-type features</p>
           </div>
           <div className="about-services-box">
             <div className="easy-to-use-icon">

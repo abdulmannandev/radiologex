@@ -1,8 +1,14 @@
 import React from "react";
 import CardImage from "../assets/Rectangle205.png";
 import CardImage2 from "../assets/Rectangle206.png";
+import CardImage3 from "../assets/Rectangle207.png";
+import CardImage4 from "../assets/Rectangle210.png";
+import CardImage5 from "../assets/Rectangle210(2).png";
+import CardImage6 from "../assets/Rectangle10.png";
 import { ReactComponent as Logo } from "../assets/bottomLogo.svg";
 import logo2 from "../assets/image32.png";
+import logo3 from "../assets/image33.png";
+import logo4 from "../assets/image34.png";
 
 export const PressNewsComponent = () => {
   return (
@@ -52,7 +58,7 @@ export const PressNewsComponent = () => {
               <img src={CardImage2} alt="" />
             </div>
             <div className="news-card-description">
-              <h1>R-DEE News</h1>
+              <h1>In The News</h1>
               <p className="card-info">
                 Radiologex Provides Unparalleled Medical Security with the R-DEE
                 Network
@@ -76,13 +82,13 @@ export const PressNewsComponent = () => {
           </div>
           <div className="news-cards">
             <div>
-              <img src={CardImage2} alt="" />
+              <img src={CardImage3} alt="" />
             </div>
             <div className="news-card-description">
-              <h1>R-DEE News</h1>
+              <h1>In The News</h1>
               <p className="card-info">
-                Radiologex Provides Unparalleled Medical Security with the R-DEE
-                Network
+                This blockchain-based project offers a suite of tools that
+                tackle the widespr...
               </p>
               <div className="read-more">
                 <p>Read More</p>
@@ -104,13 +110,13 @@ export const PressNewsComponent = () => {
 
           <div className="news-cards">
             <div>
-              <img src={CardImage2} alt="" />
+              <img src={CardImage4} alt="" />
             </div>
             <div className="news-card-description">
-              <h1>R-DEE News</h1>
+              <h1>Press Release</h1>
               <p className="card-info">
-                Radiologex Provides Unparalleled Medical Security with the R-DEE
-                Network
+                With the increased digitalization of healthcare, R-DEE™ by
+                Radiologex provides a revolutionary......
               </p>
               <div className="read-more">
                 <p>Read More</p>
@@ -131,13 +137,13 @@ export const PressNewsComponent = () => {
           </div>
           <div className="news-cards">
             <div>
-              <img src={CardImage2} alt="" />
+              <img src={CardImage5} alt="" />
             </div>
             <div className="news-card-description">
-              <h1>R-DEE News</h1>
+              <h1>In The News</h1>
               <p className="card-info">
-                Radiologex Provides Unparalleled Medical Security with the R-DEE
-                Network
+                The Global Healthcare sector, in the wake of a pandemic and
+                suffering frequent ransomware.....
               </p>
               <div className="read-more">
                 <p>Read More</p>
@@ -158,13 +164,13 @@ export const PressNewsComponent = () => {
           </div>
           <div className="news-cards">
             <div>
-              <img src={CardImage2} alt="" />
+              <img src={CardImage6} alt="" />
             </div>
             <div className="news-card-description">
-              <h1>R-DEE News</h1>
+              <h1>In The News</h1>
               <p className="card-info">
-                Radiologex Provides Unparalleled Medical Security with the R-DEE
-                Network
+                A blockchain-based healthcare platform is ramping up security
+                even further, ensuring that patient.....
               </p>
               <div className="read-more">
                 <p>Read More</p>
@@ -194,7 +200,9 @@ export const PressNewsComponent = () => {
           }}
         >
           <div className="established__box">
-            <h1>A New Standard And Established Ones Too</h1>
+            <h1>
+              A New Standard <br /> And Established Ones Too
+            </h1>
             <p>
               R-DEE's technology has been tested and certified by the ONC of the
               US Department of Human and Health Services (HHS), and has attained
@@ -220,10 +228,10 @@ export const PressNewsComponent = () => {
                 </div>
                 <div style={{ display: "flex" }}>
                   <div className="logos2">
-                    <img src={logo2} alt="" />
+                    <img src={logo3} alt="" />
                   </div>
                   <div className="logos2">
-                    <img src={logo2} alt="" />
+                    <img src={logo4} alt="" />
                   </div>
                 </div>
               </div>
@@ -237,10 +245,10 @@ export const PressNewsComponent = () => {
                   <img src={logo2} alt="" />
                 </div>
                 <div className="logos2">
-                  <img src={logo2} alt="" />
+                  <img src={logo4} alt="" />
                 </div>
                 <div className="logos2">
-                  <img src={logo2} alt="" />
+                  <img src={logo3} alt="" />
                 </div>
               </div>
               <div style={{ display: "flex" }}>

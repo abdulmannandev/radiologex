@@ -16,43 +16,34 @@ export const TechnologyID = () => {
               <div className="biometric-icon">
                 <EasyToUse />
               </div>
-              <h3>Your Data Forever</h3>
+              <h3>Simple To Use</h3>
               <p>
-                Next-generation blockchain technology means that your data
-                remains 100% private and secure. As custodians of your data,
-                only your or your organization, analyse, or archive the
-                information.
+                Built to be used easily by all possible 2 billion-plus global
+                users with access to healthcare who have the right to control
+                their health identity and records.
               </p>
             </div>
             <div className="date-forever-border tech-box__background">
               <div className="biometric-icon">
                 <EasyToUse />
               </div>
-              <h3>Trust is Solved</h3>
+              <h3>Unparalleled ID Technology</h3>
               <p>
-                No fuss, no guesswork, no fear of unauthorized access. The most
-                advanced Identification, authentication, and user tracking
-                (audit trails) technology makes data transmission, portability,
-                and sharing a breeze.
+                Built-in KYC and a biometric techno- logy that positively
+                Identifies users while eliminating inefficient usernames and
+                passwords.
               </p>
             </div>
           </div>
-          <div className="date-forever-border tech-box__background">
+          <div className="date-forever-border tech-box__background tech-box__background2">
             <div className="biometric-icon">
               <EasyToUse />
             </div>
-            <h3>Your Teams Empowered</h3>
+            <h3>Permanent Health Record.</h3>
             <p>
-              The R-DEE platform is designed to maximize efficiency and
-              collaboration, so that your teams can work faster, smarter, and
-              more effectively. Connect your teams with colleagues, experts,
-              suppliers, technicians, administrators and the rest of the medical
-              ecosystem.
-            </p>
-            <p>
-              For patients, you have full custodianship of your healthcare
-              records and effortlessly interact with all healthcare providers
-              and access vital healthcare information live via R-DEE Stream
+              Next-gen distributed network provides redundancy and backup to all
+              <br />
+              stored health records.
             </p>
           </div>
         </div>

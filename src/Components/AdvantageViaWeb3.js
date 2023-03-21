@@ -35,7 +35,7 @@ export const AdvantageViaWeb3 = () => {
                   information.
                 </p>
               </div>
-              <div className="date-forever-border">
+              <div className="date-forever-border trust-solved">
                 <div className="biometric-icon">
                   <EasyToUse />
                 </div>
@@ -48,7 +48,7 @@ export const AdvantageViaWeb3 = () => {
                 </p>
               </div>
             </div>
-            <div className="date-forever-border">
+            <div className="date-forever-border empowered-box">
               <div className="biometric-icon">
                 <EasyToUse />
               </div>

@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <HeaderComponent />
-      <HealthcareHappensHere /> {/* Not responsive */}
+      <HealthcareHappensHere />
       <GetRDeeComponent />
       <CardsComponent />
       <ModulesLunchComponent />
@@ -25,9 +25,11 @@ function App() {
       <TechnologyID />
       <DEEPricingComponent />
       <TestimonialsComponent />
-      <PressNewsComponent /> {/* Not responsive */}
+      <PressNewsComponent />
+      {/* Not responsive */}
       <PricePlan />
-      <FooterComponent /> {/* Not responsive */}
+      <FooterComponent />
+      {/* Not responsive */}
     </>
   );
 }

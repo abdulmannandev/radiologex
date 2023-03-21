@@ -51,19 +51,28 @@ export const GetRDeeComponent = () => {
                 <span>GET R-DEE.</span> Meet the R-DEE Network.
               </h3>
               <p>
-                The Radiologex Digital Encryption Environment (R-DEE) is a
-                web3-powered, next-generation distributed global data network of
-                thousands of nodes that helps deliver healthcare communication,
-                productivity, and data. Maximizing speed and efficiency on the
-                leading-edge network ushering in a giant leap forward for
-                healthcare technology. R-DEE’s modular structure allows users to
-                use any part of the entire ecosystem. Vendor-neutral technology
-                stack and interoperability allow seamless integration and use
-                for anyone affiliated with the Healthcare sector. And for
-                Patients, it features a standalone APP (PHR) that finally
-                achieves what no other PHR could: Full custodianship and
-                portability of one’s complete health record, secured permanently
-                and available at their fingertips at any time.
+                The Radiologex Digital Encryption Environment (R-DEE, pronounced
+                "ahr-dee") is a Web3-powered, next-generation private and
+                distributed global data network of thousands of nodes that help
+                deliver protected healthcare communication, productivity, and
+                data, quickly and easily.
+              </p>
+              <p>
+                R-DEE’s modular structure allows users to use any part of the
+                entire ecosystem. A vendor-neutral technology stack and
+                interoperability allow seamless integration. and use for all
+                <span className="change-color2">
+                  {" "}
+                  healthcare professionals,
+                </span>{" "}
+                including all practitioners, providers, and industry affiliates.
+              </p>
+              <p>
+                And for <span className="change-color2">patients,</span> it
+                features a standalone App that finally achieves what no other
+                PHR could: Full custodianship and portability of one’s complete
+                health record, secured, and available at their fingertips at any
+                time.
               </p>
             </div>
           </section>
