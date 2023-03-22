@@ -45,21 +45,10 @@ export const AboutServices = () => {
         </section>
         <section className="circle-bg-image">
           <img
-            style={{ position: "relative" }}
-            src={circleImage}
-            alt=""
-            className="responsive-image"
-          />
-          <img
             className="responsive__mobile-image"
             src={phoneImage}
             alt=""
-            style={{
-              position: "absolute",
-              left: "52%",
-              top: "275px",
-              transform: "translate(-50%,-50%)",
-            }}
+            style={{ width: "536px", height: "768px" }}
           />
         </section>
         <section>

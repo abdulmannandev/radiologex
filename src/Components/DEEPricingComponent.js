@@ -10,14 +10,16 @@ export const DEEPricingComponent = () => {
         OPTIMIZE healthcare data-related productivity. Real-time healthcare
         curated content streaming, a secure marketplace for verified goods and
         services, smart-contract-based borderless transactions, clinical
-        management tools, and more. R-DEE untethers the healthcare industry from
-        the problems of trust (identification), authentication, obsolescence,
-        and redundancy, all of which severely impact healthcare quality and
-        delivery. Save costs, save time, save lives.
+        management , a full PACS system, data storage, and more. tools. R-DEE
+        untethers the healthcare industry from the problems of trust
+        (identification), authentication, obsolescence, and redundancy, all of
+        which severely impact healthcare quality and delivery
         <br />
-        <button className="pricing__btn">Get R-DEE Pricing</button>
+        <button className="pricing__btn">
+          <a href="#pricing">Get R-DEE Pricing</a>
+        </button>
       </p>
-      <img src={image} alt="" />
+      <img src={image} alt="" style={{ width: "1156px", height: "765px" }} />
     </section>
   );
 };

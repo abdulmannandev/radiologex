@@ -47,7 +47,7 @@ export const ModulesLunchComponent = () => {
           Healthcare is about more than just medical treatment. It is about
           ensuring data integrity and saving time. This helps save lives.
         </p>
-        <h3>
+        <h3 id="healthcare_btn">
           <span>
             R-DEE Connect<sup>TM</sup>
           </span>{" "}

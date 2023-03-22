@@ -10,7 +10,7 @@ export const HealthcareHappensHere = () => {
       <div className="container">
         <section className="margin-box">
           <p>
-            R-DEE BY RADIOLOGEX <sup>®</sup>
+            R-DEE by Radiologex <sup>®</sup>
           </p>
           <h1>
             Healthcare Happens Here <sup>TM</sup>
@@ -30,30 +30,51 @@ export const HealthcareHappensHere = () => {
             }}
             className="responsive-btn"
           >
-            <button>Healthcare Professionals</button>
-            <button className="patients_btn">Patients</button>
+            <button>
+              <a href="#healthcare_btn">Healthcare Professionals</a>
+            </button>
+            <button className="patients_btn">
+              <a href="#patients">Patients</a>
+            </button>
           </div>
         </section>
         <section style={{ position: "relative" }}>
-          <div className="lines-bg">
-            <div className="circle-bg">
-              <div className="mobile-bg">
-                <div className="image-box" style={{ display: "block" }}>
-                  <div>
-                    <img src={image} alt="" />
-                  </div>
-                  <div className="health-type">
-                    <img src={cardImage} alt="" />
-                  </div>
-                </div>
-                <div className="second-image-box">
-                  <div>
-                    <img src={cardImage2} alt="" />
-                  </div>
-                  <div>
-                    <img src={cardImage3} alt="" />
-                  </div>
-                </div>
+          <div className="mobile-bg">
+            <div className="image-box" style={{ display: "block" }}>
+              <div>
+                <img
+                  src={image}
+                  alt=""
+                  style={{ width: "216px", height: "204px" }}
+                />
+              </div>
+              <div className="health-type">
+                <img src={cardImage} alt="" />
+              </div>
+            </div>
+            <div className="second-image-box">
+              <div>
+                <img
+                  src={cardImage2}
+                  alt=""
+                  style={{
+                    width: "361px",
+                    height: "155px",
+                    marginBottom: "200px",
+                  }}
+                />
+              </div>
+              <div>
+                <img
+                  src={cardImage3}
+                  alt=""
+                  style={{
+                    width: "297px",
+                    height: "78px",
+                    marginLeft: "48px",
+                    marginTop: "48px",
+                  }}
+                />
               </div>
             </div>
           </div>

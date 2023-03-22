@@ -16,26 +16,28 @@ export const HeaderComponent = () => {
           </div>
           <div className="header-list-items">
             <p>
-              <a href="home" className="active-list-item">
-                Home
-              </a>
+              <a className="active-list-item">Home</a>
             </p>
             <p>
-              <a href="home">
+              <a>
                 Rediologex <AngleDown />
               </a>
             </p>
             <p>
-              <a href="home">
+              <a>
                 Explore <AngleDown />
               </a>
             </p>
             <p>
-              <a href="home">
+              <a>
                 FAQs <AngleDown />
               </a>
             </p>
-            <button>Contact Us</button>
+            <button>
+              <a href="launch@radiologex.com" target="_blank">
+                Contact Us
+              </a>
+            </button>
           </div>
         </div>
       </section>

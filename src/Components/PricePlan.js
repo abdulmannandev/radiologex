@@ -2,7 +2,7 @@ import React from "react";
 
 export const PricePlan = () => {
   return (
-    <section className="price-plan-container">
+    <section id="pricing" className="price-plan-container">
       <div className="container price-plan-box">
         <h1>
           R-DEE Pricing Plans for Healthcare <br />{" "}

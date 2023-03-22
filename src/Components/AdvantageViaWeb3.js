@@ -11,9 +11,7 @@ export const AdvantageViaWeb3 = () => {
       <section className="advance-via-web3-box">
         <div className="container web3-container">
           <div className="web3-info-box">
-            <h1>
-              The R-DEE Advantage <br /> Via Web3
-            </h1>
+            <h1>The R-DEE Advantage Via Web3</h1>
             <p>
               Our data network features thousands of independent and segregated
               nodes, which provide unrivalled security, speed, and scale.
@@ -76,11 +74,11 @@ export const AdvantageViaWeb3 = () => {
       </section>
       <section className="box">
         <img src={bgImage} alt="" className="bg-none" />
-        <div className="container box-text">
-          <h4>YOUR HEALTH. YOUR DATA</h4>
+        <div id="patients" className="container box-text">
+          <h4>Your Health. Your Data.</h4>
           <h1>
             <span>
-              R-DEE MediLock<sup>TM</sup>
+              R-DEE Go<sup>TM</sup>
             </span>{" "}
             Gives Power To The Patient.
           </h1>

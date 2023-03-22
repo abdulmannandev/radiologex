@@ -6,7 +6,7 @@ import image1 from "../assets/Rectangle165.png";
 import image2 from "../assets/Rectangle165(1).png";
 import image3 from "../assets/Rectangle166.png";
 import image4 from "../assets/Rectangle167.png";
-import iphone from "../assets/iphone131.png";
+import iphone from "../assets/Group8228.png";
 
 export const GetRDeeComponent = () => {
   return (
@@ -14,33 +14,6 @@ export const GetRDeeComponent = () => {
       <section className="background-image">
         <section className="container get-r-dee-box">
           <section className="re-dee__container">
-            <section className="responsive-box">
-              <div style={{ position: "relative", paddingBottom: "20px" }}>
-                <img
-                  src={user}
-                  alt=""
-                  style={{
-                    position: "absolute",
-                    left: "0",
-                  }}
-                />
-                <img src={image1} alt="" />
-              </div>
-              <div style={{ display: "flex", paddingBottom: "20px" }}>
-                <div>
-                  <img src={user2} alt="" />
-                  <br />
-                  <img src={image2} alt="" />
-                </div>
-                <div style={{ paddingLeft: "25px" }}>
-                  <img src={image3} alt="" />
-                  <br />
-                  <img src={user3} alt="" />
-                  <img src={image4} alt="" style={{ paddingLeft: "20px" }} />
-                </div>
-              </div>
-              <img src={image1} alt="" />
-            </section>
             <div className="iphone-image">
               <img src={iphone} alt="" />
             </div>

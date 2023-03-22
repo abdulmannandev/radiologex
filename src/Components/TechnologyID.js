@@ -9,7 +9,11 @@ export const TechnologyID = () => {
   return (
     <section
       className="container tech-box"
-      style={{ display: "flex", justifyContent: "space-between" }}
+      style={{
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+      }}
     >
       <section>
         <div className="data-forever">
@@ -18,21 +22,21 @@ export const TechnologyID = () => {
               <div className="biometric-icon simple-bg">
                 <img src={SimpleToUse} alt="" />
               </div>
-              <h3>Simple To Use</h3>
+              <h3 className="heading-color">Simple To Use</h3>
               <p>
-                Built to be used easily by all possible 2 billion-plus global
-                users with access to healthcare who have the right to control
-                their health identity and records.
+                Global users with access to healthcare who have the right to
+                control their health identity and records.
               </p>
             </div>
             <div className="date-forever-border tech-box__background">
               <div className="biometric-icon technology-bg">
                 <img src={Technology} alt="" />
               </div>
-              <h3>Unparalleled ID Technology</h3>
+              <h3 className="heading-color">Unparalleled ID Technology</h3>
               <p>
-                Built-in KYC and a biometric techno- logy that positively
-                Identifies users while eliminating inefficient usernames and
+                Built-in KYC and a biometric technology that positively and
+                continuously identifies users with a unique Healthcare
+                Digital-ID (HDID), while eliminating inefficient usernames and
                 passwords.
               </p>
             </div>
@@ -41,7 +45,7 @@ export const TechnologyID = () => {
             <div className="biometric-icon permanent-bg">
               <img src={permanent} alt="" />
             </div>
-            <h3>Permanent Health Record.</h3>
+            <h3 className="heading-color">Permanent Health Record</h3>
             <p>
               Push-button automated requests and uploads from any R-DEE Connect
               provider or anyone outside, including AI tools and health
@@ -54,19 +58,13 @@ export const TechnologyID = () => {
       </section>
       <section className="circle-bg-image">
         <img
-          style={{ position: "relative" }}
-          src={circleImage}
-          alt=""
-          className="responsive-image"
-        />
-        <img
           src={phoneImage}
           alt=""
           style={{
-            position: "absolute",
-            left: "50%",
-            top: "275px",
-            transform: "translate(-50%,-50%)",
+            width: "536px",
+            height: "770.37px",
+            // width: "382px",
+            // height: "770.37px",
           }}
           className="responsive__mobile-image"
         />

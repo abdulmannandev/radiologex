@@ -4,7 +4,6 @@ import mobileImage from "../assets/Background.png";
 import appStore from "../assets/image36.png";
 import googlePlay from "../assets/image37.png";
 import webImage from "../assets/image38.png";
-import screenImage from "../assets/Screen.png";
 import { ReactComponent as FooterLogo } from "../assets/FooterLogo.svg";
 import { ReactComponent as Facebook } from "../assets/facebook.svg";
 import { ReactComponent as LinkedIn } from "../assets/linkedIn.svg";
@@ -16,7 +15,6 @@ export const FooterComponent = () => {
         <div>
           <img src={image} alt="" className="bg-image" />
           <img src={mobileImage} alt="" className="mobile-image" />
-          <img src={screenImage} alt="" className="mobile-image" />
           <div>
             <div className="available-device">
               <h1>
@@ -31,6 +29,9 @@ export const FooterComponent = () => {
           </div>
         </div>
         <div className="footer-container">
+          <div className="circle-color"></div>
+          <div className="circle-color2"></div>
+          <div className="circle-color3"></div>
           <div className="footer__box">
             <FooterLogo />
           </div>
@@ -44,67 +45,67 @@ export const FooterComponent = () => {
             <div className="footer-list-items">
               <h2>About Us</h2>
               <p>
-                <a href="link">About Radiologex</a>
+                <a>About Radiologex</a>
               </p>
               <p>
-                <a href="link">Leadership</a>
+                <a>Leadership</a>
               </p>
               <p>
-                <a href="link">News/Press</a>
+                <a>News/Press</a>
               </p>
             </div>
             <div className="footer-list-items">
               <h2>R-DEE</h2>
               <p>
-                <a href="link">What Does R-DEE Do</a>
+                <a>What Does R-DEE Do</a>
               </p>
               <p>
-                <a href="link">Why R-DEE</a>
+                <a>Why R-DEE</a>
               </p>
               <p>
-                <a href="link">How Do I Get R-DEE</a>
+                <a>How Do I Get R-DEE</a>
               </p>
               <p>
-                <a href="link">Additional Features</a>
+                <a>Additional Features</a>
               </p>
               <p>
-                <a href="link">All About The Network</a>
+                <a>All About The Network</a>
               </p>
             </div>
             <div className="footer-list-items">
               <h2>Resources</h2>
               <p>
-                <a href="link">Downloads</a>
+                <a>Downloads</a>
               </p>
               <p>
-                <a href="link">Radiologex Media</a>
+                <a>Radiologex Media</a>
               </p>
             </div>
             <div className="footer-list-items">
               <h2>Explore</h2>
               <p>
-                <a href="link">iOS Download</a>
+                <a>iOS Download</a>
               </p>
               <p>
-                <a href="link">Android Download</a>
+                <a>Android Download</a>
               </p>
               <p>
-                <a href="link">Desktop Login Download</a>
+                <a>Desktop Login Download</a>
               </p>
               <p>
-                <a href="link">Global Network</a>
+                <a>Global Network</a>
               </p>
             </div>
             <div className="footer-list-items">
               <h2>Contact Us</h2>
               <p>
-                <a href="link">Contact Us</a>
+                <a>Contact Us</a>
               </p>
               <p>
-                <a href="link">Launch@radiologex.com</a>
+                <a>Launch@radiologex.com</a>
               </p>
               <p>
-                <a href="link">+1 (844) 733-3277</a>
+                <a>+1 (844) 733-3277</a>
               </p>
             </div>
           </div>
@@ -114,11 +115,13 @@ export const FooterComponent = () => {
               display: "flex",
               alignItems: "center",
               justifyContent: "space-between",
-              paddingTop: "40px",
+              paddingTop: "45px",
               paddingBottom: "20px",
             }}
           >
-            <p>
+            <p
+              style={{ color: "#c3bebe", fontWeight: "200", fontSize: "16px" }}
+            >
               Sitemap | Terms & Conditions | Privacy Policy | Cookies Policy |
               Certification
             </p>
