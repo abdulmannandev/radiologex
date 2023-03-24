@@ -264,6 +264,7 @@ a {
 }
 
 /*  */
+
 .iphone-image img {
   width: 534px;
   height: 644.94px;
@@ -412,13 +413,12 @@ a {
 }
 .health-care-info p:first-child {
   color: black;
-  font-size: 28px;
+  font-size: 28spx;
   font-weight: 600;
   width: 74%;
   line-height: 1.5;
   margin: 0 auto;
   padding-bottom: 40px;
-  text-transform: uppercase;
 }
 .health-care-info h3 {
   font-size: 48px;

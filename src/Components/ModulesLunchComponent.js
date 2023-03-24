@@ -46,7 +46,7 @@ export const ModulesLunchComponent = () => {
         </div>
       </div>
       <div className="container health-care-info">
-        <p>
+        <p className="health-care-text">
           Healthcare is about more than just medical treatment.
           <br /> It is about ensuring data integrity and saving time.
           <br /> This helps save lives.
