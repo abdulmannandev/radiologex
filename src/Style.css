@@ -1,6 +1,78 @@
+/* @media (max-width: 1440px) {
+  .header-list {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+} */
+
+@media (max-width: 1440px) {
+  .header-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .meetUp-container {
+    margin-top: 365px;
+  }
+}
+@media (max-width: 674px) {
+  .header-list-items {
+    display: none !important;
+  }
+  .responsive-side-bar {
+    display: flex !important;
+    background-color: #fd4b4b !important;
+    border-radius: 50% !important;
+    cursor: pointer !important;
+  }
+  .responsive-side-bar img {
+    width: 52px !important;
+  }
+  .header-list {
+    flex-direction: row !important;
+  }
+}
+@media (max-width: 698px) {
+  .health-care-box h1 {
+    font-size: 34px !important;
+  }
+  .web3-network-box {
+    font-size: 10px !important;
+  }
+  .health-care-box button {
+    margin-right: 0 !important;
+  }
+}
 @media (max-width: 1024px) {
-  .image-box {
-    margin-left: 29px !important;
+  .mobile-bg__image {
+    width: 845.13px !important;
+  }
+  .background-color {
+    background-image: inherit !important;
+    margin-top: -260px !important;
+  }
+  .user-box-image {
+    width: 176px !important;
+    height: 171px !important;
+    left: 0px !important;
+    top: -26px !important;
+  }
+  .simplyfiy-product-box-image {
+    top: 189px !important;
+    width: 216px !important;
+    height: 264px !important;
+    left: 4px !important;
+  }
+  .healtcare-box-image {
+    top: 4px !important;
+    left: 705px !important;
+    width: 273px !important;
+    height: 117px !important;
+  }
+  .user-time-box-image {
+    top: 360px !important;
+    left: 734px !important;
+    width: 233px !important;
+    height: 117px !important;
   }
   .health-type {
     margin-left: 50px !important;
@@ -22,6 +94,20 @@
   }
   .bg-none {
     display: none;
+  }
+}
+@media (max-width: 880px) {
+  .header-list {
+    flex-direction: column;
+  }
+  .user-box-image,
+  .simplyfiy-product-box-image,
+  .healtcare-box-image,
+  .user-time-box-image {
+    display: none;
+  }
+  .mobile-bg__image {
+    width: 690.13px !important ;
   }
 }
 @media (max-width: 786px) {
@@ -46,9 +132,17 @@
     width: 357px !important;
   }
 }
+
 @media (max-width: 425px) {
+  .mobile-bg__image {
+    width: 394px !important;
+  }
   .health-care-box h1 {
-    font-size: 43px !important;
+    font-size: 37px !important;
+  }
+  .web3-network-box {
+    font-size: 8px !important;
+    font-weight: bold !important;
   }
   .responsive-btn {
     flex-direction: column;
@@ -68,13 +162,14 @@
   .iphone-image {
     left: 50px !important;
   }
-  .responsive-cards,
+  .responsive-cards {
+    margin-top: 70% !important;
+  }
   .tech-box .data-forever {
     margin-top: 310% !important;
   }
   .responsive-text {
     font-size: 10px !important;
-    padding-top: 20px;
   }
   .date-forever-border,
   .trust-solved {
@@ -96,11 +191,37 @@
   }
 }
 @media (max-width: 375px) {
+  .mobile-bg__image {
+    width: 330px !important;
+  }
+  .health-care-box {
+    height: 143.5vh !important;
+  }
+  .re-dee__container {
+    padding-top: 100px !important;
+  }
+  .iphone-image img {
+    width: 250px !important;
+    height: 343px !important;
+  }
+  .description-box h3 {
+    font-size: 26px !important;
+  }
+  .description-box p {
+    font-size: 12px !important;
+  }
+  .description {
+    width: 312px !important;
+    padding-top: 47px !important;
+  }
+
   .health-care-box h1 {
-    font-size: 30px !important;
+    font-size: 35px !important;
   }
   .web3-network-box {
-    font-size: 10px !important;
+    font-size: 11px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
   }
   .health-care-box h1 sup {
     font-size: 10px !important;
@@ -118,7 +239,6 @@
   .iphone-image {
     left: 35px !important;
   }
-  .responsive-cards,
   .tech-box .data-forever {
     margin-top: 370% !important;
   }
@@ -137,11 +257,30 @@
 }
 
 @media (max-width: 320px) {
-  .web3-network-box {
-    font-size: 7px !important;
+  .mobile-bg__image {
+    width: 310px !important;
   }
-  .health-care-box button {
-    font-size: 12px !important;
+  .health-care-box {
+    height: 139.4vh !important;
+  }
+  .description {
+    width: 263px !important;
+  }
+  .description-box h3 {
+    font-size: 22px !important;
+  }
+  .web3-network-box {
+    font-size: 11px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 86% !important;
+  }
+  .responsive-cards {
+    margin-top: 85% !important;
+  }
+  .health-care-box button,
+  .patients_btn {
+    font-size: 15px !important;
   }
   .mobile-bg {
     height: 50vh !important;
@@ -152,7 +291,6 @@
   .card-container2 {
     height: fit-content !important;
   }
-  .responsive-cards,
   .tech-box .data-forever {
     margin-top: 490% !important;
   }
@@ -163,7 +301,7 @@
     font-size: 12.5px !important;
   }
   .meetUp-container {
-    margin-top: 229px !important;
+    margin-top: 438px !important;
   }
   .about-services-box {
     width: 269px !important;

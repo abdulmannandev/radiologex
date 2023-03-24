@@ -1,11 +1,4 @@
 import React from "react";
-import user from "../assets/Ellipse42(1).png";
-import user2 from "../assets/Ellipse42.png";
-import user3 from "../assets/Ellipse43.png";
-import image1 from "../assets/Rectangle165.png";
-import image2 from "../assets/Rectangle165(1).png";
-import image3 from "../assets/Rectangle166.png";
-import image4 from "../assets/Rectangle167.png";
 import iphone from "../assets/Group8228.png";
 
 export const GetRDeeComponent = () => {
@@ -47,8 +40,8 @@ export const GetRDeeComponent = () => {
 
               <p>
                 A vendor-neutral technology stack and interoperability allow
-                seamless integration. and use for all healthcare professionals,
-                including all practitioners, providers, and industry affiliates.
+                seamless integration for all healthcare professionals,
+                practitioners, providers, and industry affiliates.
               </p>
               <p>
                 And for patients, it features a standalone App that finally

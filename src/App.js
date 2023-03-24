@@ -21,6 +21,7 @@ function App() {
       <CardsComponent />
       <ModulesLunchComponent />
       <AboutServices />
+
       <AdvantageViaWeb3 />
       <TechnologyID />
       <DEEPricingComponent />

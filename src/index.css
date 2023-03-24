@@ -13,7 +13,11 @@
 a {
   text-decoration: none;
 }
-
+.container1 {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .container {
   max-width: 1240px;
   margin-left: auto;
@@ -79,7 +83,7 @@ a {
   background-origin: content-box;
   background-repeat: no-repeat;
   background-size: auto;
-  margin-top: -130px;
+  margin-top: -232px;
   height: 100vh;
   max-width: 1400px;
   margin-left: auto;
@@ -131,7 +135,7 @@ a {
   color: white !important;
   font-size: 15px;
   font-weight: 700;
-  margin-right: 30px;
+  margin-right: 18px;
   transition: 0.4s;
 }
 .health-care-box button a {
@@ -166,21 +170,63 @@ a {
   background-position: center;
 }
 .mobile-bg {
-  background-image: url("./assets/Group8222.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 113vh;
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
+}
+.mobile-bg__image {
+  width: 845.13px;
+}
+.user-box-image {
+  background-image: url("./assets/Group8209.png") !important;
   background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: -30px;
+  width: 216px;
+  height: 204px;
+  left: 37px;
+}
+.simplyfiy-product-box-image {
+  background-image: url("./assets/Group8221.png") !important;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 189px;
+  width: 248px;
+  height: 299px;
+  left: 74px;
+}
+.healtcare-box-image {
+  background-image: url("./assets/Group8214.png") !important;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: -79px;
+  left: 887px;
+  width: 361px;
+  height: 155px;
+}
+.user-time-box-image {
+  background-image: url("./assets/Group8217.png") !important;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  top: 340px;
+  left: 859px;
+  width: 361px;
+  height: 155px;
+  background-repeat: no-repeat !important;
 }
 .image-box {
   position: absolute;
-  top: 50px;
-  left: -151px;
+  top: 71px;
+  left: 3px;
 }
 .second-image-box {
   position: absolute;
-  right: 0;
-  top: 100px;
+  right: 61px;
+  top: 77px;
 }
 
 /* Button animation */
@@ -190,7 +236,6 @@ a {
   cursor: pointer;
   padding: 25px 80px;
   display: inline-block;
-  margin: 15px 30px;
   text-transform: uppercase;
   font-weight: 700;
   outline: none;
@@ -225,8 +270,8 @@ a {
 }
 .description {
   width: 500px;
-  padding-top: 95px;
-  margin-left: 200px;
+  padding-top: 148px;
+  margin-left: 99px;
 }
 .description-box h3 {
   font-size: 30px;
@@ -294,7 +339,7 @@ a {
 
 /*  */
 .meetUp-container {
-  margin-top: 51px;
+  margin-top: 40px !important;
   text-align: center;
 }
 .meetUp-container h1 {
@@ -309,20 +354,19 @@ a {
   font-size: 44px;
 }
 .meetUp-container p {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 700 !important;
   color: #17171d;
-  padding-bottom: 30px;
   line-height: 1.5;
 }
 .connect-text {
   color: #7836ff;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 700 !important;
 }
 .medilock-text {
   color: #7836ff;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 700 !important;
 }
 .banner {
@@ -330,14 +374,14 @@ a {
   padding-bottom: 16px;
   background-color: #7836ff;
   text-align: center;
-  margin-bottom: 70px;
+  margin-bottom: 80px;
   font-size: 40px;
   color: #7836ff;
   text-shadow: -1px 1px 0 white, 1px 1px 0 white, 1px -1px 0 white,
     -1px -1px 0 white;
   font-weight: 400;
   word-spacing: 10px;
-  margin-top: 16px;
+  margin-top: 54px;
 }
 .card-box {
   display: flex;
@@ -367,7 +411,7 @@ a {
   text-align: center;
 }
 .health-care-info p:first-child {
-  color: #fd4b4b;
+  color: black;
   font-size: 28px;
   font-weight: 600;
   width: 74%;
@@ -389,8 +433,8 @@ a {
   font-weight: 700;
 }
 .health-care-info h3 span sup {
-  font-size: 32px;
-  font-weight: 500;
+  font-size: 22px;
+  font-weight: 700;
 }
 .healtcare {
   font-weight: 500;
@@ -434,7 +478,7 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   flex-direction: column;
   align-items: center;
 }
@@ -537,7 +581,6 @@ a {
   padding-bottom: 10px;
   font-weight: 600;
   font-size: 20px;
-  color: white;
 }
 .heading-color {
   color: #17171d;
@@ -880,12 +923,14 @@ a {
   font-weight: 700;
   padding-bottom: 10px;
 }
+
 .note {
   font-size: 16px;
   padding-bottom: 10px;
   word-spacing: 4px;
   font-weight: 400;
   color: #8e8e8e;
+  text-transform: capitalize;
 }
 .cards {
   display: flex;
@@ -933,7 +978,6 @@ a {
 }
 .footer-box-image {
   position: relative;
-  padding-top: 60px;
 }
 
 .bg-image {
@@ -943,13 +987,13 @@ a {
   width: 900px;
   height: 690px;
   position: absolute;
-  top: 78px;
+  top: 8px;
   left: 0;
 }
 .health-type img {
   width: 248px;
   height: 299px;
-  margin-left: 14pc;
+  margin-left: 7pc;
 }
 .available-device {
   position: absolute;
@@ -1048,12 +1092,26 @@ a {
   cursor: pointer;
   transition: 0.4s;
 }
-@media (max-width: 1024px) {
-  .header-list {
-    padding-left: 30px;
-    padding-right: 30px;
+@media (max-width: 1440px) {
+  .meetUp-container {
+    margin-top: 365px !important;
   }
-  .get-r-dee-box,
+}
+@media (max-width: 1024px) {
+  .get-r-dee-box {
+    flex-direction: column;
+  }
+  .description {
+    margin-left: 0;
+    width: 367px;
+  }
+  .iphone-image img {
+    width: 371px;
+    height: 466px;
+  }
+}
+
+@media (max-width: 1024px) {
   .responsive-cards,
   .card-box,
   .health-care-info,
@@ -1063,37 +1121,31 @@ a {
   .responsive-press-box,
   .price-plan-box,
   .price-plan-patients,
-  .margin-box,
   .web3-container {
     margin-left: 30px;
     margin-right: 30px;
   }
-  .iphone-image img {
-    width: 260px;
-  }
-  .description-box p {
-    font-size: 12px;
-  }
-  .description-box {
-    padding-left: 45px;
-  }
-  .background-color {
-    background-image: none;
-  }
 
   .card-container,
   .card-container2 {
-    width: 331px;
+    width: 442px;
   }
   .card-container2 {
     right: 24px;
+  }
+  .health-care-info h3 span,
+  .health-care-info h3 {
+    font-size: 32px !important;
+  }
+  .healtcare {
+    font-size: 14.5px !important;
   }
   .card-container p,
   .card-container2 p {
     font-size: 13px;
   }
   .meetUp-container {
-    margin-top: 152px;
+    margin-top: 365px;
   }
   .countries-box {
     margin-bottom: 20px;
@@ -1151,12 +1203,7 @@ a {
   .price-plan-card {
     margin-bottom: 26px;
   }
-  .image-box {
-    margin-left: 60px;
-  }
-  .image-box img {
-    width: 166px;
-  }
+
   .second-image-box img {
     width: 250px;
     margin-right: 50px;
@@ -1166,6 +1213,7 @@ a {
   }
   .health-care-info p:first-child {
     width: 86%;
+    font-size: 24px;
   }
   .health-care-info h3 {
     width: 80%;
@@ -1177,6 +1225,9 @@ a {
       align-items: center;
       margin-top: 172px;
       flex-wrap: wrap;
+    }
+    .meetUp-container {
+      margin-top: 56px !important;
     }
     .card-container p,
     .card-container2 p {
@@ -1219,12 +1270,7 @@ a {
     .dee-pricing-box h1 {
       width: 90%;
     }
-    .image-box {
-      margin-left: 20px;
-    }
-    .image-box img {
-      width: 146px;
-    }
+
     .second-image-box {
       display: none;
     }
@@ -1232,15 +1278,7 @@ a {
     .circle-bg {
       height: 71vh;
     }
-    .mobile-bg {
-      height: 79vh;
-    }
-    .web3-network-box {
-      font-size: 12px;
-    }
-    .image-box img {
-      display: none;
-    }
+
     .health-care-info p:first-child {
       width: 100%;
     }
@@ -1252,22 +1290,11 @@ a {
     }
   }
   @media (max-width: 880px) {
-    .header-list {
-      flex-direction: column;
-    }
-    .get-r-dee-box {
-      flex-direction: column;
-      align-items: center;
-    }
-    .description {
-      text-align: left;
-      padding-top: 45px;
-    }
     .responsive-cards {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-top: 172px;
+      margin-top: 280px;
       flex-wrap: wrap;
     }
     .card-container p,
@@ -1289,21 +1316,6 @@ a {
     }
   }
   @media (max-width: 694px) {
-    .header-list-items {
-      display: none;
-    }
-    .header-list {
-      flex-direction: row;
-    }
-    .responsive-side-bar {
-      display: flex;
-      background-color: #fd4b4b;
-      border-radius: 50%;
-      cursor: pointer;
-    }
-    .responsive-side-bar img {
-      width: 52px;
-    }
     .responsive-cards {
       justify-content: center;
     }
@@ -1325,26 +1337,13 @@ a {
     .bg-none {
       display: none;
     }
-    .image-box img {
-      display: none;
-    }
   }
 
   @media (max-width: 572px) {
     .responsive-box {
       display: none;
     }
-    .iphone-image {
-      left: -122px;
-    }
-    .description {
-      position: absolute;
-      top: 403%;
-      width: 100%;
-    }
-    .description-box {
-      padding-left: 0;
-    }
+
     .responsive-cards,
     .tech-box .data-forever {
       margin-top: 180%;
@@ -1352,11 +1351,22 @@ a {
   }
 
   @media (max-width: 425px) {
+    .meetUp-container {
+      margin-top: 356px !important;
+    }
     .responsive-cards {
       margin-top: 261%;
     }
     .meetUp-container h1 {
-      font-size: 20px;
+      font-size: 25px !important;
+    }
+    .meetUp-container h1 span {
+      font-size: 30px !important;
+    }
+    .responsive-text,
+    .connect-text,
+    .medilock-text {
+      font-size: 20px !important;
     }
     .meetUp-container p,
     .banner {
@@ -1369,6 +1379,9 @@ a {
     .health-care-info h3 {
       width: 100%;
       font-size: 25px;
+    }
+    .meetUp-container {
+      margin-top: 365px;
     }
 
     .dee-pricing-box img {
@@ -1383,9 +1396,7 @@ a {
     .cards {
       justify-content: center;
     }
-    .health-care-box button {
-      margin-right: 0;
-    }
+
     .date-forever-border,
     .trust-solved {
       height: fit-content;
@@ -1416,6 +1427,14 @@ a {
   @media (max-width: 320px) {
     .responsive-cards {
       margin-top: 390%;
+    }
+    .responsive-text,
+    .connect-text,
+    .medilock-text {
+      font-size: 14px !important;
+    }
+    .meetUp-container {
+      margin-top: 428px !important;
     }
   }
 }

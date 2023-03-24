@@ -18,8 +18,8 @@ export const AboutServices = () => {
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
-          marginTop: "150px",
-          marginBottom: "150px",
+          marginTop: "125px",
+          marginBottom: "90px",
         }}
         className="container responsive__services"
       >
@@ -89,7 +89,7 @@ export const AboutServices = () => {
             <img src={tools} alt="" />
           </div>
           <p>
-            AI tools help reduce costly data errors and workflow by up to 90%*.
+            AI tools help reduce costly data errors and workflow by up to 90%*
           </p>
         </div>
       </div>

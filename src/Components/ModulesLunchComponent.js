@@ -8,13 +8,16 @@ export const ModulesLunchComponent = () => {
     <>
       <div className="container meetUp-container">
         <h1>
-          Meet The First Two Launch Modules.
+          Introducing the Two Launch Modules.
           <br /> <span>Available 6-1-2023:</span>
         </h1>
         <p className="responsive-text">
           R-DEE {""} <span className="connect-text">Connect</span>
           {""} empowers the industry.
-          <br /> R-DEE {""}
+          <br />
+        </p>
+        <p className="responsive-text">
+          R-DEE {""}
           <span className="medilock-text">MediLock</span> {""}enfranchises
           patients.
         </p>
@@ -44,8 +47,9 @@ export const ModulesLunchComponent = () => {
       </div>
       <div className="container health-care-info">
         <p>
-          Healthcare is about more than just medical treatment. It is about
-          ensuring data integrity and saving time. This helps save lives.
+          Healthcare is about more than just medical treatment.
+          <br /> It is about ensuring data integrity and saving time.
+          <br /> This helps save lives.
         </p>
         <h3 id="healthcare_btn">
           <span>

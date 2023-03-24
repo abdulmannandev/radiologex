@@ -13,8 +13,8 @@ export const CardsComponent = () => {
             <img src={MaskIcon} alt="" />
           </div>
           <p>
-            A full productivity suite for the 70 million (plus)
-            healthcare-affiliated professionals and practitioners.
+            A full productivity suite for the 70 million plus
+            healthcare-affiliated professionals, practitioners, and affiliates.
           </p>
         </div>
         <div className="card-container2">
@@ -22,10 +22,11 @@ export const CardsComponent = () => {
             <img src={MaskIcon2} alt="" />
           </div>
           <p>
-            An easy-to-use and secure PHR for the 3 billion plus people globally
-            who have access to some form of healthcare that empowers them to own
-            and maintain their complete health records, enabling the critically
-            important ability to access and share on-demand.
+            An easy-to-use and secure PHR for the 2 billion plus people globally
+            who have access to some form of healthcare, one that empowers them
+            to own and maintain their complete health records, enabling the
+            critically important ability to access and share on-demand, anywhere
+            they go, thus helping patients and providers.
           </p>
         </div>
       </div>

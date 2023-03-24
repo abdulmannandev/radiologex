@@ -79,13 +79,13 @@ export const PricePlan = () => {
           <psan className="professional">Patients</psan>
         </h1>
         <p className="choose-plan-note">
-          Choose the plan that works for you or your organizational type
+          Choose the plan that works for you or your family
         </p>
         <div className="cards patients-card">
           <div className="price-plan-card patient-card">
             <p className="payment-status">FREE</p>
             <h3>R-DEE Free</h3>
-            <p className="note">(for all Global healthcare users)</p>
+            <p className="note"></p>
             <ul>
               <li>KYC+Passwordless logins</li>
               <li>No usernames/passwordless</li>
@@ -97,9 +97,7 @@ export const PricePlan = () => {
           <div className="price-plan-card patient-card premium-plan">
             <p className="payment-status">$7/MO PER USER</p>
             <h3>R-DEE Premium</h3>
-            <p className="note">
-              (for Vendors/Suppliers/Service and Support Experts)
-            </p>
+            <p className="note"></p>
             <ul>
               <li>KYC+Passwordless logins</li>
               <li>No usernames/passwordless</li>
@@ -113,9 +111,7 @@ export const PricePlan = () => {
           <div className="price-plan-card patient-card">
             <p className="payment-status">$20/MO per user</p>
             <h3>R-DEE Family</h3>
-            <p className="note">
-              (for Vendors/Suppliers/Service and Support Experts)
-            </p>
+            <p className="note"></p>
             <ul>
               <li>KYC+Passwordless logins</li>
               <li>No usernames/passwordless</li>
