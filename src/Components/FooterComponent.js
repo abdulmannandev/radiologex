@@ -8,13 +8,17 @@ import { ReactComponent as FooterLogo } from "../assets/FooterLogo.svg";
 import { ReactComponent as Facebook } from "../assets/facebook.svg";
 import { ReactComponent as LinkedIn } from "../assets/linkedIn.svg";
 import { ReactComponent as Twitter } from "../assets/twitter.svg";
+import { ReactComponent as Vimeo } from "../assets/vimeo.svg";
+import { ReactComponent as Insta } from "../assets/insta.svg";
 export const FooterComponent = () => {
   return (
     <section>
       <div className="footer-box-image">
         <div>
-          <img src={image} alt="" className="bg-image" />
-          <img src={mobileImage} alt="" className="mobile-image" />
+          <div className="responsive-display">
+            <img src={image} alt="" className="bg-image" />
+            <img src={mobileImage} alt="" className="mobile-image" />
+          </div>
           <div>
             <div className="available-device">
               <h1>
@@ -36,10 +40,11 @@ export const FooterComponent = () => {
             <FooterLogo />
           </div>
           <div
-            className="container"
+            className="container footer-box"
             style={{
               display: "flex",
               justifyContent: "space-between",
+              flexWrap: "wrap ",
             }}
           >
             <div className="footer-list-items">
@@ -110,7 +115,7 @@ export const FooterComponent = () => {
             </div>
           </div>
           <div
-            className="container"
+            className="container copywrite-box"
             style={{
               display: "flex",
               alignItems: "center",
@@ -121,20 +126,48 @@ export const FooterComponent = () => {
           >
             <p
               style={{ color: "#c3bebe", fontWeight: "200", fontSize: "16px" }}
+              className="Terms-Conditions"
             >
               Sitemap | Terms & Conditions | Privacy Policy | Cookies Policy |
               Certification
             </p>
             <div style={{ display: "flex" }}>
-              <div className="social-icon">
-                <Facebook />
-              </div>
-              <div className="social-icon">
-                <LinkedIn />
-              </div>
-              <div className="social-icon">
-                <Twitter />
-              </div>
+              <a
+                href="https://www.linkedin.com/company/radiologex"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="social-icon">
+                  <LinkedIn />
+                </div>
+              </a>
+              <a
+                href="https://twitter.com/radiologex"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="social-icon">
+                  <Twitter />
+                </div>
+              </a>
+              <a
+                href="https://vimeo.com/getrdee"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="social-icon">
+                  <Vimeo />
+                </div>
+              </a>
+              <a
+                href="https://www.instagram.com/getrdee/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="social-icon">
+                  <Insta />
+                </div>
+              </a>
             </div>
           </div>
           <hr className="line" />

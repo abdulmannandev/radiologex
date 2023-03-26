@@ -18,8 +18,7 @@ export const ModulesLunchComponent = () => {
         </p>
         <p className="responsive-text">
           R-DEE {""}
-          <span className="medilock-text">MediLock</span> {""}enfranchises
-          patients.
+          <span className="medilock-text">Go</span> {""}enfranchises patients.
         </p>
       </div>
       <div className="banner">BLAZING FORWARD. BLAZING FAST. REAL TIME</div>

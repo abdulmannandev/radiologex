@@ -25,6 +25,7 @@ export const PressNewsComponent = () => {
             flexWrap: "wrap",
             marginBottom: "100px",
           }}
+          className="responsive-center"
         >
           <div className="news-cards">
             <div>

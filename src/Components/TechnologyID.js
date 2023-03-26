@@ -16,9 +16,9 @@ export const TechnologyID = () => {
       }}
     >
       <section>
-        <div className="data-forever">
+        <div className="data-forever responsive-font">
           <div className="date-forever-box">
-            <div className="date-forever-border tech-box__background">
+            <div className="date-forever-border tech-box__background responsive-width-box">
               <div className="biometric-icon simple-bg">
                 <img src={SimpleToUse} alt="" />
               </div>
@@ -28,7 +28,7 @@ export const TechnologyID = () => {
                 control their health identity and records.
               </p>
             </div>
-            <div className="date-forever-border tech-box__background">
+            <div className="date-forever-border tech-box__background responsive-width-box">
               <div className="biometric-icon technology-bg">
                 <img src={Technology} alt="" />
               </div>
@@ -41,7 +41,7 @@ export const TechnologyID = () => {
               </p>
             </div>
           </div>
-          <div className="date-forever-border tech-box__background tech-box__background2">
+          <div className="date-forever-border tech-box__background tech-box__background2 responsive-width-box2">
             <div className="biometric-icon permanent-bg">
               <img src={permanent} alt="" />
             </div>

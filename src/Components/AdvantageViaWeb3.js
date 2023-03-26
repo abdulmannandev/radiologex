@@ -26,7 +26,7 @@ export const AdvantageViaWeb3 = () => {
           </div>
           <div className="data-forever">
             <div className="date-forever-box">
-              <div className="date-forever-border">
+              <div className="date-forever-border last-screen">
                 <div className="biometric-icon">
                   <img src={Data} alt="" />
                 </div>

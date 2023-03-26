@@ -166,7 +166,7 @@
     margin-top: 70% !important;
   }
   .tech-box .data-forever {
-    margin-top: 310% !important;
+    margin-top: 13% !important;
   }
   .responsive-text {
     font-size: 10px !important;
@@ -240,11 +240,9 @@
     left: 35px !important;
   }
   .tech-box .data-forever {
-    margin-top: 370% !important;
+    margin-top: 20% !important;
   }
-  .container.health-care-info {
-    text-align: left !important;
-  }
+
   .biometric-box {
     flex-direction: column;
   }
@@ -252,7 +250,7 @@
   .empowered-box,
   .date-forever-border,
   .trust-solved {
-    width: 284px !important;
+    width: 331px !important;
   }
 }
 
@@ -292,7 +290,7 @@
     height: fit-content !important;
   }
   .tech-box .data-forever {
-    margin-top: 490% !important;
+    margin-top: 40% !important;
   }
   .countries-box p {
     font-size: 10px !important;
