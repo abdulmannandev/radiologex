@@ -8,7 +8,6 @@ import Seamless from "../assets/Mask group (7).png";
 import Healthcare from "../assets/image 50.png";
 import tools from "../assets/doctor.png";
 import phoneImage from "../assets/iphone131.png";
-import circleImage from "../assets/Ellipse45.png";
 
 export const AboutServices = () => {
   return (

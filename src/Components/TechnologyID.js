@@ -1,6 +1,5 @@
 import React from "react";
 import phoneImage from "../assets/iphone132.png";
-import circleImage from "../assets/Ellipse45.png";
 import SimpleToUse from "../assets/SimpleToUse.png";
 import Technology from "../assets/technology.png";
 import permanent from "../assets/permanent.png";
@@ -63,8 +62,6 @@ export const TechnologyID = () => {
           style={{
             width: "536px",
             height: "770.37px",
-            // width: "382px",
-            // height: "770.37px",
           }}
           className="responsive__mobile-image"
         />

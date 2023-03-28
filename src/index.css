@@ -27,12 +27,10 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+/* =================== Header style start =================== */
 .header-container {
   background-color: #17171d;
   color: #ffffff;
-}
-.active-list-item {
-  color: #4aea87 !important;
 }
 .header-list {
   display: flex;
@@ -48,7 +46,6 @@ a {
   display: flex;
   align-items: center;
 }
-
 .header-list-items p a {
   margin-right: 40px;
   font-size: 18px;
@@ -81,26 +78,10 @@ a {
   cursor: pointer;
   transition: 0.4s;
 }
-/* GetRdee */
-.background-color {
-  background-image: url("./assets/Vector3.png");
-  background-origin: content-box;
-  background-repeat: no-repeat;
-  background-size: auto;
-  margin-top: -232px;
-  height: 100vh;
-  max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
+.active-list-item {
+  color: #4aea87 !important;
 }
-.get-r-dee-box {
-  display: flex;
-  align-items: center;
-}
-.re-dee__container {
-  padding-top: 150px;
-}
-/*  */
+/* =================== HealthcareHappensHere style start =================== */
 .health-care-box {
   background-color: #17171d;
   text-align: center;
@@ -117,15 +98,6 @@ a {
 }
 .health-care-box h1 sup {
   font-size: 20px;
-}
-.web3-network-box {
-  margin: 0 auto;
-  line-height: 1.8;
-  padding-top: 20px;
-  color: white;
-  font-size: 14px;
-  padding-bottom: 40px;
-  font-weight: 400;
 }
 .health-care-box button {
   border: 0;
@@ -145,6 +117,20 @@ a {
 .health-care-box button a {
   color: white !important;
 }
+.health-care-box button:hover {
+  box-shadow: 0 0 10px 0 #fd4b4b inset, 0 0 10px 4px #fd4b4b;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.web3-network-box {
+  margin: 0 auto;
+  line-height: 1.8;
+  padding-top: 20px;
+  color: white;
+  font-size: 14px;
+  padding-bottom: 40px;
+  font-weight: 400;
+}
 .patients_btn {
   background-color: #4aea87 !important;
   text-transform: capitalize !important;
@@ -154,24 +140,28 @@ a {
   cursor: pointer;
   transition: 0.4s;
 }
-.health-care-box button:hover {
-  box-shadow: 0 0 10px 0 #fd4b4b inset, 0 0 10px 4px #fd4b4b;
+/* Button animation */
+.patients_btn {
+  border: none;
+  background: none;
   cursor: pointer;
-  transition: 0.4s;
+  padding: 25px 80px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
-.lines-bg {
-  background-image: url("./assets/Group8203.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 100vh;
-}
-.circle-bg {
-  background-image: url("./assets/Maskgroup.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
-  background-position: center;
+.patients_btn:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .mobile-bg {
   width: 95%;
@@ -180,6 +170,11 @@ a {
 }
 .mobile-bg__image {
   width: 845.13px;
+}
+.image-box {
+  position: absolute;
+  top: 71px;
+  left: 3px;
 }
 .user-box-image {
   background-image: url("./assets/Group8209.png") !important;
@@ -222,53 +217,14 @@ a {
   height: 155px;
   background-repeat: no-repeat !important;
 }
-.image-box {
-  position: absolute;
-  top: 71px;
-  left: 3px;
-}
-.second-image-box {
-  position: absolute;
-  right: 61px;
-  top: 77px;
-}
-
-/* Button animation */
-.patients_btn {
-  border: none;
-  background: none;
-  cursor: pointer;
-  padding: 25px 80px;
-  display: inline-block;
-  text-transform: uppercase;
-  font-weight: 700;
-  outline: none;
-  position: relative;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.patients_btn:after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.add-user-list {
-  text-align: center;
-  justify-content: center;
+/* =================== GetRDeeComponent style start =================== */
+.get-r-dee-box {
   display: flex;
+  align-items: center;
 }
-.mobile-image {
-  position: relative;
+.re-dee__container {
+  padding-top: 150px;
 }
-
-/*  */
-
 .iphone-image img {
   width: 534px;
   height: 644.94px;
@@ -295,10 +251,19 @@ a {
   margin-bottom: 15px;
   font-weight: 400;
 }
-.change-color2 {
-  color: #7836ff;
-  text-decoration: underline;
+/* =================== CardsComponent style start =================== */
+.background-color {
+  background-image: url("./assets/Vector3.png");
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin-top: -232px;
+  height: 100vh;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .card-container {
   box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.06);
   background: #ffffff;
@@ -341,8 +306,7 @@ a {
   color: #8e8e8e;
   font-weight: 400;
 }
-
-/*  */
+/* =================== ModulesLunchComponent style start =================== */
 .meetUp-container {
   margin-top: 40px !important;
   text-align: center;
@@ -447,7 +411,7 @@ a {
   font-size: 18px;
   color: #8e8e8e;
 }
-/* About services */
+/* =================== AboutServices style start =================== */
 .about-services-box {
   width: 305px;
   height: 70px;
@@ -459,6 +423,12 @@ a {
   align-items: center;
   padding-left: 20px;
 }
+.about-services-box p {
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
 .easy-to-use-icon {
   background-color: #ffffff;
   border-radius: 50%;
@@ -467,13 +437,6 @@ a {
   display: flex;
   justify-content: center;
   padding: 10px;
-}
-.about-services-box p {
-  padding-left: 10px;
-  font-size: 16px;
-  font-weight: 400;
-
-  line-height: 1.5;
 }
 .circle-bg-image {
   position: relative;
@@ -514,16 +477,16 @@ a {
   font-weight: 400;
   line-height: 1.8;
 }
-/* advance-via-web3-box */
-.web3-container {
-  display: flex;
-  justify-content: space-between;
-}
+/* =================== AdvantageViaWeb3 style start =================== */
 .advance-via-web3-box {
   background-color: #17171d;
   color: #ffffff;
   padding-top: 40px;
   padding-bottom: 30px;
+}
+.web3-container {
+  display: flex;
+  justify-content: space-between;
 }
 .web3-info-box {
   padding-top: 20px;
@@ -540,10 +503,6 @@ a {
   line-height: 1.8;
   font-weight: 400;
 }
-.change-color {
-  color: #4aea87;
-  font-weight: 800;
-}
 .web3-info-box button {
   border: 0;
   padding: 16px 35px;
@@ -558,15 +517,16 @@ a {
   cursor: pointer;
   transition: 0.4s;
 }
+.change-color {
+  color: #4aea87;
+  font-weight: 800;
+}
 .data-forever {
   width: 750px;
 }
 .date-forever-box {
   display: flex;
   align-items: center;
-}
-.empowered-box {
-  width: 738px !important;
 }
 .date-forever-border,
 .trust-solved {
@@ -586,9 +546,6 @@ a {
   font-weight: 600;
   font-size: 20px;
 }
-.heading-color {
-  color: #17171d;
-}
 .date-forever-border p {
   line-height: 1.4;
   font-weight: 400;
@@ -604,6 +561,16 @@ a {
   align-items: center;
   justify-content: center;
   margin-bottom: 10px;
+}
+.trust-bg {
+  background-color: #fd4b4b !important;
+}
+.empowered-box {
+  width: 738px !important;
+}
+
+.empowered-bg {
+  background-color: #7836ff !important;
 }
 .box {
   position: relative;
@@ -650,12 +617,32 @@ a {
   color: #8e8e8e;
   font-size: 18px;
 }
-.professional {
-  font-size: 48px;
-  font-weight: 700;
-  color: #fd4b4b;
+/* =================== TechnologyID style start =================== */
+.tech-box__background {
+  background: #ffffff !important;
+  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.07);
+  border-radius: 22px;
+  border: none;
+  width: 315px !important;
+  height: 276px !important;
 }
-/*  */
+.simple-bg {
+  background-color: #00d1ff !important;
+}
+.heading-color {
+  color: #17171d;
+}
+.technology-bg {
+  background-color: #7836ff !important;
+}
+.tech-box__background2 {
+  width: 650px !important;
+  height: fit-content !important;
+}
+.permanent-bg {
+  background-color: #ff0066 !important;
+}
+/* =================== DEEPricingComponent style start =================== */
 .dee-pricing-box {
   padding-top: 190px;
   text-align: center;
@@ -675,7 +662,25 @@ a {
   padding-bottom: 20px;
   font-weight: 400;
 }
-/*  */
+.pricing__btn {
+  border: 0;
+  padding: 16px 35px;
+  border-radius: 35px;
+  background-color: #fd4b4b;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-bottom: 90px;
+  font-weight: 500;
+}
+.pricing__btn a {
+  color: white !important;
+}
+.pricing__btn:hover {
+  box-shadow: 0 0 10px 0 #fd4b4b inset, 0 0 10px 4px #fd4b4b !important;
+  cursor: pointer;
+  transition: 0.4s;
+}
+/* =================== TestimonialsComponent style start =================== */
 .testimonial-box {
   background-color: #f9f9f9;
   padding-top: 51px;
@@ -734,8 +739,7 @@ a {
   margin-right: 20px;
   cursor: pointer;
 }
-
-/*  */
+/* =================== PressNewsComponent style style =================== */
 .see-all-box {
   display: flex;
   justify-content: space-between;
@@ -795,7 +799,6 @@ a {
   padding-top: 20px;
   font-weight: 400;
 }
-
 .read-more p {
   color: #1a8bf3 !important;
 }
@@ -828,11 +831,9 @@ a {
   cursor: pointer;
   transition: 0.4s;
 }
-.technology-bg {
-  background-color: #7836ff !important;
-}
-.permanent-bg {
-  background-color: #ff0066 !important;
+.logo-container {
+  display: inline-block;
+  width: 40%;
 }
 .logos {
   background: white;
@@ -844,10 +845,7 @@ a {
   width: 258.31px;
   height: 266.3px;
 }
-.logo-container {
-  display: inline-block;
-  width: 40%;
-}
+
 .logos2 {
   background: white;
   box-shadow: 0px 2.58896px 38.8344px rgba(0, 0, 0, 0.06);
@@ -863,12 +861,12 @@ a {
 .not-show {
   visibility: hidden;
 }
+/* =================== PricePlan style style =================== */
 .price-plan-container {
   background-color: #f9f9f9;
   padding-top: 100px;
   padding-bottom: 100px;
 }
-
 .price-plan-box h1,
 .price-plan-patients h1 {
   font-size: 48px;
@@ -876,11 +874,21 @@ a {
   line-height: 55px;
   padding-bottom: 30px;
 }
+.professional {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fd4b4b;
+}
 .choose-plan-note {
   font-size: 18px;
   padding-bottom: 50px;
   font-weight: 400;
   color: #8e8e8e;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .price-plan-card {
   background: #ffffff;
@@ -891,55 +899,10 @@ a {
   height: 473px;
   padding-top: 20px;
 }
-.contact-btn {
-  background: rgba(26, 139, 243, 0.1);
-  border-radius: 28px;
-  width: 265px;
-  height: 56px;
-  border: none;
-  color: #1a8bf3;
-  font-size: 16px;
-  margin-top: 70px;
-  font-weight: 100;
-}
-.contact-btn:hover {
-  box-shadow: 0 0 10px 0 #1a8bf3 !important;
-  cursor: pointer;
-  transition: 0.4s;
-}
-.trust-bg {
-  background-color: #fd4b4b !important;
-}
-.empowered-bg {
-  background-color: #7836ff !important;
-}
-.simple-bg {
-  background-color: #00d1ff !important;
-}
-.payment-status {
-  font-size: 16px;
-  color: #7836ff;
-  font-weight: 600;
-  padding-bottom: 10px;
-}
 .price-plan-card h3 {
   font-size: 24px;
   font-weight: 700;
   padding-bottom: 10px;
-}
-
-.note {
-  font-size: 16px;
-  padding-bottom: 10px;
-  word-spacing: 4px;
-  font-weight: 400;
-  color: #8e8e8e;
-  text-transform: capitalize;
-}
-.cards {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 .price-plan-card ul {
   padding-left: 30px;
@@ -953,6 +916,12 @@ a {
 .price-plan-card ul li::marker {
   color: #7836ff;
   font-size: 30px;
+}
+.payment-status {
+  font-size: 16px;
+  color: #7836ff;
+  font-weight: 600;
+  padding-bottom: 10px;
 }
 .clinical-plan .payment-status,
 .clinical-plan ul li::marker {
@@ -970,6 +939,33 @@ a {
 .premium-plan ul li::marker {
   color: #4aea87;
 }
+.note {
+  font-size: 16px;
+  padding-bottom: 10px;
+  word-spacing: 4px;
+  font-weight: 400;
+  color: #8e8e8e;
+  text-transform: capitalize;
+}
+.contact-btn {
+  background: rgba(26, 139, 243, 0.1);
+  border-radius: 28px;
+  width: 265px;
+  height: 56px;
+  border: none;
+  color: #1a8bf3;
+  font-size: 16px;
+  margin-top: 70px;
+  font-weight: 100;
+}
+.contact-btn:hover {
+  box-shadow: 0 0 10px 0 #1a8bf3 !important;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.price-plan-patients {
+  padding-top: 70px;
+}
 .patient-card button {
   margin-top: 15px;
   display: flex;
@@ -977,13 +973,14 @@ a {
   align-items: center;
   width: 90%;
 }
-.price-plan-patients {
-  padding-top: 70px;
+.patient-card {
+  width: 400px;
+  height: 498px;
 }
+/* =================== FooterComponent style start =================== */
 .footer-box-image {
   position: relative;
 }
-
 .bg-image {
   width: 100%;
 }
@@ -993,11 +990,6 @@ a {
   position: absolute;
   top: 8px;
   left: 0;
-}
-.health-type img {
-  width: 248px;
-  height: 299px;
-  margin-left: 7pc;
 }
 .available-device {
   position: absolute;
@@ -1012,10 +1004,6 @@ a {
 }
 .available-device img {
   margin-right: 20px;
-}
-.patient-card {
-  width: 400px;
-  height: 498px;
 }
 .footer-container {
   background-color: #111114;
@@ -1070,37 +1058,7 @@ a {
   font-size: 16px;
   font-weight: 400 !important;
 }
-.tech-box__background {
-  background: #ffffff !important;
-  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.07);
-  border-radius: 22px;
-  border: none;
-  width: 315px !important;
-  height: 276px !important;
-}
-.tech-box__background2 {
-  width: 650px !important;
-  height: fit-content !important;
-}
-.pricing__btn {
-  border: 0;
-  padding: 16px 35px;
-  border-radius: 35px;
-  background-color: #fd4b4b;
-  font-size: 16px;
-  margin-top: 40px;
-  margin-bottom: 90px;
-  font-weight: 500;
-}
-.pricing__btn a {
-  color: white !important;
-}
-.pricing__btn:hover {
-  box-shadow: 0 0 10px 0 #fd4b4b inset, 0 0 10px 4px #fd4b4b !important;
-  cursor: pointer;
-  transition: 0.4s;
-}
-
+/* =================== FooterComponent style end =================== */
 @media (max-width: 1024px) {
   .mobile-image {
     width: 419px;
@@ -1253,10 +1211,6 @@ a {
     margin-bottom: 26px;
   }
 
-  .second-image-box img {
-    width: 250px;
-    margin-right: 50px;
-  }
   .web3-container {
     flex-direction: column;
   }
@@ -1333,9 +1287,6 @@ a {
       width: 90%;
     }
 
-    .second-image-box {
-      display: none;
-    }
     .lines-bg,
     .circle-bg {
       height: 71vh;

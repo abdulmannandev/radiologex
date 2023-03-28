@@ -5,7 +5,6 @@ import appStore from "../assets/image36.png";
 import googlePlay from "../assets/image37.png";
 import webImage from "../assets/image38.png";
 import { ReactComponent as FooterLogo } from "../assets/FooterLogo.svg";
-import { ReactComponent as Facebook } from "../assets/facebook.svg";
 import { ReactComponent as LinkedIn } from "../assets/linkedIn.svg";
 import { ReactComponent as Twitter } from "../assets/twitter.svg";
 import { ReactComponent as Vimeo } from "../assets/vimeo.svg";
@@ -33,9 +32,6 @@ export const FooterComponent = () => {
           </div>
         </div>
         <div className="footer-container">
-          <div className="circle-color"></div>
-          <div className="circle-color2"></div>
-          <div className="circle-color3"></div>
           <div className="footer__box">
             <FooterLogo />
           </div>

@@ -1,7 +1,4 @@
 import React from "react";
-import cardImage from "../assets/Group8221.png";
-import cardImage2 from "../assets/Group8214.png";
-import cardImage3 from "../assets/Group8217.png";
 import image from "../assets/Group8222.png";
 
 export const HealthcareHappensHere = () => {
