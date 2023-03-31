@@ -1,0 +1,1475 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Helvetica";
+}
+
+@font-face {
+  font-family: "Helveticas";
+  src: url("./Font/HelveticaNeueUltraLight.ttf");
+  font-weight: 300;
+}
+
+sup {
+  font-size: 18px;
+  font-weight: 700 !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container1 {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* =================== Header style start =================== */
+.header-container {
+  background-color: #17171d;
+  color: #ffffff;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.responsive-side-bar {
+  display: none;
+}
+
+.header-list-items {
+  display: flex;
+  align-items: center;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.header-list-items p a {
+  margin-right: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.header-list-items p svg {
+  fill: white;
+  font-size: 30px;
+  height: 15px;
+  padding-left: 10px;
+}
+
+.header-list-items button {
+  border: 0;
+  padding: 16px 35px;
+  border-radius: 35px;
+  background-color: #fd4b4b;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  transition: 0.4s;
+}
+
+.header-list-items button a {
+  color: white !important;
+}
+
+.header-list-items button:hover {
+  box-shadow: 0 0 10px 0 #fd4b4b inset, 0 0 10px 4px #fd4b4b;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.active-list-item {
+  color: #4aea87 !important;
+}
+
+/* =================== HealthcareHappensHere style start =================== */
+.health-care-box {
+  background-color: #17171d;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.health-care-box p:first-child {
+  color: #4aea87;
+  font-weight: 400;
+  padding-bottom: 25px;
+}
+
+.health-care-box h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.health-care-box h1 sup {
+  font-size: 18px;
+}
+
+.health-care-box button {
+  border: 0;
+  width: 250px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+  background-color: #fd4b4b;
+  color: white !important;
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 18px;
+  transition: 0.4s;
+}
+
+.health-care-box button a {
+  color: white !important;
+}
+
+.health-care-box button:hover {
+  box-shadow: 0 0 10px 0 #fd4b4b inset, 0 0 10px 4px #fd4b4b;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.web3-network-box {
+  margin: 0 auto;
+  line-height: 1.8;
+  padding-top: 20px;
+  color: white;
+  font-size: 14px;
+  padding-bottom: 40px;
+  font-weight: 400;
+}
+
+.patients_btn {
+  background-color: #4aea87 !important;
+  text-transform: capitalize !important;
+}
+
+.patients_btn:hover {
+  box-shadow: 0 0 10px 0 #4aea87 inset, 0 0 10px 4px #4aea87 !important;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+/* Button animation */
+.patients_btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.patients_btn:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.mobile-bg {
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.mobile-bg__image {
+  width: 845.13px;
+}
+
+.image-box {
+  position: absolute;
+  top: 71px;
+  left: 3px;
+}
+
+.user-box-image {
+  background-image: url("./assets/Group8209.png") !important;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: -30px;
+  width: 216px;
+  height: 204px;
+  left: 37px;
+}
+
+.simplyfiy-product-box-image {
+  background-image: url("./assets/img-3.png") !important;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 189px;
+  width: 248px;
+  height: 299px;
+  left: 74px;
+}
+
+.healtcare-box-image {
+  background-image: url("./assets/img-2.png") !important;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: -79px;
+  left: 887px;
+  width: 361px;
+  height: 155px;
+}
+
+.user-time-box-image {
+  background-image: url("./assets/img-1.png") !important;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  top: 340px;
+  left: 859px;
+  width: 361px;
+  height: 155px;
+  background-repeat: no-repeat !important;
+}
+
+/* =================== GetRDeeComponent style start =================== */
+.get-r-dee-box {
+  display: flex;
+  align-items: center;
+}
+
+.re-dee__container {
+  padding-top: 150px;
+}
+
+.iphone-image img {
+  width: 534px;
+  height: 644.94px;
+}
+
+.description {
+  width: 500px;
+  padding-top: 148px;
+  margin-left: 99px;
+}
+
+.description-box h3 {
+  font-size: 30px;
+  color: #17171d;
+  padding-bottom: 20px;
+  font-weight: 700 !important;
+}
+
+.description-box h3 span {
+  display: block;
+  color: #7836ff !important;
+}
+
+.description-box p {
+  line-height: 28px;
+  font-size: 15px;
+  color: #8e8e8e;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+/* =================== ModulesLunchComponent style start =================== */
+.meetUp-container {
+  margin-top: 40px !important;
+  text-align: center;
+}
+
+.meetUp-container h1 {
+  color: #17171d;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.3;
+}
+
+.meetUp-container h1 span {
+  color: #4aea87 !important;
+  font-weight: 700;
+  font-size: 44px;
+}
+
+.meetUp-container p {
+  font-size: 24px;
+  font-weight: 700 !important;
+  color: #17171d;
+  line-height: 1.5;
+}
+
+.connect-text {
+  color: #7836ff;
+  font-size: 25px;
+  font-weight: 700 !important;
+}
+
+.medilock-text {
+  color: #7836ff;
+  font-size: 24px;
+  font-weight: 700 !important;
+}
+
+.banner {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #7836ff;
+  text-align: center;
+  margin-bottom: 80px;
+  font-size: 40px;
+  color: #7836ff;
+  text-shadow: -1px 1px 0 white, 1px 1px 0 white, 1px -1px 0 white,
+    -1px -1px 0 white;
+  font-weight: 400;
+  word-spacing: 10px;
+  margin-top: 54px;
+}
+
+.card-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.countries-box {
+  background: #ffffff;
+  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.06);
+  border-radius: 22px;
+  width: 400px;
+  height: 188px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.countries-box p {
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 400 !important;
+}
+
+.health-care-info {
+  text-align: center;
+}
+
+.health-care-info p:first-child {
+  color: black;
+  font-size: 28px;
+  font-weight: 600;
+  width: 74%;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.health-care-info h3 {
+  font-size: 48px;
+  font-weight: 700;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.health-care-info h3 span {
+  font-weight: 400;
+  color: #7836ff;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.health-care-info h3 span sup {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.healtcare {
+  font-weight: 500;
+  padding-top: 10px;
+  line-height: 1.4;
+  font-size: 18px;
+  color: #8e8e8e;
+}
+
+.circle-bg-image {
+  position: relative;
+}
+
+.kyc-biometric-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.biometric-box {
+  width: 590px;
+  height: 70px;
+  background: #f9f9f9;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+.biometric-box-icon {
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.biometric-box p {
+  padding-top: 10px;
+  line-height: 1.3;
+  font-size: 16px;
+  color: #45496c;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+/* =================== AdvantageViaWeb3 style start =================== */
+.advance-via-web3-box {
+  background-color: #17171d;
+  color: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.web3-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.web3-info-box {
+  padding-top: 20px;
+  padding-right: 30px;
+}
+
+.web3-info-box h1 {
+  font-size: 42px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+
+.web3-info-box p {
+  padding-bottom: 25px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+.web3-info-box button {
+  border: 0;
+  padding: 16px 35px;
+  border-radius: 35px;
+  background-color: #fd4b4b;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.web3-info-box button:hover {
+  box-shadow: 0 0 10px 0 #fd4b4b inset, 0 0 10px 4px #fd4b4b !important;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.change-color {
+  color: #4aea87;
+  font-weight: 800;
+}
+
+.data-forever {
+  width: 750px;
+}
+
+.date-forever-box {
+  display: flex;
+  align-items: center;
+}
+
+.date-forever-border,
+.trust-solved {
+  width: 357px;
+  height: 319px;
+  margin-bottom: 30px;
+  margin-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-top: 20px;
+  border: 2px solid #4aea87;
+  border-radius: 27px;
+}
+
+.date-forever-border h3 {
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.date-forever-border p {
+  line-height: 1.4;
+  font-weight: 400;
+  font-size: 15px;
+  color: #8e8e8e;
+}
+
+.date-forever-border .biometric-icon {
+  background: #4aea87;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.trust-bg {
+  background-color: #fd4b4b !important;
+}
+
+.empowered-box {
+  width: 738px !important;
+}
+
+.empowered-bg {
+  background-color: #7836ff !important;
+}
+
+.box {
+  position: relative;
+  z-index: -1;
+  text-align: center;
+}
+
+.box img {
+  width: 100%;
+  margin-top: -650px;
+  margin-bottom: -156px;
+}
+
+.box-text {
+  position: absolute;
+  top: -50px;
+  padding-top: 148px;
+  width: 50%;
+  left: 50%;
+  transform: translate(-50%, 5%);
+  text-align: center;
+}
+
+.box-text h4 {
+  padding-bottom: 20px;
+  color: #fd4b4b;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.box-text h1 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #17171d;
+  padding-bottom: 20px;
+}
+
+.box-text h1 span {
+  color: #7836ff;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.box-text h1 sup {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.box-text p {
+  line-height: 1.9;
+  color: #8e8e8e;
+  font-size: 18px;
+}
+
+
+/* =================== DEEPricingComponent style start =================== */
+.dee-pricing-box {
+  padding-top: 190px;
+  text-align: center;
+}
+
+.dee-pricing-box h1 {
+  font-size: 48px;
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-weight: 700;
+}
+
+.dee-pricing-box p {
+  width: 70%;
+  margin: 0 auto;
+  line-height: 1.8;
+  color: #8e8e8e;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+.pricing__btn {
+  border: 0;
+  padding: 16px 35px;
+  border-radius: 35px;
+  background-color: #fd4b4b;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-bottom: 90px;
+  font-weight: 500;
+}
+
+.pricing__btn a {
+  color: white !important;
+}
+
+.pricing__btn:hover {
+  box-shadow: 0 0 10px 0 #fd4b4b inset, 0 0 10px 4px #fd4b4b !important;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+/* =================== TestimonialsComponent style start =================== */
+.testimonial-box {
+  background-color: #f9f9f9;
+  padding-top: 51px;
+  text-align: center;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+
+.testimonial-box h1 {
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.testimonial-user-info {
+  background-color: #ffffff;
+  width: 772px;
+  border-radius: 12px;
+  margin: 0 auto;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.testimonial-user-info h3 {
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  font-weight: 400;
+}
+
+.founder {
+  color: #fd4b4b !important;
+  font-weight: 400;
+  padding-bottom: 15px;
+  font-size: 14px;
+}
+
+.user-testimonial {
+  line-height: 1.7;
+  color: #8e8e8e;
+  padding-bottom: 16px;
+  font-weight: 400;
+}
+
+.stars {
+  margin-right: 10px;
+}
+
+.btns {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.next-btn,
+.prev-btn {
+  background: #ffffff;
+  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.1);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+
+/* =================== PricePlan style style =================== */
+.price-plan-container {
+  background-color: #f9f9f9;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.price-plan-box h1,
+.price-plan-patients h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 55px;
+  padding-bottom: 30px;
+}
+
+.professional {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fd4b4b;
+}
+
+.choose-plan-note {
+  font-size: 18px;
+  padding-bottom: 50px;
+  font-weight: 400;
+  color: #8e8e8e;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.price-plan-card {
+  background: #ffffff;
+  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+  padding-left: 20px;
+  width: 290px;
+  padding-top: 20px;
+}
+
+.price-plan-card h3 {
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.price-plan-card ul {
+  padding-left: 30px;
+}
+
+.price-plan-card ul li {
+  padding-bottom: 4px;
+  color: #8e8e8e;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.price-plan-card ul li::marker {
+  color: #7836ff;
+  font-size: 30px;
+}
+
+.payment-status {
+  font-size: 16px;
+  color: #7836ff;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.clinical-plan .payment-status,
+.clinical-plan ul li::marker {
+  color: #fd4b4b;
+}
+
+.vendor-plan .payment-status,
+.vendor-plan ul li::marker {
+  color: #4aea87;
+}
+
+.request-plan .payment-status,
+.request-plan ul li::marker {
+  color: #1a8bf3;
+}
+
+.premium-plan .payment-status,
+.premium-plan ul li::marker {
+  color: #4aea87;
+}
+
+.note {
+  font-size: 16px;
+  padding-bottom: 10px;
+  word-spacing: 4px;
+  font-weight: 400;
+  color: #8e8e8e;
+  text-transform: capitalize;
+}
+
+.contact-btn {
+  background: rgba(26, 139, 243, 0.1);
+  border-radius: 28px;
+  width: 265px;
+  height: 56px;
+  border: none;
+  color: #1a8bf3;
+  font-size: 16px;
+  margin-top: 70px;
+  font-weight: 100;
+}
+
+.contact-btn:hover {
+  box-shadow: 0 0 10px 0 #1a8bf3 !important;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.price-plan-patients {
+  padding-top: 70px;
+}
+
+.patient-card button {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.patient-card {
+  width: 400px;
+  height: 498px;
+}
+
+/* =================== FooterComponent style start =================== */
+.footer-box-image {
+  position: relative;
+}
+
+.bg-image {
+  width: 100%;
+}
+
+.mobile-image {
+  width: 900px;
+  height: 690px;
+  position: absolute;
+  top: 8px;
+  left: 0;
+}
+
+.available-device {
+  position: absolute;
+  top: 30%;
+  right: 50px;
+}
+
+.available-device h1 {
+  font-size: 40px;
+  padding-bottom: 30px;
+  color: white;
+  line-height: 1.6;
+}
+
+.available-device img {
+  margin-right: 20px;
+}
+
+.footer-container {
+  background-color: #111114;
+  margin-top: -10px;
+  position: relative;
+}
+
+.footer__box {
+  padding-top: 140px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.footer-list-items h2 {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 15px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.footer-list-items p a {
+  color: #c3bebe !important;
+  line-height: 2.1;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 200 !important;
+  cursor: pointer;
+}
+
+.social-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.social-icon {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  width: fit-content;
+  padding: 10px 10px;
+}
+
+.line {
+  color: #c3bebe !important;
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.copy-write {
+  text-align: center;
+  color: #4aea87;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 16px;
+  font-weight: 400 !important;
+}
+
+/* =================== FooterComponent style end =================== */
+@media (max-width: 1024px) {
+  .mobile-image {
+    width: 419px;
+    height: 315px;
+    position: absolute;
+    top: 60px;
+    left: 56px;
+  }
+
+  .empowered-box {
+    width: 868px !important;
+  }
+
+  .responsive__mobile-image {
+    width: 300px !important;
+    height: 408px !important;
+    margin-top: 30px;
+  }
+
+  .dee-pricing-box img {
+    width: 702px !important;
+    height: 499px !important;
+  }
+
+  .date-forever-border,
+  .trust-solved {
+    margin-right: 0 !important;
+  }
+
+  .meetUp-container {
+    margin-top: 200px !important;
+  }
+
+  .get-r-dee-box {
+    flex-direction: column;
+  }
+
+  .description {
+    margin-left: 0;
+    width: 367px;
+  }
+
+  .iphone-image img {
+    width: 371px;
+    height: 466px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .card-box,
+  .health-care-info,
+  .kyc-biometric-box,
+  .box-text,
+  .price-plan-box,
+  .price-plan-patients,
+  .web3-container,
+  .footer-box,
+  .copywrite-box {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .available-device img {
+    width: 156px;
+  }
+
+  .available-device {
+    top: 19%;
+    right: 135px;
+  }
+
+  .health-care-info h3 span,
+  .health-care-info h3 {
+    font-size: 32px !important;
+  }
+
+  .empowered-box {
+    width: 835px;
+  }
+
+  .healtcare {
+    font-size: 14.5px !important;
+  }
+
+  .meetUp-container {
+    margin-top: 365px;
+  }
+
+  .countries-box {
+    margin-bottom: 20px;
+  }
+
+  .responsive__services {
+    flex-direction: column;
+  }
+
+  .kyc-biometric-box,
+  .web3-container {
+    justify-content: center;
+  }
+
+  .biometric-box {
+    margin-bottom: 20px;
+  }
+
+  .date-forever-box {
+    padding-top: 40px;
+    justify-content: center;
+  }
+
+  .data-forever {
+    width: 90%;
+  }
+
+  .responsive-image {
+    width: 295px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+
+  .responsive__mobile-image {
+    width: 187px;
+    top: 199px !important;
+  }
+
+  .dee-pricing-box img {
+    width: 800px;
+  }
+
+  .testimonial-user-info {
+    width: 90%;
+  }
+
+  .press-news-container {
+    flex-direction: column;
+  }
+
+  .established__box {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .logos {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .price-plan-card {
+    margin-bottom: 26px;
+  }
+
+  .web3-container {
+    flex-direction: column;
+  }
+
+  .health-care-info p:first-child {
+    width: 86%;
+    font-size: 24px;
+  }
+
+  .health-care-info h3 {
+    width: 80%;
+  }
+
+  @media (max-width: 786px) {
+
+    section.container.responsive__services {
+      margin-top: 46px !important;
+    }
+
+    .available-device {
+      display: none;
+    }
+
+    .copywrite-box {
+      flex-direction: column;
+    }
+
+    .Terms-Conditions {
+      padding-bottom: 30px !important;
+    }
+
+    .card-box {
+      justify-content: center;
+    }
+
+    .meetUp-container {
+      margin-top: 56px !important;
+    }
+
+    .box-text {
+      width: 90%;
+      left: inherit;
+      transform: inherit;
+    }
+
+    .dee-pricing-box img {
+      width: 500px;
+    }
+
+    .dee-pricing-box h1 {
+      width: 90%;
+    }
+
+    .lines-bg,
+    .circle-bg {
+      height: 71vh;
+    }
+
+    .health-care-info p:first-child {
+      width: 100%;
+    }
+
+    .health-care-info p:first-child {
+      font-size: 24px !important;
+    }
+
+    .patients-card {
+      justify-content: center;
+    }
+
+    .date-forever-border,
+    .trust-solved {
+      width: 298px;
+    }
+
+    .empowered-box {
+      width: 100% !important;
+    }
+
+  }
+
+  @media (max-width: 694px) {
+
+    .biometric-box {
+      width: fit-content;
+      height: fit-content;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+    .date-forever-box {
+      flex-direction: column;
+    }
+
+    .date-forever-border {
+      margin-right: 0;
+    }
+
+    .bg-none {
+      display: none;
+    }
+  }
+
+  @media (max-width: 572px) {
+    .responsive-box {
+      display: none;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .trust-solved {
+      width: 331px !important;
+    }
+
+    .responsive-display {
+      display: none;
+    }
+
+    .news-cards img {
+      width: 300px !important;
+    }
+
+    .responsive-center {
+      justify-content: center !important;
+    }
+
+    .date-forever-border,
+    .trust-solved,
+    .empowered-box {
+      height: fit-content !important;
+    }
+
+    .meetUp-container {
+      margin-top: 200px !important;
+    }
+
+    .meetUp-container h1 {
+      font-size: 25px !important;
+    }
+
+    .meetUp-container h1 span {
+      font-size: 30px !important;
+    }
+
+    .responsive-text,
+    .connect-text,
+    .medilock-text {
+      font-size: 20px !important;
+    }
+
+    .meetUp-container p,
+    .banner {
+      font-size: 16px;
+    }
+
+    .health-care-info p:first-child {
+      width: 100%;
+      font-size: 13px !important;
+    }
+
+    .health-care-info h3 {
+      width: 100%;
+      font-size: 25px;
+    }
+
+    .meetUp-container {
+      margin-top: 365px;
+    }
+
+    .dee-pricing-box img {
+      width: 312px;
+    }
+
+    .established__box {
+      width: 100%;
+    }
+
+    .press-news-container {
+      align-items: flex-start !important;
+    }
+
+    .cards {
+      justify-content: center;
+    }
+
+    .date-forever-border,
+    .trust-solved {
+      height: fit-content;
+    }
+
+    .card-box {
+      margin-bottom: 50px;
+    }
+
+    .data-forever {
+      width: 90% !important;
+    }
+
+    .dee-pricing-box p {
+      width: 90% !important;
+      font-size: 17px !important;
+    }
+
+    .dee-pricing-box img {
+      display: none;
+    }
+
+    .logo-container {
+      display: none;
+    }
+
+    .established__box h1 {
+      font-size: 28px;
+      line-height: 42px;
+    }
+
+    .price-plan-box h1,
+    .price-plan-patients h1,
+    .professional {
+      font-size: 32px;
+    }
+
+    .price-plan-card {
+      width: 100%;
+    }
+
+    .contact-btn {
+      width: 94%;
+    }
+  }
+
+  @media (max-width: 375px) {
+
+    .health-care-info h3 {
+      font-size: 22px;
+    }
+
+    .health-care-info p:first-child {
+      font-size: 12px !important;
+    }
+
+    .kyc-biometric-box,
+    .web3-container {
+      text-align: center;
+    }
+
+    .logos {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .responsive-width-box2 {
+      width: 315px !important;
+      margin-left: 0 !important;
+    }
+
+    .empowered-box {
+      margin-left: -21px !important;
+      width: 331px !important;
+    }
+
+    .responsive-width-box {
+      margin-left: 20px !important;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .logo-container {
+      display: none !important;
+    }
+
+    .footer-box {
+      justify-content: center !important;
+      align-items: center;
+      text-align: center;
+    }
+
+    .empowered-box {
+      margin-left: -29px !important;
+    }
+
+    .news-cards img {
+      width: 256px !important;
+    }
+
+    .copy-write {
+      font-size: 14px;
+    }
+
+    .last-screen {
+      width: 287px !important;
+    }
+
+    .responsive-width-box {
+      width: 280px !important;
+      margin-left: 35px !important;
+    }
+
+    .responsive-width-box2 {
+      width: 280px !important;
+
+      margin-left: 17px !important;
+    }
+
+    .responsive-text,
+    .connect-text,
+    .medilock-text {
+      font-size: 14px !important;
+    }
+
+    .meetUp-container {
+      margin-top: 230px !important;
+    }
+
+    .health-care-info p:first-child {
+      font-size: 19px !important;
+    }
+
+    .trust-solved {
+      width: 293px !important;
+    }
+
+    .empowered-box {
+      width: 292px !important;
+    }
+
+    .price-plan-card ul {
+      padding-left: 21px;
+    }
+
+    .price-plan-card ul li {
+      font-size: 11px;
+    }
+
+    .price-plan-card ul li::marker {
+      font-size: 22px;
+    }
+  }
+}
+
+@media (max-width: 390px) {
+  .empowered-box {
+    width: 331px !important;
+    margin-left: -15px !important;
+  }
+
+  .meetUp-container {
+    margin-top: -117px !important;
+  }
+}
