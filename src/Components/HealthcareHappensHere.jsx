@@ -10,10 +10,8 @@ function HealthcareHappensHere() {
             R-DEE by Radiologex <sup>®</sup>
           </p>
           <h1>
-            Healthcare Happens Here{" "}
-            <small>
-              <sup>TM</sup>
-            </small>
+            Healthcare Happens Here
+            <sup>TM</sup>
           </h1>
           <p className="web3-network-box">
             The first WEB3 powered network designed from the ground up for

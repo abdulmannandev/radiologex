@@ -1,14 +1,13 @@
 /* =================== AboutServices style start =================== */
 .about-services-box {
   width: 305px;
-  height: 70px;
   background: #f9f9f9;
   color: #45496c;
   border-radius: 6px;
   margin-top: 30px;
   display: flex;
   align-items: center;
-  padding-left: 20px;
+  padding: 20px 15px;
 }
 
 .about-services-box p {
@@ -16,6 +15,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
+  margin-bottom: 0;
 }
 
 .easy-to-use-icon {

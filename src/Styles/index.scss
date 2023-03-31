@@ -119,7 +119,9 @@ a {
 }
 
 .health-care-box h1 sup {
-  font-size: 18px;
+  font-size: 14px;
+  position: relative;
+  top: -42px;
 }
 
 .health-care-box button {
@@ -442,6 +444,10 @@ a {
   margin-bottom: 20px;
 }
 
+.biometric-box p {
+  margin-bottom: 0;
+}
+
 .biometric-box-icon {
   border-radius: 50%;
   text-align: center;
@@ -482,7 +488,6 @@ a {
 .web3-info-box h1 {
   font-size: 42px;
   font-weight: 700;
-  padding-bottom: 20px;
   line-height: 1.5;
 }
 
@@ -511,6 +516,7 @@ a {
 .change-color {
   color: #4aea87;
   font-weight: 800;
+  margin-bottom: 0;
 }
 
 .data-forever {
@@ -752,6 +758,7 @@ a {
   font-weight: 700;
   line-height: 55px;
   padding-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 .professional {
@@ -808,7 +815,7 @@ a {
   font-size: 16px;
   color: #7836ff;
   font-weight: 600;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .clinical-plan .payment-status,
@@ -833,7 +840,7 @@ a {
 
 .note {
   font-size: 16px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   word-spacing: 4px;
   font-weight: 400;
   color: #8e8e8e;
@@ -921,12 +928,18 @@ a {
   padding-bottom: 50px;
 }
 
-.footer-list-items h2 {
-  color: white;
-  font-size: 20px;
-  padding-bottom: 15px;
-  font-weight: 700;
-  font-style: normal;
+.footer-list-items {
+  h2 {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
 }
 
 .footer-list-items p a {
@@ -966,6 +979,7 @@ a {
   color: #4aea87;
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-bottom: 0;
   font-size: 16px;
   font-weight: 400 !important;
 }
