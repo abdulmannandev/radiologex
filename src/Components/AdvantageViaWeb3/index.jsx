@@ -24,7 +24,7 @@ function AdvantageViaWeb3() {
           </div>
           <div className="data-forever">
             <div className="date-forever-box">
-              <div className="date-forever-border last-screen">
+              <div className="custom-card last-screen">
                 <div className="biometric-icon">
                   <img src={Data} alt="" />
                 </div>
@@ -36,7 +36,7 @@ function AdvantageViaWeb3() {
                   information.
                 </p>
               </div>
-              <div className="date-forever-border trust-solved">
+              <div className="custom-card trust-solved">
                 <div className="biometric-icon trust-bg">
                   <img src={trust} alt="" />
                 </div>
@@ -49,7 +49,7 @@ function AdvantageViaWeb3() {
                 </p>
               </div>
             </div>
-            <div className="date-forever-border empowered-box">
+            <div className="custom-card empowered-box">
               <div className="biometric-icon empowered-bg">
                 <img src={Empowered} alt="" />
               </div>

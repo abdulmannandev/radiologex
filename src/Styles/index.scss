@@ -96,163 +96,6 @@ a {
   color: #4aea87 !important;
 }
 
-/* =================== HealthcareHappensHere style start =================== */
-.health-care-box {
-  background-color: #17171d;
-  text-align: center;
-  padding-top: 50px;
-}
-
-.health-care-box p:first-child {
-  color: #4aea87;
-  font-weight: 400;
-  padding-bottom: 25px;
-}
-
-.health-care-box h1 {
-  color: white;
-  font-size: 50px;
-}
-
-.health-care-box h1 sup {
-  font-size: 14px;
-  position: relative;
-  top: -42px;
-}
-
-.health-care-box button {
-  border: 0;
-  width: 250px;
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 35px;
-  background-color: #fd4b4b;
-  color: white !important;
-  font-size: 15px;
-  font-weight: 700;
-  margin-right: 18px;
-  transition: 0.4s;
-}
-
-.health-care-box button a {
-  color: white !important;
-}
-
-.health-care-box button:hover {
-  box-shadow: 0 0 10px 0 #fd4b4b inset, 0 0 10px 4px #fd4b4b;
-  cursor: pointer;
-  transition: 0.4s;
-}
-
-.web3-network-box {
-  margin: 0 auto;
-  line-height: 1.8;
-  padding-top: 20px;
-  color: white;
-  font-size: 14px;
-  padding-bottom: 40px;
-  font-weight: 400;
-}
-
-.patients_btn {
-  background-color: #4aea87 !important;
-  text-transform: capitalize !important;
-}
-
-.patients_btn:hover {
-  box-shadow: 0 0 10px 0 #4aea87 inset, 0 0 10px 4px #4aea87 !important;
-  cursor: pointer;
-  transition: 0.4s;
-}
-
-/* Button animation */
-.patients_btn {
-  border: none;
-  background: none;
-  cursor: pointer;
-  padding: 25px 80px;
-  display: inline-block;
-  text-transform: uppercase;
-  font-weight: 700;
-  outline: none;
-  position: relative;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.patients_btn:after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.mobile-bg {
-  width: 95%;
-  margin: 0 auto;
-  position: relative;
-}
-
-.mobile-bg__image {
-  width: 845.13px;
-}
-
-.image-box {
-  position: absolute;
-  top: 71px;
-  left: 3px;
-}
-
-.user-box-image {
-  background-image: url("./assets/Group8209.png") !important;
-  background-position: center;
-  background-size: cover;
-  position: absolute;
-  top: -30px;
-  width: 216px;
-  height: 204px;
-  left: 37px;
-}
-
-.simplyfiy-product-box-image {
-  background-image: url("./assets/img-3.png") !important;
-  background-position: center;
-  background-size: cover;
-  position: absolute;
-  top: 189px;
-  width: 248px;
-  height: 299px;
-  left: 74px;
-}
-
-.healtcare-box-image {
-  background-image: url("./assets/img-2.png") !important;
-  background-position: center;
-  background-size: cover;
-  position: absolute;
-  top: -79px;
-  left: 887px;
-  width: 361px;
-  height: 155px;
-}
-
-.user-time-box-image {
-  background-image: url("./assets/img-1.png") !important;
-  background-position: center;
-  background-size: contain;
-  position: absolute;
-  top: 340px;
-  left: 859px;
-  width: 361px;
-  height: 155px;
-  background-repeat: no-repeat !important;
-}
-
 /* =================== GetRDeeComponent style start =================== */
 .get-r-dee-box {
   display: flex;
@@ -347,20 +190,11 @@ a {
   margin-top: 54px;
 }
 
-.card-box {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-bottom: 100px;
-}
-
 .countries-box {
+  height: 100%;
   background: #ffffff;
   box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.06);
   border-radius: 22px;
-  width: 400px;
-  height: 188px;
   text-align: center;
   align-items: center;
   display: flex;
@@ -369,7 +203,7 @@ a {
 }
 
 .countries-box p {
-  padding-top: 20px;
+  margin-top: 20px;
   font-size: 18px;
   font-weight: 400 !important;
 }
@@ -413,10 +247,6 @@ a {
   line-height: 1.4;
   font-size: 18px;
   color: #8e8e8e;
-}
-
-.circle-bg-image {
-  position: relative;
 }
 
 .kyc-biometric-box {
@@ -515,19 +345,8 @@ a {
   margin-bottom: 0;
 }
 
-.data-forever {
-  width: 750px;
-}
-
-.date-forever-box {
-  display: flex;
-  align-items: center;
-}
-
-.date-forever-border,
+.custom-card,
 .trust-solved {
-  width: 357px;
-  height: 319px;
   margin-bottom: 30px;
   margin-right: 40px;
   padding-left: 20px;
@@ -538,20 +357,20 @@ a {
   border-radius: 27px;
 }
 
-.date-forever-border h3 {
+.custom-card h3 {
   padding-bottom: 10px;
   font-weight: 600;
   font-size: 20px;
 }
 
-.date-forever-border p {
+.custom-card p {
   line-height: 1.4;
   font-weight: 400;
   font-size: 15px;
   color: #8e8e8e;
 }
 
-.date-forever-border .biometric-icon {
+.custom-card .biometric-icon {
   background: #4aea87;
   border-radius: 50%;
   width: 48px;
@@ -587,8 +406,6 @@ a {
 }
 
 .box-text {
-  position: absolute;
-  top: -50px;
   padding-top: 148px;
   width: 50%;
   left: 50%;
@@ -770,18 +587,13 @@ a {
   color: #8e8e8e;
 }
 
-.cards {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
 .price-plan-card {
   background: #ffffff;
   box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.06);
   border-radius: 16px;
-  padding-left: 20px;
+  padding: 20px;
   width: 100%;
+  height: 100%;
   padding-top: 20px;
 }
 
@@ -846,8 +658,9 @@ a {
 .contact-btn {
   background: rgba(26, 139, 243, 0.1);
   border-radius: 28px;
-  width: 265px;
+  width: 100%;
   height: 56px;
+  padding: 15px;
   border: none;
   color: #1a8bf3;
   font-size: 16px;
@@ -919,7 +732,6 @@ a {
 }
 
 .footer__box {
-  padding-top: 140px;
   text-align: center;
   padding-bottom: 50px;
 }
@@ -994,17 +806,6 @@ a {
     width: 868px !important;
   }
 
-  .responsive__mobile-image {
-    width: 300px !important;
-    height: 408px !important;
-    margin-top: 30px;
-  }
-
-  .date-forever-border,
-  .trust-solved {
-    margin-right: 0 !important;
-  }
-
   .meetUp-container {
     margin-top: 200px !important;
   }
@@ -1026,7 +827,6 @@ a {
 
 @media (max-width: 1024px) {
 
-  .card-box,
   .health-care-info,
   .kyc-biometric-box,
   .box-text,
@@ -1069,6 +869,10 @@ a {
     margin-bottom: 20px;
   }
 
+  .countries-box p {
+    font-size: 10px !important;
+  }
+
   .responsive__services {
     flex-direction: column;
   }
@@ -1082,24 +886,10 @@ a {
     margin-bottom: 20px;
   }
 
-  .date-forever-box {
-    padding-top: 40px;
-    justify-content: center;
-  }
-
-  .data-forever {
-    width: 90%;
-  }
-
   .responsive-image {
     width: 295px;
     margin-top: 60px;
     margin-bottom: 20px;
-  }
-
-  .responsive__mobile-image {
-    width: 187px;
-    top: 199px !important;
   }
 
   .testimonial-user-info {
@@ -1146,10 +936,6 @@ a {
       padding-bottom: 30px !important;
     }
 
-    .card-box {
-      justify-content: center;
-    }
-
     .meetUp-container {
       margin-top: 56px !important;
     }
@@ -1177,15 +963,6 @@ a {
       font-size: 24px !important;
     }
 
-    .patients-card {
-      justify-content: center;
-    }
-
-    .date-forever-border,
-    .trust-solved {
-      width: 298px;
-    }
-
     .empowered-box {
       width: 100% !important;
     }
@@ -1201,14 +978,6 @@ a {
       padding-bottom: 15px;
     }
 
-    .date-forever-box {
-      flex-direction: column;
-    }
-
-    .date-forever-border {
-      margin-right: 0;
-    }
-
     .bg-none {
       display: none;
     }
@@ -1221,18 +990,9 @@ a {
   }
 
   @media (max-width: 425px) {
-    .trust-solved {
-      width: 331px !important;
-    }
 
     .responsive-display {
       display: none;
-    }
-
-    .date-forever-border,
-    .trust-solved,
-    .empowered-box {
-      height: fit-content !important;
     }
 
     .meetUp-container {
@@ -1274,23 +1034,6 @@ a {
 
     .press-news-section {
       align-items: flex-start !important;
-    }
-
-    .cards {
-      justify-content: center;
-    }
-
-    .date-forever-border,
-    .trust-solved {
-      height: fit-content;
-    }
-
-    .card-box {
-      margin-bottom: 50px;
-    }
-
-    .data-forever {
-      width: 90% !important;
     }
 
     .dee-pricing-box p {
@@ -1337,16 +1080,6 @@ a {
       padding-right: 20px;
     }
 
-    .responsive-width-box2 {
-      width: 315px !important;
-      margin-left: 0 !important;
-    }
-
-    .empowered-box {
-      margin-left: -21px !important;
-      width: 331px !important;
-    }
-
     .responsive-width-box {
       margin-left: 20px !important;
     }
@@ -1378,12 +1111,6 @@ a {
     .responsive-width-box {
       width: 280px !important;
       margin-left: 35px !important;
-    }
-
-    .responsive-width-box2 {
-      width: 280px !important;
-
-      margin-left: 17px !important;
     }
 
     .responsive-text,
@@ -1419,16 +1146,5 @@ a {
     .price-plan-card ul li::marker {
       font-size: 22px;
     }
-  }
-}
-
-@media (max-width: 390px) {
-  .empowered-box {
-    width: 331px !important;
-    margin-left: -15px !important;
-  }
-
-  .meetUp-container {
-    margin-top: -117px !important;
   }
 }

@@ -89,47 +89,53 @@ function PricePlan() {
         <p className="choose-plan-note">
           Choose the plan that works for you or your family
         </p>
-        <div className="cards patients-card">
-          <div className="price-plan-card patient-card">
-            <p className="payment-status">FREE</p>
-            <h3>R-DEE Free</h3>
-            <p className="note"></p>
-            <ul>
-              <li>KYC+Passwordless logins</li>
-              <li>No usernames/passwordless</li>
-              <li>Simple to use UI</li>
-              <li>Simple to use UI</li>
-              <li>5GB included</li>
-            </ul>
+        <div className="row patients-card">
+          <div className="col-md-4">
+            <div className="price-plan-card patient-card">
+              <p className="payment-status">FREE</p>
+              <h3>R-DEE Free</h3>
+              <p className="note"></p>
+              <ul>
+                <li>KYC+Passwordless logins</li>
+                <li>No usernames/passwordless</li>
+                <li>Simple to use UI</li>
+                <li>Simple to use UI</li>
+                <li>5GB included</li>
+              </ul>
+            </div>
           </div>
-          <div className="price-plan-card patient-card premium-plan">
-            <p className="payment-status">$7/MO PER USER</p>
-            <h3>R-DEE Premium</h3>
-            <p className="note"></p>
-            <ul>
-              <li>KYC+Passwordless logins</li>
-              <li>No usernames/passwordless</li>
-              <li>Simple to use UI</li>
-              <li>Permanent Healthcare Record Storage</li>
-              <li>Integrated ChatGPT AI language model</li>
-              <li>300GB included</li>
-              <li>5 Additional Health Trackers</li>
-            </ul>
+          <div className="col-md-4">
+            <div className="price-plan-card patient-card premium-plan">
+              <p className="payment-status">$7/MO PER USER</p>
+              <h3>R-DEE Premium</h3>
+              <p className="note"></p>
+              <ul>
+                <li>KYC+Passwordless logins</li>
+                <li>No usernames/passwordless</li>
+                <li>Simple to use UI</li>
+                <li>Permanent Healthcare Record Storage</li>
+                <li>Integrated ChatGPT AI language model</li>
+                <li>300GB included</li>
+                <li>5 Additional Health Trackers</li>
+              </ul>
+            </div>
           </div>
-          <div className="price-plan-card patient-card">
-            <p className="payment-status">$20/MO per user</p>
-            <h3>R-DEE Family</h3>
-            <p className="note"></p>
-            <ul>
-              <li>KYC+Passwordless logins</li>
-              <li>No usernames/passwordless</li>
-              <li>Simple to use UI</li>
-              <li>Permanent Healthcare Record Storage</li>
-              <li>Integrated ChatGPT AI language model</li>
-              <li>2TB included</li>
-              <li>10 Additional Health Trackers</li>
-              <li>5 Family Members</li>
-            </ul>
+          <div className="col-md-4">
+            <div className="price-plan-card patient-card">
+              <p className="payment-status">$20/MO per user</p>
+              <h3>R-DEE Family</h3>
+              <p className="note"></p>
+              <ul>
+                <li>KYC+Passwordless logins</li>
+                <li>No usernames/passwordless</li>
+                <li>Simple to use UI</li>
+                <li>Permanent Healthcare Record Storage</li>
+                <li>Integrated ChatGPT AI language model</li>
+                <li>2TB included</li>
+                <li>10 Additional Health Trackers</li>
+                <li>5 Family Members</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

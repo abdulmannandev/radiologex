@@ -26,18 +26,20 @@ export const HeaderComponent = () => {
             </p>
             <p>
               <a>
-                {" "}
-                Explore <AngleDown />{" "}
+                Explore <AngleDown />
               </a>
             </p>
             <p>
               <a>
-                {" "}
-                FAQs <AngleDown />{" "}
+                FAQs <AngleDown />
               </a>
             </p>
             <button>
-              <a href="launch@radiologex.com" target="_blank">
+              <a
+                href="mailto:launch@radiologex.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Contact Us
               </a>
             </button>

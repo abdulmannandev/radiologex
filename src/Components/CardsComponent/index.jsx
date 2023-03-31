@@ -2,15 +2,19 @@ import React from "react";
 
 import MaskIcon from "./../../assets/MaskIcon.png";
 import MaskIcon2 from "./../../assets/MaskIcon2.png";
+import bgImage from "./Assets/Vector3.png"
 
 import "./CardsComponent.scss";
 
 function CardsComponent() {
   return (
-    <section className="cards-section">
+    <section
+      className="cards-section"
+      style={{ backgroundImage: `url(${bgImage})` }}
+    >
       <div className="container">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 mb-4">
             <div className="card-container">
               <div className="icon">
                 <img src={MaskIcon} alt="" />
@@ -22,7 +26,7 @@ function CardsComponent() {
               </p>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 mb-4">
             <div className="card-container">
               <div className="icon">
                 <img src={MaskIcon2} alt="" />

@@ -1,6 +1,5 @@
 /* =================== CardsComponent style start =================== */
 .cards-section {
-  background-image: url("./assets/Vector3.png");
   background-origin: content-box;
   background-repeat: no-repeat;
   background-size: auto;
@@ -49,12 +48,5 @@
 @media (max-width: 786px) {
   .card-container p {
     font-size: 13px;
-  }
-
-  .card-container {
-    width: 331px;
-    top: inherit;
-    bottom: -178%;
-    position: inherit;
   }
 }

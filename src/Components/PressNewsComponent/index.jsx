@@ -15,7 +15,7 @@ function PressNewsComponent() {
   return (
     <section className="press-box-section">
       <div className="container">
-        <div className="see-all-box">
+        <div className="see-all-box d-flex justify-content-between flex-wrap">
           <h1>In The Press</h1>
           <button>View All</button>
         </div>

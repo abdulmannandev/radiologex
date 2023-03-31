@@ -39,44 +39,12 @@
     font-size: 10px !important;
   }
 
-  .health-care-box button {
+  .health-care-box .btn {
     margin-right: 0 !important;
   }
 }
 
 @media (max-width: 1024px) {
-  .mobile-bg__image {
-    width: 845.13px !important;
-  }
-
-  .user-box-image {
-    width: 176px !important;
-    height: 171px !important;
-    left: 0px !important;
-    top: -26px !important;
-  }
-
-  .simplyfiy-product-box-image {
-    top: 189px !important;
-    width: 216px !important;
-    height: 264px !important;
-    left: 4px !important;
-  }
-
-  .healtcare-box-image {
-    top: 4px !important;
-    left: 705px !important;
-    width: 273px !important;
-    height: 117px !important;
-  }
-
-  .user-time-box-image {
-    top: 360px !important;
-    left: 734px !important;
-    width: 233px !important;
-    height: 117px !important;
-  }
-
   .description {
     padding-top: 110px !important;
   }
@@ -93,10 +61,6 @@
     width: 60%;
   }
 
-  .date-forever-box {
-    justify-content: space-between !important;
-  }
-
   .bg-none {
     display: none;
   }
@@ -105,17 +69,6 @@
 @media (max-width: 880px) {
   .header-list {
     flex-direction: column;
-  }
-
-  .user-box-image,
-  .simplyfiy-product-box-image,
-  .healtcare-box-image,
-  .user-time-box-image {
-    display: none;
-  }
-
-  .mobile-bg__image {
-    width: 690.13px !important;
   }
 }
 
@@ -136,11 +89,6 @@
     width: 80%;
   }
 
-  .date-forever-border,
-  .trust-solved {
-    height: 373px !important;
-  }
-
   .empowered-box {
     height: fit-content !important;
     width: 357px !important;
@@ -149,10 +97,6 @@
 
 @media (max-width: 425px) {
 
-  .mobile-bg__image {
-    width: 394px !important;
-  }
-
   .health-care-box h1 {
     font-size: 37px !important;
   }
@@ -160,11 +104,6 @@
   .web3-network-box {
     font-size: 8px !important;
     font-weight: bold !important;
-  }
-
-  .responsive-btn {
-    flex-direction: column;
-    align-items: center;
   }
 
   .patients_btn {
@@ -189,12 +128,6 @@
     font-size: 10px !important;
   }
 
-  .date-forever-border,
-  .trust-solved {
-    width: 331px !important;
-  }
-
-  .date-forever-border,
   .trust-solved,
   .empowered-box {
     align-items: center;
@@ -213,14 +146,6 @@
 }
 
 @media (max-width: 375px) {
-  .mobile-bg__image {
-    width: 330px !important;
-  }
-
-  .health-care-box {
-    height: 143.5vh !important;
-  }
-
   .re-dee__container {
     padding-top: 100px !important;
   }
@@ -262,10 +187,6 @@
     height: 38vh !important;
   }
 
-  .mobile-bg {
-    height: 46vh !important;
-  }
-
   .circle-bg {
     height: 38vh !important;
   }
@@ -277,19 +198,9 @@
   .biometric-box {
     flex-direction: column;
   }
-
-  .empowered-box,
-  .date-forever-border,
-  .trust-solved {
-    width: 331px !important;
-  }
 }
 
 @media (max-width: 320px) {
-  .mobile-bg__image {
-    width: 310px !important;
-  }
-
   .health-care-box {
     height: 139.4vh !important;
   }
@@ -309,21 +220,13 @@
     width: 86% !important;
   }
 
-  .health-care-box button,
+  .health-care-box .btn,
   .patients_btn {
     font-size: 15px !important;
   }
 
-  .mobile-bg {
-    height: 50vh !important;
-  }
-
   .iphone-image {
     left: 5px !important;
-  }
-
-  .countries-box p {
-    font-size: 10px !important;
   }
 
   .health-care-info p:first-child {
@@ -336,11 +239,6 @@
 
   .responsive-image {
     width: 250px !important;
-  }
-
-  .responsive__mobile-image {
-    width: 155px !important;
-    top: 176px !important;
   }
 
   .empowered-box {

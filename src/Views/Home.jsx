@@ -1,4 +1,4 @@
-import HealthcareHappensHere from "./../Components/HealthcareHappensHere";
+import HeroAreaHome from "./../Components/HeroAreaHome";
 import GetRDeeComponent from "./../Components/GetRDeeComponent";
 import CardsComponent from "./../Components/CardsComponent";
 import ModulesLunchComponent from "./../Components/ModulesLunchComponent";
@@ -15,7 +15,7 @@ function HomePage() {
 
   return (
     <>
-      <HealthcareHappensHere />
+      <HeroAreaHome />
       <GetRDeeComponent />
       <CardsComponent />
       <ModulesLunchComponent />

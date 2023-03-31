@@ -1,0 +1,143 @@
+ .health-care-box {
+   background-color: #17171d;
+   text-align: center;
+   padding-top: 50px;
+ }
+
+ .health-care-box p:first-child {
+   color: #4aea87;
+   font-weight: 400;
+   margin-bottom: 12px;
+ }
+
+ .health-care-box h1 {
+   color: white;
+   font-size: 50px;
+ }
+
+ .health-care-box h1 sup {
+   font-size: 14px;
+   position: relative;
+   top: -42px;
+ }
+
+ .health-care-box .btn {
+   border: 0;
+   width: 250px;
+   height: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 35px;
+   background-color: #fd4b4b;
+   color: white !important;
+   font-size: 15px;
+   font-weight: 700;
+   margin-right: 18px;
+   transition: 0.4s;
+ }
+
+ .health-care-box .btn a {
+   color: white !important;
+ }
+
+ .health-care-box .btn:hover {
+   box-shadow: 0 0 10px 0 #fd4b4b inset, 0 0 10px 4px #fd4b4b;
+   cursor: pointer;
+   transition: 0.4s;
+ }
+
+ .web3-network-box {
+   margin: 0 auto;
+   line-height: 1.8;
+   padding-top: 20px;
+   color: white;
+   font-size: 14px;
+   padding-bottom: 40px;
+   font-weight: 400;
+ }
+
+ .patients_btn {
+   background-color: #4aea87 !important;
+   text-transform: capitalize !important;
+ }
+
+ .patients_btn:hover {
+   box-shadow: 0 0 10px 0 #4aea87 inset, 0 0 10px 4px #4aea87 !important;
+   cursor: pointer;
+   transition: 0.4s;
+ }
+
+ /* Button animation */
+ .patients_btn {
+   border: none;
+   background: none;
+   cursor: pointer;
+   padding: 25px 80px;
+   display: inline-block;
+   text-transform: uppercase;
+   font-weight: 700;
+   outline: none;
+   position: relative;
+   -webkit-transition: all 0.3s;
+   -moz-transition: all 0.3s;
+   transition: all 0.3s;
+ }
+
+ .patients_btn:after {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   -webkit-transition: all 0.3s;
+   -moz-transition: all 0.3s;
+   transition: all 0.3s;
+ }
+
+ .hero-image {
+   width: 95%;
+   margin: 0 auto;
+   position: relative;
+
+
+   .desktop {
+     display: none;
+
+     // `sm` applies to x-small devices (portrait phones, less than 576px)
+     @media (max-width: 575.98px) {}
+
+     // `md` applies to small devices (landscape phones, less than 768px)
+     @media (max-width: 767.98px) {
+       display: block;
+     }
+
+     // `lg` applies to medium devices (tablets, less than 992px)
+     @media (max-width: 991.98px) {}
+
+     // `xl` applies to large devices (desktops, less than 1200px)
+     @media (max-width: 1199.98px) {}
+
+     // `xxl` applies to x-large devices (large desktops, less than 1400px)
+     @media (max-width: 1399.98px) {}
+   }
+
+   .mobile {
+     display: block;
+
+     // `sm` applies to x-small devices (portrait phones, less than 576px)
+     @media (max-width: 575.98px) {}
+
+     // `md` applies to small devices (landscape phones, less than 768px)
+     @media (max-width: 767.98px) {
+       display: none;
+     }
+
+     // `lg` applies to medium devices (tablets, less than 992px)
+     @media (max-width: 991.98px) {}
+
+     // `xl` applies to large devices (desktops, less than 1200px)
+     @media (max-width: 1199.98px) {}
+
+     // `xxl` applies to x-large devices (large desktops, less than 1400px)
+     @media (max-width: 1399.98px) {}
+   }
+ }
