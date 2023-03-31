@@ -8,7 +8,7 @@ import "./CardsComponent.scss";
 function CardsComponent() {
   return (
     <section className="cards-section">
-      <div className="container responsive-cards">
+      <div className="container">
         <div className="row">
           <div className="col-md-6">
             <div className="card-container">

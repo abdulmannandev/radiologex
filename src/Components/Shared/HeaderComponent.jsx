@@ -6,7 +6,7 @@ import { ReactComponent as AngleDown } from "./../../assets/icon-downangle.svg";
 export const HeaderComponent = () => {
   return (
     <section className="header-container">
-      <section className="container1">
+      <section className="container">
         <div className="header-list">
           <HeaderLogo />
           <div className="responsive-side-bar">

@@ -1,4 +1,10 @@
-/* =================== PressNewsComponent style style =================== */
+.press-box-section {
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
 .see-all-box {
   display: flex;
   justify-content: space-between;
@@ -28,16 +34,15 @@
 }
 
 .news-cards {
+  height: 100%;
   background: white;
   box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.06);
   border-radius: 22px;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-bottom: 30px;
-  width: fit-content;
-  margin-right: 0px;
+  padding: 20px 30px;
+
+  img {
+    width: 100%;
+  }
 }
 
 .news-card-description {
@@ -72,22 +77,21 @@
   color: #1a8bf3 !important;
 }
 
-.established__box {
-  width: 54%;
-}
 
-.established__box h1 {
-  font-size: 48px;
-  font-weight: 700;
-  padding-bottom: 30px;
-  line-height: 60px;
+.established__box {
+  h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    font-size: 28px;
+    line-height: 42px;
+  }
 }
 
 .established__box p {
   line-height: 2.3;
   font-size: 15px !important;
   font-weight: 400;
-  padding-bottom: 30px;
 }
 
 .established__box button {
@@ -156,10 +160,7 @@
   }
 }
 
-@media (max-width: 1024px) {
-
-  .press-box-section {
-    margin-left: 30px;
-    margin-right: 30px;
-  }
+.press-news-section {
+  padding-top: 75px;
+  padding-bottom: 75px;
 }

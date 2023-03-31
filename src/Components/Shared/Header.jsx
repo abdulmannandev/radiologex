@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Container from "react-bootstrap/Container";
+import container from "react-bootstrap/container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
@@ -12,7 +12,7 @@ function Header(props) {
   return (
     <header>
       <Navbar bg="light" expand="lg">
-        <Container>
+        <container>
           <Navbar.Brand as={Link} to="/">
             React-Bootstrap
           </Navbar.Brand>
@@ -56,7 +56,7 @@ function Header(props) {
               ))}
             </Nav>
           </Navbar.Collapse>
-        </Container>
+        </container>
       </Navbar>
     </header>
   );

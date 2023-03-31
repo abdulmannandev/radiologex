@@ -20,16 +20,12 @@ a {
   text-decoration: none;
 }
 
-.container1 {
-  max-width: 1240px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .container {
   max-width: 1240px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* =================== Header style start =================== */
@@ -785,7 +781,7 @@ a {
   box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.06);
   border-radius: 16px;
   padding-left: 20px;
-  width: 290px;
+  width: 100%;
   padding-top: 20px;
 }
 
@@ -1004,11 +1000,6 @@ a {
     margin-top: 30px;
   }
 
-  .dee-pricing-box img {
-    width: 702px !important;
-    height: 499px !important;
-  }
-
   .date-forever-border,
   .trust-solved {
     margin-right: 0 !important;
@@ -1111,21 +1102,8 @@ a {
     top: 199px !important;
   }
 
-  .dee-pricing-box img {
-    width: 800px;
-  }
-
   .testimonial-user-info {
     width: 90%;
-  }
-
-  .press-news-container {
-    flex-direction: column;
-  }
-
-  .established__box {
-    width: 90%;
-    margin-bottom: 30px;
   }
 
   .logos {
@@ -1180,10 +1158,6 @@ a {
       width: 90%;
       left: inherit;
       transform: inherit;
-    }
-
-    .dee-pricing-box img {
-      width: 500px;
     }
 
     .dee-pricing-box h1 {
@@ -1255,14 +1229,6 @@ a {
       display: none;
     }
 
-    .news-cards img {
-      width: 300px !important;
-    }
-
-    .responsive-center {
-      justify-content: center !important;
-    }
-
     .date-forever-border,
     .trust-solved,
     .empowered-box {
@@ -1306,15 +1272,7 @@ a {
       margin-top: 365px;
     }
 
-    .dee-pricing-box img {
-      width: 312px;
-    }
-
-    .established__box {
-      width: 100%;
-    }
-
-    .press-news-container {
+    .press-news-section {
       align-items: flex-start !important;
     }
 
@@ -1340,17 +1298,8 @@ a {
       font-size: 17px !important;
     }
 
-    .dee-pricing-box img {
-      display: none;
-    }
-
     .logo-container {
       display: none;
-    }
-
-    .established__box h1 {
-      font-size: 28px;
-      line-height: 42px;
     }
 
     .price-plan-box h1,
@@ -1416,10 +1365,6 @@ a {
 
     .empowered-box {
       margin-left: -29px !important;
-    }
-
-    .news-cards img {
-      width: 256px !important;
     }
 
     .copy-write {
