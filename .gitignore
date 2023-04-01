@@ -14,7 +14,6 @@ dist-ssr
 
 # Editor directories and files
 .vscode/*
-build/*
 !.vscode/extensions.json
 .idea
 .DS_Store
@@ -24,4 +23,3 @@ build/*
 *.sln
 *.sw?
 build/build.zip
-build/

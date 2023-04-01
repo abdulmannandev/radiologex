@@ -110,7 +110,7 @@ function PressNewsComponent() {
               </div>
             </div>
           </div>
-          <div className="col-md-8 col-md-12 col-24 mb-4">
+          <div className="col-lg-8 col-md-12 col-24 mb-4">
             <div className="news-cards">
               <div>
                 <img src={CardImage6} alt="" />
