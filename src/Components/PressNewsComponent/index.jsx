@@ -23,7 +23,7 @@ function PressNewsComponent() {
             </div>
             <div className="col-md-12">
               {/* justify-content-center justify-content-md-end */}
-              <div className="text-end d-none d-md-flex">
+              <div className="text-end d-none d-md-flex justify-content-end">
                 <button className="btn btn-secondary">View All</button>
               </div>
             </div>

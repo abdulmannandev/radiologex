@@ -56,14 +56,14 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: var(--bs-body-font-family);
+  font-family: var(--font-family-sec);
 }
 
 p,
 ol li,
 ul li,
 .p {
-  font-family: var(--font-family-sec);
+  font-family: var(--bs-body-font-family);
   font-style: normal;
   font-weight: 400;
 }

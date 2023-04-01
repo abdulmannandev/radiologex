@@ -4,16 +4,8 @@
  @import "./../../node_modules/bootstrap/scss/maps";
  @import "./../../node_modules/bootstrap/scss/mixins";
 
- @font-face {
-   font-family: "Helveticas";
-   src: url("./../Font/HelveticaNeueUltraLight.ttf");
-   font-weight: 300;
- }
-
- $font-family-main: 'Helveticas', sans-serif;
- $font-family-sec: 'Segoe UI', sans-serif;
- $font-family-main: 'Noto Sans', sans-serif;
- $font-family-sec: 'Roboto', sans-serif;
+ $font-family-main: 'Segoe UI', sans-serif;
+ $font-family-sec: 'HelveticaNeue', sans-serif;
 
  $container-margins: 30px;
  $container-margins-xs: 30px;
@@ -60,7 +52,7 @@
 
  $text-color : #000;
  $pure-white : #fff;
- 
+
  // Theme colors
  $theme-colors: (
    "main": $primary,

@@ -167,6 +167,7 @@ function FooterComponent() {
                 <li className="list-inline-item">
                   <a href="">Terms & Conditions</a>
                 </li>
+                <li className="list-inline-item"> | </li>
                 <li className="list-inline-item">
                   <a href="">Privacy Policy</a>
                 </li>

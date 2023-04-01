@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'Segoe UI';
+  src:
+    local("Segoe UI Light"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2) format("woff2"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff) format("woff"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.ttf) format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src:
+    local("Segoe UI Semilight"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff2) format("woff2"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff) format("woff"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.ttf) format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src:
+    local("Segoe UI"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2) format("woff2"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff) format("woff"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf) format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src:
+    local("Segoe UI Bold"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff2) format("woff2"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff) format("woff"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.ttf) format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src:
+    local("Segoe UI Semibold"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff2) format("woff2"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff) format("woff"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.ttf) format("truetype");
+  font-weight: 700;
+}
+
+// =============================
+
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  font-style: normal;
+  font-weight: 400;
+  src: local('HelveticaNeue'), url('./Font/Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  font-style: normal;
+  font-weight: 400;
+  src: local('HelveticaNeue'), url('./Font/HelveticaNeueHv.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  font-style: normal;
+  font-weight: 5;
+  src: local('HelveticaNeue'), url('./Font/HelveticaNeueIt.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  font-style: normal;
+  font-weight: 250;
+  src: local('HelveticaNeue'), url('./Font/HelveticaNeueUltraLightv130.woff') format('woff');
+}
+
+// ---------------------------
+
+// @font-face {
+//   font-family: 'Segoe UI';
+//   font-style: normal;
+//   font-weight: 400;
+//   src: local('Segoe UI'), url('https://fonts.cdnfonts.com/s/15051/Segoe UI.woff') format('woff')
+// }
+
+// @font-face {
+//   font-family: 'Segoe UI';
+//   font-style: italic;
+//   font-weight: 400;
+//   src: local('Segoe UI'), url('https://fonts.cdnfonts.com/s/15051/Segoe UI Italic.woff') format('woff')
+// }
+
+// @font-face {
+//   font-family: 'Segoe UI';
+//   font-style: normal;
+//   font-weight: 700;
+//   src: local('Segoe UI'), url('https://fonts.cdnfonts.com/s/15051/Segoe UI Bold.woff') format('woff')
+// }
+
+// @font-face {
+//   font-family: 'Segoe UI';
+//   font-style: italic;
+//   font-weight: 700;
+//   src: local('Segoe UI'), url('https://fonts.cdnfonts.com/s/15051/Segoe UI Bold Italic.woff') format('woff')
+// }
