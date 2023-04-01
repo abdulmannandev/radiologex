@@ -8,7 +8,7 @@ function DEEPricingComponent() {
         <div className="row justify-content-center">
           <div className="col-lg-24 col-md-24">
             {/* // section header  */}
-            <div className="section-head text-center section-head--left">
+            <div className="section-head text-center">
               <h2 className="section-heading">A Growing Platformials</h2>
               <p className="section-text">
                 Seven additional modules (coming soon) that further SECURE,

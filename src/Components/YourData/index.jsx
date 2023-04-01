@@ -12,7 +12,7 @@ function YourData() {
       <img src={bgImage} alt="" className="bg-image" />
       <div className="container">
         {/* // section header  */}
-        <div className="section-head text-center section-head--left">
+        <div className="section-head text-center">
           <h4 className="section-sub-heading text-secondary">
             Your Health. Your Data.
           </h4>
@@ -30,6 +30,7 @@ function YourData() {
           <br />
           <br />
         </div>
+
         <div className="row align-items-center justify-content-center">
           <div className="col-lg-15 col-md-24 col-24 order-2 order-md-2 order-lg-1">
             <div className="row">
@@ -50,7 +51,7 @@ function YourData() {
                   <div className="icon technology-bg">
                     <img src={Technology} alt="" />
                   </div>
-                  <h3 className="heading-color">Ugy</h3>
+                  <h3 className="heading-color">Unparalleled ID Technology</h3>
                   <p>
                     Built-in KYC and a biometric technology that positively and
                     continuously identifies users with a unique Healthcare
@@ -78,7 +79,7 @@ function YourData() {
           </div>
           <div className="col-lg-9 col-md-18 col-24 order-1 order-md-1 order-lg-2">
             <img
-              className="img-fluid w-100 mt-4 mb-md-4 mb-lg-0"
+              className="img-fluid w-100 mt-4 mb-md-5 mb-lg-0"
               src={phoneImage}
               alt=""
             />

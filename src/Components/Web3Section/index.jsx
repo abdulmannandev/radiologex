@@ -10,7 +10,7 @@ function Web3Section() {
         <div className="row">
           <div className="col-lg-10 col-md-24">
             {/* // section header  */}
-            <div className="section-head px-0 section-head--left mb-4 mb-md-4 mb-lg-0">
+            <div className="section-head px-0 mb-4 mb-md-4 mb-lg-0">
               <h2 className="section-heading mb-4 text-white">
                 The R-DEE Advantage Via Web3
               </h2>

@@ -12,24 +12,24 @@ function ModulesLunchComponent() {
       <div className="banner">BLAZING FORWARD. BLAZING FAST. REAL TIME</div>
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-md-8">
-            <div className="countries-box mb-5">
+          <div className="col-md-8 mb-4">
+            <div className="countries-box">
               <div className="icon">
                 <img src={Countires} alt="" />
               </div>
               <p>66 Countries</p>
             </div>
           </div>
-          <div className="col-md-8">
-            <div className="countries-box mb-5">
+          <div className="col-md-8 mb-4">
+            <div className="countries-box">
               <div className="icon">
                 <img src={GlobleNode} alt="" />
               </div>
               <p>5000 Global Nodes</p>
             </div>
           </div>
-          <div className="col-md-8">
-            <div className="countries-box mb-5">
+          <div className="col-md-8 mb-4">
+            <div className="countries-box">
               <div className="icon">
                 <img src={HealthCare} alt="" />
               </div>

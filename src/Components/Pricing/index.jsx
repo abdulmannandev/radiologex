@@ -5,7 +5,7 @@ function Pricing() {
     <section id="pricing" className="pricing">
       <div className="container">
         {/* // section header  */}
-        <div className="section-head px-0 section-head--left">
+        <div className="section-head px-0">
           <h2 className="section-heading">
             R-DEE Pricing Plans for Healthcare <br />
             <span className="text-secondary">Professionals</span>
@@ -87,7 +87,7 @@ function Pricing() {
       </div>
       <div className="container price-plan-patients">
         {/* // section header  */}
-        <div className="section-head px-0 section-head--left">
+        <div className="section-head px-0">
           <h2 className="section-heading">
             R-DEE Pricing Plans for <br />{" "}
             <span className="text-secondary">Patients</span>

@@ -5,34 +5,6 @@
   padding-bottom: 75px;
 }
 
-.see-all-box {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 40px;
-}
-
-.see-all-box h1 {
-  font-size: 48px;
-  font-weight: 700;
-}
-
-.see-all-box button {
-  border: 0;
-  padding: 14px 35px;
-  border-radius: 35px;
-  background-color: #fd4b4b;
-  color: white;
-  font-size: 14px;
-  font-weight: 500;
-}
-
-.see-all-box button:hover {
-  box-shadow: 0 0 10px 0 #fd4b4b inset, 0 0 10px 4px #fd4b4b !important;
-  cursor: pointer;
-  transition: 0.4s;
-}
-
 .news-cards {
   height: 100%;
   background: white;

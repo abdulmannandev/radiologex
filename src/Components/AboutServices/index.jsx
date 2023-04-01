@@ -17,7 +17,7 @@ function AboutServices() {
         <div className="row">
           <div className="col-md-24">
             {/* // section header  */}
-            <div className="section-head text-center section-head--left">
+            <div className="section-head text-center">
               <h4>
                 Healthcare is about more than just medical treatment.
                 <br /> It is about ensuring data integrity and saving time.

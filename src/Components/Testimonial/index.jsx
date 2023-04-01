@@ -57,7 +57,7 @@ function Testimonial() {
         <div className="row justify-content-center">
           <div className="col-lg-18 col-md-20 col-24">
             {/* // section header  */}
-            <div className="section-head text-center section-head--left">
+            <div className="section-head text-center">
               <h2 className="section-heading">Testimonials</h2>
             </div>
 

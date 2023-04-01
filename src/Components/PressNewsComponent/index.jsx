@@ -15,10 +15,21 @@ function PressNewsComponent() {
   return (
     <section className="pt-lg pb-nomral press-box-section">
       <div className="container">
-        <div className="see-all-box d-flex justify-content-between flex-wrap">
-          <h1>In The Press</h1>
-          <button>View All</button>
+        {/* // section header  */}
+        <div className="section-head text-center text-md-start px-0 mb-4">
+          <div className="row">
+            <div className="col-md-12">
+              <h2 className="section-heading">In The Press</h2>
+            </div>
+            <div className="col-md-12">
+              {/* justify-content-center justify-content-md-end */}
+              <div className="text-end d-none d-md-flex">
+                <button className="btn btn-secondary">View All</button>
+              </div>
+            </div>
+          </div>
         </div>
+
         <div className="row justify-content-center">
           <div className="col-lg-12 col-md-12 col-24 mb-4">
             <div className="news-cards">
@@ -128,6 +139,11 @@ function PressNewsComponent() {
               </div>
             </div>
           </div>
+          <div className="col-24">
+            <div className="text-end d-flex justify-content-center d-md-none mb-5">
+              <button className="btn btn-secondary">View All</button>
+            </div>
+          </div>
         </div>
         <section
           className="press-news-section"
@@ -140,7 +156,7 @@ function PressNewsComponent() {
           <div className="row align-items-center">
             <div className="col-md-13">
               {/* // section header  */}
-              <div className="section-head px-0 section-head--left">
+              <div className="section-head px-0">
                 <h2 className="section-heading mb-4">
                   A New Standard <br /> And Established Ones Too
                 </h2>
