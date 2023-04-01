@@ -1,7 +1,16 @@
 .navbar {
   background-color: #17171d !important;
 
-  .navbar-brand {}
+  .navbar-brand {
+
+    &:hover {
+
+      path,
+      svg {
+        fill: $success;
+      }
+    }
+  }
 
   .navbar-toggler {
 

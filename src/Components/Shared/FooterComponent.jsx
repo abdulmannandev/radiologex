@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./Footer.scss";
 
@@ -17,33 +18,58 @@ import { ReactComponent as IconInstagram } from "./../../assets/icon-instagram.s
 
 function FooterComponent() {
   return (
-    <footer className="footer-box-image">
-      <div>
-        <div className="responsive-display">
-          <img src={image} alt="" className="bg-image" />
-          <img src={mobileImage} alt="" className="mobile-image" />
-        </div>
-        <div>
-          <div className="available-device">
-            <h1>
-              Available on Any <br /> Device
-            </h1>
-            <div>
-              <img src={appStore} alt="" />
-              <img src={googlePlay} alt="" />
-              <img src={webImage} alt="" />
+    <footer className="footer">
+      <div className="container-fluid footer-top">
+        <div className="container pt-lg">
+          <div className="row align-items-end">
+            <div className="col-md-10">
+              <img src={mobileImage} alt="" className="w-100" />
+            </div>
+            <div className="col-md-14">
+              <div className="available-device pb-5">
+                <h1>
+                  Available on Any <br /> Device
+                </h1>
+                <ul className="store-links d-flex ps-0">
+                  <li>
+                    <a href="#" target="_blank">
+                      <img className="icon" src={appStore} alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <img className="icon" src={googlePlay} alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <img className="icon" src={webImage} alt="" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <br /> <br /> <br />
             </div>
           </div>
         </div>
+        {/* <img src={image} alt="" className="bg-image" /> */}
       </div>
       <div className="footer-container">
-        <div className="footer__box">
-          <img src={FooterLogo} alt="" />
+        <div className="container">
+          <div className="row">
+            <div className="col-md-24 col-24">
+              <div className="d-flex justify-content-center py-5">
+                <Link className="footer-logo d-block" to="/">
+                  <FooterLogo />
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="container">
           <div className="row">
             <div className="col-md col-sm-6 col-12">
-              <div className="footer-box mb-5 mb-md-2">
+              <div className="footer-box mb-5 mb-md-5">
                 <h2 className="footer-heading">About Us</h2>
                 <ul className="footer-links">
                   <li>
@@ -59,7 +85,7 @@ function FooterComponent() {
               </div>
             </div>
             <div className="col-md col-sm-6 col-12">
-              <div className="footer-box mb-5 mb-md-2">
+              <div className="footer-box mb-5 mb-md-5">
                 <h2 className="footer-heading">R-DEE</h2>
                 <ul className="footer-links">
                   <li>
@@ -81,7 +107,7 @@ function FooterComponent() {
               </div>
             </div>
             <div className="col-md col-sm-6 col-12">
-              <div className="footer-box mb-5 mb-md-2">
+              <div className="footer-box mb-5 mb-md-5">
                 <h2 className="footer-heading">Resources</h2>
                 <ul className="footer-links">
                   <li>
@@ -94,7 +120,7 @@ function FooterComponent() {
               </div>
             </div>
             <div className="col-md col-sm-6 col-12">
-              <div className="footer-box mb-5 mb-md-2">
+              <div className="footer-box mb-5 mb-md-5">
                 <h2 className="footer-heading">Explore</h2>
                 <ul className="footer-links">
                   <li>
@@ -113,7 +139,7 @@ function FooterComponent() {
               </div>
             </div>
             <div className="col-md col-sm-6 col-12">
-              <div className="footer-box mb-5 mb-md-2">
+              <div className="footer-box mb-5 mb-md-5">
                 <h2 className="footer-heading">Contact Us</h2>
                 <ul className="footer-links">
                   <li>
@@ -131,91 +157,89 @@ function FooterComponent() {
           </div>
         </div>
         <div className="container">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-6">
-                <ul className="bottom-links d-flex flex-wrap justify-content-center d-flex-md-start list-inline pl-0">
-                  <li className="list-inline-item">
-                    <a href="">Sitemap</a>
-                  </li>
-                  <li className="list-inline-item"> | </li>
-                  <li className="list-inline-item">
-                    <a href="">Terms & Conditions</a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="">Privacy Policy</a>
-                  </li>
-                  <li className="list-inline-item"> | </li>
-                  <li className="list-inline-item">
-                    <a href="">Cookies Policy</a>
-                  </li>
-                  <li className="list-inline-item"> | </li>
-                  <li className="list-inline-item">
-                    <a href="">Certification</a>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-md-6">
-                <div className="d-flex flex-wrap justify-content-center d-flex-md-end">
-                  <a
-                    href="https://www.youtube.com/c/radiologex"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <div className="social-icon">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="#4aea87"
-                        className="bi bi-youtube"
-                        viewBox="0 0 16 16"
-                      >
-                        <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
-                      </svg>
-                    </div>
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/company/radiologex"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <div className="social-icon">
-                      <IconLinkedIn />
-                    </div>
-                  </a>
-                  <a
-                    href="https://twitter.com/radiologex"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <div className="social-icon">
-                      <IconTwitter />
-                    </div>
-                  </a>
-                  <a
-                    href="https://vimeo.com/getrdee"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <div className="social-icon">
-                      <IconVimeo />
-                    </div>
-                  </a>
-                  <a
-                    href="https://www.instagram.com/getrdee/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <div className="social-icon">
-                      <IconInstagram />
-                    </div>
-                  </a>
-                </div>
+          <div className="row">
+            <div className="col-md-12">
+              <ul className="bottom-links d-flex flex-wrap justify-content-center justify-content-md-start list-inline pl-0">
+                <li className="list-inline-item">
+                  <a href="">Sitemap</a>
+                </li>
+                <li className="list-inline-item"> | </li>
+                <li className="list-inline-item">
+                  <a href="">Terms & Conditions</a>
+                </li>
+                <li className="list-inline-item">
+                  <a href="">Privacy Policy</a>
+                </li>
+                <li className="list-inline-item"> | </li>
+                <li className="list-inline-item">
+                  <a href="">Cookies Policy</a>
+                </li>
+                <li className="list-inline-item"> | </li>
+                <li className="list-inline-item">
+                  <a href="">Certification</a>
+                </li>
+              </ul>
+            </div>
+            <div className="col-md-12">
+              <div className="d-flex flex-wrap justify-content-center justify-content-md-end">
+                <a
+                  href="https://www.youtube.com/c/radiologex"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="social-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#4aea87"
+                      className="bi bi-youtube"
+                      viewBox="0 0 16 16"
+                    >
+                      <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                    </svg>
+                  </div>
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/radiologex"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="social-icon">
+                    <IconLinkedIn />
+                  </div>
+                </a>
+                <a
+                  href="https://twitter.com/radiologex"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="social-icon">
+                    <IconTwitter />
+                  </div>
+                </a>
+                <a
+                  href="https://vimeo.com/getrdee"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="social-icon">
+                    <IconVimeo />
+                  </div>
+                </a>
+                <a
+                  href="https://www.instagram.com/getrdee/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="social-icon">
+                    <IconInstagram />
+                  </div>
+                </a>
               </div>
             </div>
           </div>
-          <hr className="line" />
+          <hr className="line mt-4" />
           <p className="copy-write">
             © 2018-2023 Radiologex. All rights reserved.
           </p>

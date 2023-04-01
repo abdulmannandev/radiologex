@@ -14,21 +14,23 @@ function HealthcareHappensHere() {
             <h4 className="text-green">
               R-DEE by Radiologex <sup>®</sup>
             </h4>
-            <h1 className="hero-heading mb-4">
+            <h2 className="hero-heading mb-4">
               Healthcare Happens Here
               <sup>TM</sup>
-            </h1>
-            <p className="text text-white w-100 w-md-50 mb-4">
-              The first WEB3 powered network designed from the ground up for
-              global healthcare. Communicate, collaborate, and produce on one
-              powerful, ultra-secure platform available
-            </p>
+            </h2>
+            <div className="hero-inner">
+              <p className="text text-white w-100 w-md-50 mb-4">
+                The first WEB3 powered network designed from the ground up for
+                global healthcare. Communicate, collaborate, and produce on one
+                powerful, ultra-secure platform available
+              </p>
+            </div>
 
             <div className="d-flex gap-3 flex-wrap justify-content-center mb-5">
               <a className="btn btn-secondary mb-3" href="#healthcare_btn">
                 Healthcare Professionals
               </a>
-              <a className="btn btn-green mb-3" href="#patients">
+              <a className="btn btn-green text-white mb-3" href="#patients">
                 Patients
               </a>
             </div>

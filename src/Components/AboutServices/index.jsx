@@ -12,7 +12,7 @@ import "./AboutServices.scss";
 
 function AboutServices() {
   return (
-    <section className="pt-lg pb-lg getrdee-sec">
+    <section className="pt-5 pb-lg getrdee-sec">
       <div className="container">
         <div className="row">
           <div className="col-md-24">

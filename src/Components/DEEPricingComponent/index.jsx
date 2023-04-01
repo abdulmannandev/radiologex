@@ -3,7 +3,7 @@ import image from "./Assets/sec-image-123.jpg";
 
 function DEEPricingComponent() {
   return (
-    <section className="pt-lg pb-lg dee-pricing-box">
+    <section className="pt-normal pb-0 dee-pricing-box">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-24 col-md-24">
@@ -25,12 +25,12 @@ function DEEPricingComponent() {
                 redundancy, all of which severely impact healthcare quality and
                 delivery.
               </p>
-              <br />
-              <br />
               <a className="btn btn-secondary" href="#pricing">
                 Get R-DEE Pricing
               </a>
             </div>
+            <br />
+            <br />
 
             <img src={image} alt="" className="w-100 img-fluid" />
           </div>

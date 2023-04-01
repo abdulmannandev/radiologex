@@ -55,9 +55,6 @@ function ModulesLunchComponent() {
             <span className="medilock-text">Go</span> {""}enfranchises patients.
           </p>
         </div>
-        <br />
-        <br />
-        <br />
       </div>
     </>
   );

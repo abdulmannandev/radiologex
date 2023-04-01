@@ -8,7 +8,7 @@ function Pricing() {
         <div className="section-head px-0 section-head--left">
           <h2 className="section-heading">
             R-DEE Pricing Plans for Healthcare <br />
-            <span className="professional">Professionals</span>
+            <span className="text-secondary">Professionals</span>
           </h2>
           <p className="section-text">
             Choose the plan that works for you or your organizational type
@@ -80,7 +80,7 @@ function Pricing() {
                 <li>All 8 POWERFUL Modules</li>
                 <li>Including R-DEE Scan and Vault</li>
               </ul>
-              <button className="contact-btn">Contact Us For Pricing</button>
+              <button className="btn btn-contact w-100 mt-5">Contact Us For Pricing</button>
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@ function Pricing() {
         <div className="section-head px-0 section-head--left">
           <h2 className="section-heading">
             R-DEE Pricing Plans for <br />{" "}
-            <span className="professional">Patients</span>
+            <span className="text-secondary">Patients</span>
           </h2>
           <p className="section-text">
             Choose the plan that works for you or your family

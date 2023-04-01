@@ -11,7 +11,7 @@ function Web3Section() {
           <div className="col-md-10">
             {/* // section header  */}
             <div className="section-head px-0 section-head--left mb-4 mb-md-0">
-              <h2 className="section-heading text-white">
+              <h2 className="section-heading mb-4 text-white">
                 The R-DEE Advantage Via Web3
               </h2>
               <p className="section-text text-white">
@@ -20,13 +20,13 @@ function Web3Section() {
                 scale.
               </p>
 
-              <p className="text-green">And it’s Better For The Planet*.</p>
+              <p className="lead text-green">And it’s Better For The Planet*.</p>
               <p className="text-white">
                 *Distributed network via PoS/PoV technology utilizes up to 90%
                 fewer energy resources than legacy data networks (centralized
                 data infrastructure).
               </p>
-              <a className="btn btn-secondary" href="#">
+              <a className="btn btn-secondary mt-4" href="#">
                 Read More
               </a>
             </div>

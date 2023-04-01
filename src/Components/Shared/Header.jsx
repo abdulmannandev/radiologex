@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import container from "react-bootstrap/container";
+// import container from "react-bootstrap/container";
 import { ReactComponent as HeaderLogo } from "./../../assets/logo-header.svg";
 // import { ReactComponent as AngleDown } from "./../../assets/icon-downangle.svg";
 
@@ -15,7 +15,7 @@ function Header(props) {
 
   return (
     <header>
-      <Navbar variant="dark" expand="lg">
+      <Navbar className="py-3" variant="dark" expand="lg">
         <div className="container">
           <Navbar.Brand href="#home">
             <HeaderLogo />

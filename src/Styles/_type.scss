@@ -216,9 +216,10 @@ a {
   color: $success;
 }
 
-// .text-main {
-//   color: $primary;
-// }
+.text-secondary {
+  color: $secondary !important;
+}
+
 // .text-main {
 //   @include dark(color, $primary, $primary, "!important");
 // }

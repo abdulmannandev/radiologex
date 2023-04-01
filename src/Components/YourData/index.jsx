@@ -8,7 +8,7 @@ import "./YourData.scss";
 
 function YourData() {
   return (
-    <section className="pt-lg pb-lg your-data">
+    <section className="pt-lg pb-normal your-data">
       <img src={bgImage} alt="" className="bg-image" />
       <div className="container">
         <div className="row">

@@ -9,11 +9,44 @@
      margin-bottom: 12px;
    }
 
-   h1 {
+   .hero-heading {
      color: white;
      font-size: 50px;
+
+     sup {
+       top: -22px;
+       font-size: 16px;
+     }
    }
 
+   .hero-inner {
+     padding: 0 5px;
+
+     // Extra Small devices (landscape phones, 376px and up)
+     @include media-breakpoint-up(xs) {
+       padding: 0 25px;
+     }
+
+     // Small devices (landscape phones, 576px and up)
+     @include media-breakpoint-up(sm) {
+       padding: 0 25px;
+     }
+
+     // Medium devices (tablets, 768px and up)
+     @include media-breakpoint-up(md) {
+       padding: 0 15%;
+     }
+
+     // Large devices (desktops, 992px and up)
+     @include media-breakpoint-up(lg) {
+       padding: 0 20%;
+     }
+
+     // X-Large devices (large desktops, 1200px and up)
+     @include media-breakpoint-up(xl) {
+       padding: 0 25%;
+     }
+   }
  }
 
  .hero-image {
