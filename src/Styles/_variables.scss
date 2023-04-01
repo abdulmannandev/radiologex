@@ -1,0 +1,178 @@
+ // Configuration
+ @import "./../../node_modules/bootstrap/scss/functions";
+ @import "./../../node_modules/bootstrap/scss/variables";
+ @import "./../../node_modules/bootstrap/scss/maps";
+ @import "./../../node_modules/bootstrap/scss/mixins";
+
+ @font-face {
+   font-family: "Helveticas";
+   src: url("./../Font/HelveticaNeueUltraLight.ttf");
+   font-weight: 300;
+ }
+
+ $font-family-main: 'Helveticas', sans-serif;
+ $font-family-sec: 'Segoe UI', sans-serif;
+ $font-family-main: 'Noto Sans', sans-serif;
+ $font-family-sec: 'Roboto', sans-serif;
+
+ $container-margins: 30px;
+ $container-margins-xs: 30px;
+ $container-margins-sm: 40px;
+ $container-margins-md: 80px;
+ $container-margins-lg: 100px;
+ $container-margins-xl: 120px;
+ $container-margins-xxl: 120px;
+
+ /// Slightly lighten a color 
+ @function tint($color, $percentage) {
+   @return mix(white, $color, $percentage);
+ }
+
+ /// Slightly darken a color 
+ @function shade($color, $percentage) {
+   @return mix(black, $color, $percentage);
+ }
+
+ // Color system 
+ //
+ $primary: #7836FF;
+ $primary-100: shade($primary, 9%);
+ $primary-200: shade($primary, 18%);
+ $primary-300: shade($primary, 27%);
+ $primary-400: shade($primary, 36%);
+ $primary-500: shade($primary, 45%);
+ $primary-600: shade($primary, 54%);
+ $primary-700: shade($primary, 63%);
+ $primary-800: shade($primary, 72%);
+ $primary-900: shade($primary, 81%);
+ $primary-900: shade($primary, 80%);
+
+ // Color scheme 
+ $success: #4AEA87;
+ $primary-active: lighten($primary, 5%);
+ $primary-hover: darken($primary, 10%);
+ $secondary: #FD4B4B;
+ //  $light : #FCF9F4;
+ $light : #F2F2F2;
+ $dark : #1A0F24;
+ $dark-2 : #1A0F24;
+ $body : #fff;
+
+ $text-color : #000;
+ $pure-white : #fff;
+ 
+ // Theme colors
+ $theme-colors: (
+   "main": $primary,
+   "secondary": $secondary,
+   "green": $success,
+   "light": $light,
+   "dark": $text-color
+ );
+
+ // Create your own map
+ //  $custom-colors: (
+ //    "custom": #4AEA87
+ //  );
+
+ // Merge the maps
+ //  $theme-colors: map-merge($theme-colors, $custom-colors);
+
+ // remove color
+ $theme-colors: map-remove($theme-colors, "warning", "danger", "primary");
+
+ // Customize the light and dark text colors for use in our color contrast function.
+ //  $color-contrast-dark : $dark;
+ //  $color-contrast-light: $white;
+
+ // Body 
+ $body-bg : $body;
+ //  $body-color : $primary; 
+ // 
+ // Typography 
+ $font-family-sans-serif: $font-family-main;
+
+ // DARK & LIGHT Mode
+ .dark-mode,
+ :root {
+   --bs-body-font-family: #{$font-family-main};
+   --font-family-sec: #{$font-family-sec};
+
+   --bs-primary-rgb: #{$primary};
+   --primary: #{$primary};
+   --main: #{$primary};
+   --secondary: #{$secondary};
+   --light: #{$light};
+   --dark: #{$dark};
+   --dark-2: #{$dark-2};
+   --dark-3: #{$dark-2};
+   --white: #{$white};
+   --text-color: #{$text-color};
+   --pure-white: #{$pure-white};
+
+   --bs-body-color: #000;
+   --bs-body-bg: #{$body-bg};
+ }
+
+ @media (prefers-color-scheme: light) {}
+
+ /* Dark mode */
+ @media (prefers-color-scheme: dark) {}
+
+ @media (prefers-reduced-motion: no-preference) {
+   //  .App-logo {
+   //    animation: App-logo-spin infinite 20s linear;
+   //  }
+ }
+
+ // Set a specific jump point for requesting color jumps
+ $theme-color-interval: 8%;
+
+ // Paragraphs 
+ $paragraph-margin-bottom: 1rem;
+
+ // Grid breakpoints  
+ $grid-breakpoints: (
+   xxs: 0,
+   xs: 376px,
+   sm: 576px,
+   md: 768px,
+   lg: 992px,
+   xl: 1200px,
+   xxl: 1400px
+ );
+
+ // Grid containers 
+ //  $container-max-widths: (
+ //    xxs: 0,
+ //    xs: 386px,
+ //    sm: 540px,
+ //    md: 720px,
+ //    lg: 960px,
+ //    xl: 1140px,
+ //    xxl: 1320px
+ //  );
+
+ // 
+ // Margin and padding 
+ // 
+ // $spacer: 1rem;
+ // $spacers: (
+ //   0: 0,
+ //   1: $spacer * .25,
+ //   2: $spacer * .5,
+ //   3: $spacer,
+ //   4: $spacer * 1.5,
+ //   5: 150px,
+ // );
+
+ // Grid columns  
+ $grid-columns : 24;
+ $grid-gutter-width: 1.5rem;
+ $grid-gutter-width: 24px;
+ $grid-row-columns : 6;
+
+ // Container padding  
+ $paragraph-font-size : 1rem;
+ $paragraph-font-weight: 300;
+ $paragraph-line-height: 1.6;

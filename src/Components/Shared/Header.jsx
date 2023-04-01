@@ -1,24 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import container from "react-bootstrap/container";
+import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import container from "react-bootstrap/container";
+import { ReactComponent as HeaderLogo } from "./../../assets/logo-header.svg";
+// import { ReactComponent as AngleDown } from "./../../assets/icon-downangle.svg";
+
+import "./Header.scss";
 
 function Header(props) {
   const { menuItems } = props;
 
   return (
     <header>
-      <Navbar bg="light" expand="lg">
-        <container>
-          <Navbar.Brand as={Link} to="/">
-            React-Bootstrap
+      <Navbar variant="dark" expand="lg">
+        <Container>
+          <Navbar.Brand href="#home">
+            <HeaderLogo />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="ms-auto">
               {menuItems.map((menuItem) => (
                 <>
                   {menuItem.dropdown ? (
@@ -45,7 +50,7 @@ function Header(props) {
                     <li key={menuItem.id} className="nav-item">
                       <Link
                         to={menuItem.url}
-                        className="btn btn-primary"
+                        className="btn btn-secondary"
                         role="button"
                       >
                         {menuItem.label}
@@ -56,7 +61,7 @@ function Header(props) {
               ))}
             </Nav>
           </Navbar.Collapse>
-        </container>
+        </Container>
       </Navbar>
     </header>
   );

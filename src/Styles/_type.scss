@@ -1,0 +1,224 @@
+@import "./variables";
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+p {
+  --bs-body-font-size: 14px;
+  font-size: 14px;
+
+  // Extra Small devices (landscape phones, 376px and up)
+  @include media-breakpoint-up(xs) {
+    --bs-body-font-size: 14px;
+    font-size: 14px;
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @include media-breakpoint-up(sm) {
+    --bs-body-font-size: 15px;
+    font-size: 15px;
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @include media-breakpoint-up(md) {
+    --bs-body-font-size: 15px;
+    font-size: 15px;
+  }
+
+  // Large devices (desktops, 992px and up)
+  @include media-breakpoint-up(lg) {
+    --bs-body-font-size: 16px;
+    font-size: 16px;
+  }
+
+  // X-Large devices (large desktops, 1200px and up)
+  @include media-breakpoint-up(xl) {
+    --bs-body-font-size: 16px;
+    font-size: 16px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: var(--bs-body-font-family);
+}
+
+p,
+ol li,
+ul li,
+.p {
+  font-family: var(--font-family-sec);
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+iframe {
+  border: 0;
+}
+
+figcaption,
+figure,
+main {
+  display: block;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+strong {
+  font-weight: $font-weight-bold;
+}
+
+button:focus {
+  outline: 0;
+}
+
+label {
+  font-weight: $font-weight-bold;
+  margin-bottom: .5rem;
+}
+
+a,
+.text-action {
+  color: $link-color;
+  transition: $transition-base;
+
+  &:hover {
+    color: $link-hover-color;
+    cursor: pointer;
+  }
+}
+
+.lead {}
+
+.line-through {
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.text-italic {
+  font-style: italic !important;
+}
+
+// underline on hover 
+.hover\:underline {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.truncate-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+// FONT FAMILY
+.font-sec {
+  font-family: var(--font-family-sec);
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: $primary var(--text-color);
+}
+
+/* Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+  width: 5px;
+  max-width: 12px;
+  background-color: #F5F5F5;
+
+
+  // Extra Small devices (landscape phones, 376px and up)
+  @include media-breakpoint-up(xs) {
+    width: 5px;
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @include media-breakpoint-up(sm) {
+    width: 7px;
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @include media-breakpoint-up(md) {
+    width: 8px;
+  }
+
+  // Large devices (desktops, 992px and up)
+  @include media-breakpoint-up(lg) {
+    width: 10px;
+  }
+
+  // X-Large devices (large desktops, 1200px and up)
+  @include media-breakpoint-up(xl) {}
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 1px;
+  background-color: #F5F5F5;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 1px;
+  border: 1px solid var(--text-color);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: $primary;
+
+  &:hover {
+    border-radius: 1px;
+    background-color: darken($primary, 20%);
+  }
+}
+
+
+// COLORs & BGs 
+.text-light {}
+
+.text-white {}
+
+.text-main {
+  color: $primary;
+}
+
+.text-success,
+.text-green {
+  color: $success;
+}
+
+// .text-main {
+//   color: $primary;
+// }
+// .text-main {
+//   @include dark(color, $primary, $primary, "!important");
+// }

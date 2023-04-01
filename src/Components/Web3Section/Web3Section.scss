@@ -1,0 +1,74 @@
+/* ======= YourData style start ======= */
+.web3-section {
+  background-color: #17171d;
+  position: relative;
+}
+
+.section-head {
+  p {
+    padding-bottom: 25px;
+    line-height: 1.8;
+    font-weight: 400;
+  }
+}
+
+$custom-card-bg: #17171D;
+
+.custom-card {
+  height: 100%;
+  border: 0;
+  border-radius: 22px;
+  overflow: hidden;
+  padding: 2px;
+  background-image: linear-gradient(to bottom, #4AEA87, #FFFFFF00);
+
+  .card-inner {
+    height: 100%;
+    border-radius: 22px;
+    padding: 20px;
+    background-color: $custom-card-bg;
+  }
+
+  &.first {}
+
+  &.second {
+    background-image: linear-gradient(to bottom, $custom-card-bg, #FD4B4B);
+  }
+
+  &.third {
+    background-image: linear-gradient(to bottom, #17171D00, #7836FF);
+  }
+
+  h3 {
+    color: #fff;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  p {
+    line-height: 1.4;
+    font-weight: 400;
+    font-size: 15px;
+    color: #8e8e8e;
+  }
+
+  .biometric-icon {
+    background: #4aea87;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+
+    &.empowered-bg {
+      background-color: #7836ff !important;
+    }
+
+    &.trust-bg {
+      background-color: #fd4b4b !important;
+    }
+  }
+}

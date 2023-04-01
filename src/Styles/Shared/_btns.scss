@@ -1,0 +1,39 @@
+.btn {
+  border-radius: 28px;
+
+  &-secondary {
+    color: #fff;
+
+    &:hover,
+    &:focus,
+    &:active {
+      box-shadow: 0 0 10px 0 #fd4b4b inset, 0 0 10px 4px #fd4b4b !important;
+      color: #fff;
+    }
+  }
+
+}
+
+
+.btn:not(.btn-lg):not(.btn-sm) {
+  padding: 0.75rem 3rem;
+
+  // Extra Small devices (landscape phones, 376px and up)
+  @include media-breakpoint-up(xs) {}
+
+  // Small devices (landscape phones, 576px and up)
+  @include media-breakpoint-up(sm) {
+    padding: 0.75rem 3rem;
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @include media-breakpoint-up(md) {}
+
+  // Large devices (desktops, 992px and up)
+  @include media-breakpoint-up(lg) {
+    padding: 0.75rem 3rem;
+  }
+
+  // X-Large devices (large desktops, 1200px and up)
+  @include media-breakpoint-up(xl) {}
+}

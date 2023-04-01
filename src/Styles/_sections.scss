@@ -1,0 +1,292 @@
+.section-head {
+  .section-sub-heading {
+    font-style: normal;
+    font-weight: 500;
+    color: #FD4B4B;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .section-heading {
+    font-style: normal;
+    font-weight: 600;
+    color: #17171D;
+    font-size: 20px;
+    line-height: 25px;
+
+    // Extra Small devices (landscape phones, 376px and up)
+    @include media-breakpoint-up(xs) {}
+
+    // Small devices (landscape phones, 576px and up)
+    @include media-breakpoint-up(sm) {
+      font-size: 28px;
+      line-height: 34px;
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @include media-breakpoint-up(md) {}
+
+    // Large devices (desktops, 992px and up)
+    @include media-breakpoint-up(lg) {
+      font-size: 40px;
+      line-height: 50px;
+    }
+
+    // X-Large devices (large desktops, 1200px and up)
+    @include media-breakpoint-up(xl) {}
+
+
+    span {
+      display: inline-flex;
+      align-items: start;
+    }
+
+    sub,
+    sup {
+      top: 15px;
+      font-size: 12px;
+    }
+  }
+
+  .section-text {
+    font-style: normal;
+    font-weight: 400;
+    color: #8E8E8E;
+    font-size: 14px;
+    line-height: 24px;
+
+    // Extra Small devices (landscape phones, 376px and up)
+    @include media-breakpoint-up(xs) {}
+
+    // Small devices (landscape phones, 576px and up)
+    @include media-breakpoint-up(sm) {
+      font-size: 15px;
+      line-height: 28px;
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @include media-breakpoint-up(md) {}
+
+    // Large devices (desktops, 992px and up)
+    @include media-breakpoint-up(lg) {
+      font-size: 16px;
+      line-height: 28px;
+    }
+
+    // X-Large devices (large desktops, 1200px and up)
+    @include media-breakpoint-up(xl) {}
+  }
+
+  &--left {
+
+    .heading {}
+  }
+
+  padding: 0 1rem;
+
+  // Extra Small devices (landscape phones, 376px and up)
+  @include media-breakpoint-up(xs) {
+    padding: 0 2rem;
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @include media-breakpoint-up(sm) {
+    padding: 0 3rem;
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @include media-breakpoint-up(md) {
+    padding: 0 4rem;
+  }
+
+  // Large devices (desktops, 992px and up)
+  @include media-breakpoint-up(lg) {
+    padding: 0 5rem;
+  }
+
+  // X-Large devices (large desktops, 1200px and up)
+  @include media-breakpoint-up(xl) {
+    padding: 0 7rem;
+  }
+}
+
+$sec-padding: 30px;
+$sec-padding-xs: 50px;
+$sec-padding-sm: 60px;
+$sec-padding-md: 70px;
+$sec-padding-lg: 80px;
+$sec-padding-xl: 100px;
+
+.pt-normal {
+  padding-top: calc($sec-padding/2);
+
+  // Extra Small devices (landscape phones, 376px and up)
+  @include media-breakpoint-up(xs) {
+    padding-top: calc($sec-padding-xs/2);
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @include media-breakpoint-up(sm) {
+    padding-top: calc($sec-padding-sm/2);
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @include media-breakpoint-up(md) {
+    padding-top: calc($sec-padding-md/2);
+  }
+
+  // Large devices (desktops, 992px and up)
+  @include media-breakpoint-up(lg) {
+    padding-top: calc($sec-padding-lg/2);
+  }
+
+  // X-Large devices (large desktops, 1200px and up)
+  @include media-breakpoint-up(xl) {
+    padding-top: calc($sec-padding-xl/2);
+  }
+}
+
+.pb-normal {
+  padding-bottom: calc($sec-padding/2);
+
+  // Extra Small devices (landscape phones, 376px and up)
+  @include media-breakpoint-up(xs) {
+    padding-bottom: calc($sec-padding-xs/2);
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @include media-breakpoint-up(sm) {
+    padding-bottom: calc($sec-padding-sm/2);
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @include media-breakpoint-up(md) {
+    padding-bottom: calc($sec-padding-md/2);
+  }
+
+  // Large devices (desktops, 992px and up)
+  @include media-breakpoint-up(lg) {
+    padding-bottom: calc($sec-padding-xl/2);
+  }
+
+  // X-Large devices (large desktops, 1200px and up)
+  @include media-breakpoint-up(xl) {
+    padding-bottom: calc($sec-padding-xl/2);
+  }
+}
+
+.pt-lg {
+  padding-top: $sec-padding;
+
+  // Extra Small devices (landscape phones, 376px and up)
+  @include media-breakpoint-up(xs) {
+    padding-top: $sec-padding-xs;
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @include media-breakpoint-up(sm) {
+    padding-top: $sec-padding-sm;
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @include media-breakpoint-up(md) {
+    padding-top: $sec-padding-md;
+  }
+
+  // Large devices (desktops, 992px and up)
+  @include media-breakpoint-up(lg) {
+    padding-top: $sec-padding-lg;
+  }
+
+  // X-Large devices (large desktops, 1200px and up)
+  @include media-breakpoint-up(xl) {
+    padding-top: $sec-padding-xl;
+  }
+}
+
+.pb-lg {
+  padding-bottom: $sec-padding;
+
+  // Extra Small devices (landscape phones, 376px and up)
+  @include media-breakpoint-up(xs) {
+    padding-bottom: $sec-padding-xs;
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @include media-breakpoint-up(sm) {
+    padding-bottom: $sec-padding-sm;
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @include media-breakpoint-up(md) {
+    padding-bottom: $sec-padding-md;
+  }
+
+  // Large devices (desktops, 992px and up)
+  @include media-breakpoint-up(lg) {
+    padding-bottom: $sec-padding-lg;
+  }
+
+  // X-Large devices (large desktops, 1200px and up)
+  @include media-breakpoint-up(xl) {
+    padding-bottom: $sec-padding-xl;
+  }
+}
+
+.py-normal {
+  padding: $sec-padding 0;
+
+  // Extra Small devices (landscape phones, 376px and up)
+  @include media-breakpoint-up(xs) {
+    padding: $sec-padding-xs 0;
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @include media-breakpoint-up(sm) {
+    padding: $sec-padding-sm 0;
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @include media-breakpoint-up(md) {
+    padding: $sec-padding-md 0;
+  }
+
+  // Large devices (desktops, 992px and up)
+  @include media-breakpoint-up(lg) {
+    padding: $sec-padding-lg 0;
+  }
+
+  // X-Large devices (large desktops, 1200px and up)
+  @include media-breakpoint-up(xl) {
+    padding: $sec-padding-xl 0;
+  }
+}
+
+.py-lg {
+  padding: $sec-padding 0;
+
+  // Extra Small devices (landscape phones, 376px and up)
+  @include media-breakpoint-up(xs) {
+    padding: $sec-padding-xs 0;
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @include media-breakpoint-up(sm) {
+    padding: $sec-padding-sm 0;
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @include media-breakpoint-up(md) {
+    padding: $sec-padding-md 0;
+  }
+
+  // Large devices (desktops, 992px and up)
+  @include media-breakpoint-up(lg) {
+    padding: $sec-padding-lg 0;
+  }
+
+  // X-Large devices (large desktops, 1200px and up)
+  @include media-breakpoint-up(xl) {
+    padding: $sec-padding-xl 0;
+  }
+}

@@ -3,12 +3,12 @@ import GetRDeeComponent from "./../Components/GetRDeeComponent";
 import CardsComponent from "./../Components/CardsComponent";
 import ModulesLunchComponent from "./../Components/ModulesLunchComponent";
 import AboutServices from "../Components/AboutServices";
-import AdvantageViaWeb3 from "../Components/AdvantageViaWeb3";
+import Web3Section from "../Components/Web3Section";
+import YourData from "../Components/YourData";
 import DEEPricingComponent from "./../Components/DEEPricingComponent";
-import TechnologyID from "../Components/TechnologyID";
-import TestimonialsComponent from "./../Components/TestimonialsComponent";
+import Testimonial from "./../Components/Testimonial";
 import PressNewsComponent from "./../Components/PressNewsComponent";
-import PricePlan from "./../Components/PricePlan";
+import Pricing from "./../Components/Pricing";
 
 function HomePage() {
   // const [title, setTitle] = ["title"];
@@ -20,12 +20,12 @@ function HomePage() {
       <CardsComponent />
       <ModulesLunchComponent />
       <AboutServices />
-      <AdvantageViaWeb3 />
-      <TechnologyID />
+      <Web3Section />
+      <YourData />
       <DEEPricingComponent />
-      <TestimonialsComponent />
+      <Testimonial />
       <PressNewsComponent />
-      <PricePlan />
+      <Pricing />
     </>
   );
 }

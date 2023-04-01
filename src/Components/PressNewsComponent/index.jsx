@@ -1,6 +1,6 @@
 import React from "react";
 
-import { ReactComponent as BottomLogo } from "./../../assets/bottom-logo.svg";
+import { ReactComponent as Arrow } from "./Assets/Arrow.svg";
 import CardImage from "./Assets/sec-img-1.png";
 import CardImage2 from "./Assets/sec-img-2.png";
 import CardImage3 from "./Assets/sec-img-3.png";
@@ -13,14 +13,14 @@ import "./PressNewsComponent.scss";
 
 function PressNewsComponent() {
   return (
-    <section className="press-box-section">
+    <section className="pt-lg pb-nomral press-box-section">
       <div className="container">
         <div className="see-all-box d-flex justify-content-between flex-wrap">
           <h1>In The Press</h1>
           <button>View All</button>
         </div>
         <div className="row justify-content-center">
-          <div className="col-md-6 mb-4">
+          <div className="col-md-12 mb-4">
             <div className="news-cards">
               <div>
                 <img src={CardImage} alt="" />
@@ -33,23 +33,12 @@ function PressNewsComponent() {
                 </p>
                 <div className="read-more">
                   <p>Read More</p>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="12px"
-                    width="33px"
-                    viewBox="0 0 32 16"
-                    fill="none"
-                  >
-                    <path
-                      d="M1 7C0.447715 7 0 7.44772 0 8C0 8.55228 0.447715 9 1 9V7ZM31.7071 8.70711C32.0976 8.31658 32.0976 7.68342 31.7071 7.29289L25.3431 0.928932C24.9526 0.538408 24.3195 0.538408 23.9289 0.928932C23.5384 1.31946 23.5384 1.95262 23.9289 2.34315L29.5858 8L23.9289 13.6569C23.5384 14.0474 23.5384 14.6805 23.9289 15.0711C24.3195 15.4616 24.9526 15.4616 25.3431 15.0711L31.7071 8.70711ZM1 9H31V7H1V9Z"
-                      fill="#1A8BF3"
-                    />
-                  </svg>
+                  <Arrow />
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-3 mb-4">
+          <div className="col-md-6 mb-4">
             <div className="news-cards">
               <div>
                 <img src={CardImage2} alt="" />
@@ -62,23 +51,12 @@ function PressNewsComponent() {
                 </p>
                 <div className="read-more">
                   <p>Read More</p>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="12px"
-                    width="33px"
-                    viewBox="0 0 32 16"
-                    fill="none"
-                  >
-                    <path
-                      d="M1 7C0.447715 7 0 7.44772 0 8C0 8.55228 0.447715 9 1 9V7ZM31.7071 8.70711C32.0976 8.31658 32.0976 7.68342 31.7071 7.29289L25.3431 0.928932C24.9526 0.538408 24.3195 0.538408 23.9289 0.928932C23.5384 1.31946 23.5384 1.95262 23.9289 2.34315L29.5858 8L23.9289 13.6569C23.5384 14.0474 23.5384 14.6805 23.9289 15.0711C24.3195 15.4616 24.9526 15.4616 25.3431 15.0711L31.7071 8.70711ZM1 9H31V7H1V9Z"
-                      fill="#1A8BF3"
-                    />
-                  </svg>
+                  <Arrow />
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-3 mb-4">
+          <div className="col-md-6 mb-4">
             <div className="news-cards">
               <div>
                 <img src={CardImage3} alt="" />
@@ -91,23 +69,12 @@ function PressNewsComponent() {
                 </p>
                 <div className="read-more">
                   <p>Read More</p>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="12px"
-                    width="33px"
-                    viewBox="0 0 32 16"
-                    fill="none"
-                  >
-                    <path
-                      d="M1 7C0.447715 7 0 7.44772 0 8C0 8.55228 0.447715 9 1 9V7ZM31.7071 8.70711C32.0976 8.31658 32.0976 7.68342 31.7071 7.29289L25.3431 0.928932C24.9526 0.538408 24.3195 0.538408 23.9289 0.928932C23.5384 1.31946 23.5384 1.95262 23.9289 2.34315L29.5858 8L23.9289 13.6569C23.5384 14.0474 23.5384 14.6805 23.9289 15.0711C24.3195 15.4616 24.9526 15.4616 25.3431 15.0711L31.7071 8.70711ZM1 9H31V7H1V9Z"
-                      fill="#1A8BF3"
-                    />
-                  </svg>
+                  <Arrow />
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-4 mb-4">
+          <div className="col-md-8 mb-4">
             <div className="news-cards">
               <div>
                 <img src={CardImage4} alt="" />
@@ -120,23 +87,12 @@ function PressNewsComponent() {
                 </p>
                 <div className="read-more">
                   <p>Read More</p>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="12px"
-                    width="33px"
-                    viewBox="0 0 32 16"
-                    fill="none"
-                  >
-                    <path
-                      d="M1 7C0.447715 7 0 7.44772 0 8C0 8.55228 0.447715 9 1 9V7ZM31.7071 8.70711C32.0976 8.31658 32.0976 7.68342 31.7071 7.29289L25.3431 0.928932C24.9526 0.538408 24.3195 0.538408 23.9289 0.928932C23.5384 1.31946 23.5384 1.95262 23.9289 2.34315L29.5858 8L23.9289 13.6569C23.5384 14.0474 23.5384 14.6805 23.9289 15.0711C24.3195 15.4616 24.9526 15.4616 25.3431 15.0711L31.7071 8.70711ZM1 9H31V7H1V9Z"
-                      fill="#1A8BF3"
-                    />
-                  </svg>
+                  <Arrow />
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-4 mb-4">
+          <div className="col-md-8 mb-4">
             <div className="news-cards">
               <div>
                 <img src={CardImage5} alt="" />
@@ -149,23 +105,12 @@ function PressNewsComponent() {
                 </p>
                 <div className="read-more">
                   <p>Read More</p>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="12px"
-                    width="33px"
-                    viewBox="0 0 32 16"
-                    fill="none"
-                  >
-                    <path
-                      d="M1 7C0.447715 7 0 7.44772 0 8C0 8.55228 0.447715 9 1 9V7ZM31.7071 8.70711C32.0976 8.31658 32.0976 7.68342 31.7071 7.29289L25.3431 0.928932C24.9526 0.538408 24.3195 0.538408 23.9289 0.928932C23.5384 1.31946 23.5384 1.95262 23.9289 2.34315L29.5858 8L23.9289 13.6569C23.5384 14.0474 23.5384 14.6805 23.9289 15.0711C24.3195 15.4616 24.9526 15.4616 25.3431 15.0711L31.7071 8.70711ZM1 9H31V7H1V9Z"
-                      fill="#1A8BF3"
-                    />
-                  </svg>
+                  <Arrow />
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-4 mb-4">
+          <div className="col-md-8 mb-4">
             <div className="news-cards">
               <div>
                 <img src={CardImage6} alt="" />
@@ -178,18 +123,7 @@ function PressNewsComponent() {
                 </p>
                 <div className="read-more">
                   <p>Read More</p>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="12px"
-                    width="33px"
-                    viewBox="0 0 32 16"
-                    fill="none"
-                  >
-                    <path
-                      d="M1 7C0.447715 7 0 7.44772 0 8C0 8.55228 0.447715 9 1 9V7ZM31.7071 8.70711C32.0976 8.31658 32.0976 7.68342 31.7071 7.29289L25.3431 0.928932C24.9526 0.538408 24.3195 0.538408 23.9289 0.928932C23.5384 1.31946 23.5384 1.95262 23.9289 2.34315L29.5858 8L23.9289 13.6569C23.5384 14.0474 23.5384 14.6805 23.9289 15.0711C24.3195 15.4616 24.9526 15.4616 25.3431 15.0711L31.7071 8.70711ZM1 9H31V7H1V9Z"
-                      fill="#1A8BF3"
-                    />
-                  </svg>
+                  <Arrow />
                 </div>
               </div>
             </div>
@@ -204,12 +138,13 @@ function PressNewsComponent() {
           }}
         >
           <div className="row align-items-center">
-            <div className="col-md-6">
-              <div className="established__box">
-                <h1>
+            <div className="col-md-13">
+              {/* // section header  */}
+              <div className="section-head px-0 section-head--left">
+                <h2 className="section-heading mb-4">
                   A New Standard <br /> And Established Ones Too
-                </h1>
-                <p>
+                </h2>
+                <p className="section-text">
                   R-DEE's technology has been tested and certified by the ONC of
                   the US Department of Human and Health Services (HHS), and has
                   attained ISO 9001 and 27001 Certifications for Quality
@@ -217,10 +152,12 @@ function PressNewsComponent() {
                   integrates easily and seamlessly, exceeds HIPAA compliance and
                   adheres to CDCA, HL7 FHIR, and SOC2 standardizations.
                 </p>
-                <button>View Certifications</button>
+                <button className="btn btn-secondary">
+                  View Certifications
+                </button>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-11">
               <img className="img-fluid w-100" src={sectionLogos} alt="" />
             </div>
           </div>

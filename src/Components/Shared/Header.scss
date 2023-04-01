@@ -1,0 +1,40 @@
+.navbar {
+  background-color: #17171d !important;
+
+  .navbar-brand {}
+
+  .navbar-toggler {
+
+    .navbar-toggler-icon {}
+  }
+
+
+  .navbar-nav {
+    align-items: center;
+
+    .nav-item {
+
+      .nav-link {
+        padding: 5px 15px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #FFFFFF;
+
+        &:hover {
+          color: $success;
+        }
+      }
+
+      &.active {
+        .nav-link {
+          color: $success;
+        }
+      }
+    }
+  }
+
+  .btn {
+    padding: 0.5rem 1.5rem !important;
+  }
+}

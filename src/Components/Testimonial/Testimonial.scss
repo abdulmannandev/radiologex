@@ -1,0 +1,55 @@
+/* ======= Testimonial style start ======= */
+.testimonials {
+  background-color: #f9f9f9;
+}
+
+.splide__arrow {
+  position: static !important;
+}
+
+.splide__arrows,
+.splide__pagination {
+  display: none !important;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+
+  .button {
+    outline: none;
+    border: 0;
+    background: #ffffff;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.1);
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+    position: static !important;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: darken($secondary, 15%);
+
+      svg,
+      path {
+        fill: #fff;
+      }
+    }
+
+    &:disabled {}
+
+    &--prev-btn {
+      .PrevBtn {}
+    }
+
+    &--next-btn {
+      .NextBtn {}
+    }
+  }
+}

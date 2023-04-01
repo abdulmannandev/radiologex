@@ -1,0 +1,52 @@
+.testimonial {
+  background-color: #ffffff;
+  border-radius: 12px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px;
+
+  &-company-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #17171D;
+  }
+
+  &-founder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FD4B4B;
+  }
+
+  &-text {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    text-align: center;
+  }
+
+  $rating-color: #F5D028;
+
+  .ratings {
+    &-item {
+      font-size: 26px;
+      margin: 0 1px;
+      color: gray;
+    }
+
+    $ratingCount: 5;
+
+    @for $i from 1 through $ratingCount {
+      &-#{$i} {
+        .ratings-item:nth-child(-n+#{$i}) {
+          color: $rating-color;
+        }
+      }
+    }
+  }
+}

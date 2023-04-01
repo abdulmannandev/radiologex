@@ -14,7 +14,7 @@ function CardsComponent() {
     >
       <div className="container">
         <div className="row">
-          <div className="col-md-6 mb-4">
+          <div className="col-md-12 mb-4">
             <div className="card-container">
               <div className="icon">
                 <img src={MaskIcon} alt="" />
@@ -26,7 +26,7 @@ function CardsComponent() {
               </p>
             </div>
           </div>
-          <div className="col-md-6 mb-4">
+          <div className="col-md-12 mb-4">
             <div className="card-container">
               <div className="icon">
                 <img src={MaskIcon2} alt="" />

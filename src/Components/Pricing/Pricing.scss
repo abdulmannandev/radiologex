@@ -1,0 +1,119 @@
+/* ======= Pricing style start ======= */
+.pricing {
+  background-color: #f9f9f9;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.price-plan-box h1,
+.price-plan-patients h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 55px;
+  padding-bottom: 30px;
+  margin-bottom: 5px;
+}
+
+.professional {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fd4b4b;
+}
+
+.price-plan-card {
+  background: #ffffff;
+  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.price-plan-card h3 {
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.price-plan-card ul {
+  padding-left: 30px;
+}
+
+.price-plan-card ul li {
+  padding-bottom: 4px;
+  color: #8e8e8e;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.price-plan-card ul li::marker {
+  color: #7836ff;
+  font-size: 30px;
+}
+
+.payment-status {
+  font-size: 16px;
+  color: #7836ff;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.clinical-plan .payment-status,
+.clinical-plan ul li::marker {
+  color: #fd4b4b;
+}
+
+.vendor-plan .payment-status,
+.vendor-plan ul li::marker {
+  color: #4aea87;
+}
+
+.request-plan .payment-status,
+.request-plan ul li::marker {
+  color: #1a8bf3;
+}
+
+.premium-plan .payment-status,
+.premium-plan ul li::marker {
+  color: #4aea87;
+}
+
+.note {
+  font-size: 16px;
+  margin-bottom: 10px;
+  word-spacing: 4px;
+  font-weight: 400;
+  color: #8e8e8e;
+  text-transform: capitalize;
+}
+
+.contact-btn {
+  background: rgba(26, 139, 243, 0.1);
+  border-radius: 28px;
+  width: 100%;
+  height: 56px;
+  padding: 15px;
+  border: none;
+  color: #1a8bf3;
+  font-size: 16px;
+  margin-top: 70px;
+  font-weight: 100;
+}
+
+.contact-btn:hover {
+  box-shadow: 0 0 10px 0 #1a8bf3 !important;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.price-plan-patients {
+  padding-top: 70px;
+}
+
+.patient-card button {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
