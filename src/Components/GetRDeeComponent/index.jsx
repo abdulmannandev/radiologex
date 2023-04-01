@@ -14,10 +14,10 @@ function GetRDeeComponent() {
     >
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-md-12">
+          <div className="col-lg-12 col-md-24">
             <img className="sec-img img-fluid w-100" src={iphone} alt="" />
           </div>
-          <div className="col-md-12">
+          <div className="col-lg-12 col-md-24">
             <div className="text-content">
               <h3>
                 <span>GET R-DEE.</span> Meet the R-DEE Network.

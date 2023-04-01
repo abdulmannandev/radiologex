@@ -20,7 +20,7 @@ function PressNewsComponent() {
           <button>View All</button>
         </div>
         <div className="row justify-content-center">
-          <div className="col-md-12 mb-4">
+          <div className="col-lg-12 col-md-12 col-24 mb-4">
             <div className="news-cards">
               <div>
                 <img src={CardImage} alt="" />
@@ -38,7 +38,7 @@ function PressNewsComponent() {
               </div>
             </div>
           </div>
-          <div className="col-md-6 mb-4">
+          <div className="col-lg-6 col-md-12 col-24 mb-4">
             <div className="news-cards">
               <div>
                 <img src={CardImage2} alt="" />
@@ -56,7 +56,7 @@ function PressNewsComponent() {
               </div>
             </div>
           </div>
-          <div className="col-md-6 mb-4">
+          <div className="col-lg-6 col-md-12 col-24 mb-4">
             <div className="news-cards">
               <div>
                 <img src={CardImage3} alt="" />
@@ -74,7 +74,7 @@ function PressNewsComponent() {
               </div>
             </div>
           </div>
-          <div className="col-md-8 mb-4">
+          <div className="col-lg-8 col-md-12 col-24 mb-4">
             <div className="news-cards">
               <div>
                 <img src={CardImage4} alt="" />
@@ -92,7 +92,7 @@ function PressNewsComponent() {
               </div>
             </div>
           </div>
-          <div className="col-md-8 mb-4">
+          <div className="col-lg-8 col-md-12 col-24 mb-4">
             <div className="news-cards">
               <div>
                 <img src={CardImage5} alt="" />
@@ -110,7 +110,7 @@ function PressNewsComponent() {
               </div>
             </div>
           </div>
-          <div className="col-md-8 mb-4">
+          <div className="col-md-8 col-md-12 col-24 mb-4">
             <div className="news-cards">
               <div>
                 <img src={CardImage6} alt="" />

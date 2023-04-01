@@ -8,9 +8,9 @@ function Web3Section() {
     <section className="pt-lg pb-lg web3-section">
       <div className="container">
         <div className="row">
-          <div className="col-md-10">
+          <div className="col-lg-10 col-md-24">
             {/* // section header  */}
-            <div className="section-head px-0 section-head--left mb-4 mb-md-0">
+            <div className="section-head px-0 section-head--left mb-4 mb-md-4 mb-lg-0">
               <h2 className="section-heading mb-4 text-white">
                 The R-DEE Advantage Via Web3
               </h2>
@@ -31,7 +31,7 @@ function Web3Section() {
               </a>
             </div>
           </div>
-          <div className="col-md-14">
+          <div className="col-lg-14 col-md-24">
             <div className="row">
               <div className="col-md-12 mb-4 mb-md-4">
                 <div className="custom-card first">

@@ -17,7 +17,7 @@ function Pricing() {
       </div>
       <div className="container price-plan-box">
         <div className="row cards">
-          <div className="col-md-6 mb-4">
+          <div className="col-lg-6 col-md-12 col-24 mb-4">
             <div className="price-plan-card">
               <p className="payment-status">FREE</p>
               <h3>R-DEE Free</h3>
@@ -30,7 +30,7 @@ function Pricing() {
               </ul>
             </div>
           </div>
-          <div className="col-md-6 mb-4">
+          <div className="col-lg-6 col-md-12 col-24 mb-4">
             <div className="price-plan-card clinical-plan">
               <p className="payment-status">$50/MO PER USER</p>
               <h3>R-DEE Clinical</h3>
@@ -49,7 +49,7 @@ function Pricing() {
               </ul>
             </div>
           </div>
-          <div className="col-md-6 mb-4">
+          <div className="col-lg-6 col-md-12 col-24 mb-4">
             <div className="price-plan-card vendor-plan">
               <p className="payment-status">$100/MO PER USER</p>
               <h3>R-DEE PRO</h3>
@@ -66,7 +66,7 @@ function Pricing() {
               </ul>
             </div>
           </div>
-          <div className="col-md-6 mb-4">
+          <div className="col-lg-6 col-md-12 col-24 mb-4">
             <div className="price-plan-card request-plan">
               <p className="payment-status">BY REQUEST</p>
               <h3>R-DEE PRO</h3>
@@ -97,8 +97,8 @@ function Pricing() {
           </p>
         </div>
 
-        <div className="row patients-card">
-          <div className="col-md-8 mb-4">
+        <div className="row justify-content-center patients-card">
+          <div className="col-lg-8 col-md-12 col-24 mb-4">
             <div className="price-plan-card patient-card">
               <p className="payment-status">FREE</p>
               <h3>R-DEE Free</h3>
@@ -112,7 +112,7 @@ function Pricing() {
               </ul>
             </div>
           </div>
-          <div className="col-md-8 mb-4">
+          <div className="col-lg-8 col-md-12 col-24 mb-4">
             <div className="price-plan-card patient-card premium-plan">
               <p className="payment-status">$7/MO PER USER</p>
               <h3>R-DEE Premium</h3>
@@ -128,7 +128,7 @@ function Pricing() {
               </ul>
             </div>
           </div>
-          <div className="col-md-8 mb-4">
+          <div className="col-lg-8 col-md-12 col-24 mb-4">
             <div className="price-plan-card patient-card">
               <p className="payment-status">$20/MO per user</p>
               <h3>R-DEE Family</h3>

@@ -35,8 +35,8 @@ function YourData() {
             </div>
           </div>
         </div>
-        <div className="row align-items-center">
-          <div className="col-md-15">
+        <div className="row align-items-center justify-content-center">
+          <div className="col-md-15 col-md-24 col-24 order-1 order-md-2">
             <div className="row">
               <div className="col-md-12 mb-3">
                 <div className="card data-card">
@@ -81,9 +81,9 @@ function YourData() {
               </div>
             </div>
           </div>
-          <div className="col-md-9">
+          <div className="col-lg-9 col-md-18 col-24 order-2 order-md-1">
             <img
-              className="responsive__mobile-image img-fluid w-100 mt-4 mt-md-0"
+              className="img-fluid w-100 mt-4 mb-md-4 mb-lg-0"
               src={phoneImage}
               alt=""
             />
