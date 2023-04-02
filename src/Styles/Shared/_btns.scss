@@ -8,7 +8,7 @@
     &:hover,
     &:focus,
     &:active {
-      box-shadow: 0 0 10px 0 #fd4b4b inset, 0 0 10px 4px #fd4b4b !important;
+      box-shadow: 0 0 10px 4px rgba($secondary, 0.2) !important;
       color: #fff;
     }
   }

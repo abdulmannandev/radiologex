@@ -60,7 +60,7 @@ function Testimonial() {
             <div className="section-head text-center">
               <h2 className="section-heading">Testimonials</h2>
             </div>
-
+            <br />
             <Splide
               ref={splideRef}
               options={{

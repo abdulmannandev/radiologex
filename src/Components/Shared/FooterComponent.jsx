@@ -161,23 +161,23 @@ function FooterComponent() {
             <div className="col-md-12">
               <ul className="bottom-links d-flex flex-wrap justify-content-center justify-content-md-start list-inline pl-0">
                 <li className="list-inline-item">
-                  <a href="">Sitemap</a>
+                  <a href="#">Sitemap</a>
                 </li>
                 <li className="list-inline-item"> | </li>
                 <li className="list-inline-item">
-                  <a href="">Terms & Conditions</a>
+                  <a href="#">Terms & Conditions</a>
                 </li>
                 <li className="list-inline-item"> | </li>
                 <li className="list-inline-item">
-                  <a href="">Privacy Policy</a>
+                  <a href="#">Privacy Policy</a>
                 </li>
                 <li className="list-inline-item"> | </li>
                 <li className="list-inline-item">
-                  <a href="">Cookies Policy</a>
+                  <a href="#">Cookies Policy</a>
                 </li>
                 <li className="list-inline-item"> | </li>
                 <li className="list-inline-item">
-                  <a href="">Certification</a>
+                  <a href="#">Certification</a>
                 </li>
               </ul>
             </div>

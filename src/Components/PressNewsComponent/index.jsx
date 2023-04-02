@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { ReactComponent as Arrow } from "./Assets/Arrow.svg";
 import CardImage from "./Assets/sec-img-1.png";
@@ -37,15 +38,14 @@ function PressNewsComponent() {
                 <img src={CardImage} alt="" />
               </div>
               <div className="news-card-description">
-                <h1>R-DEE News</h1>
-                <p className="card-info">
+                <h3 className="news-title">R-DEE News</h3>
+                <p className="news-text">
                   As talks between Radiologex and Peelaways Pakistan continue,
                   one thing is clear: Radiologex is the company to watch.
                 </p>
-                <div className="read-more">
-                  <p>Read More</p>
-                  <Arrow />
-                </div>
+                <Link to="#" className="read-more">
+                  Read More <Arrow />
+                </Link>
               </div>
             </div>
           </div>
@@ -55,15 +55,14 @@ function PressNewsComponent() {
                 <img src={CardImage2} alt="" />
               </div>
               <div className="news-card-description">
-                <h1>In The News</h1>
-                <p className="card-info">
+                <h3 className="news-title">In The News</h3>
+                <p className="news-text">
                   Radiologex Provides Unparalleled Medical Security with the
                   R-DEE Network
                 </p>
-                <div className="read-more">
-                  <p>Read More</p>
-                  <Arrow />
-                </div>
+                <Link to="#" className="read-more">
+                  Read More <Arrow />
+                </Link>
               </div>
             </div>
           </div>
@@ -73,15 +72,14 @@ function PressNewsComponent() {
                 <img src={CardImage3} alt="" />
               </div>
               <div className="news-card-description">
-                <h1>In The News</h1>
-                <p className="card-info">
+                <h3 className="news-title">In The News</h3>
+                <p className="news-text">
                   This blockchain-based project offers a suite of tools that
                   tackle the widespr...
                 </p>
-                <div className="read-more">
-                  <p>Read More</p>
-                  <Arrow />
-                </div>
+                <Link to="#" className="read-more">
+                  Read More <Arrow />
+                </Link>
               </div>
             </div>
           </div>
@@ -91,15 +89,14 @@ function PressNewsComponent() {
                 <img src={CardImage4} alt="" />
               </div>
               <div className="news-card-description">
-                <h1>Press Release</h1>
-                <p className="card-info">
+                <h3 className="news-title">Press Release</h3>
+                <p className="news-text">
                   With the increased digitalization of healthcare, R-DEE™ by
                   Radiologex provides a revolutionary......
                 </p>
-                <div className="read-more">
-                  <p>Read More</p>
-                  <Arrow />
-                </div>
+                <Link to="#" className="read-more">
+                  Read More <Arrow />
+                </Link>
               </div>
             </div>
           </div>
@@ -109,15 +106,14 @@ function PressNewsComponent() {
                 <img src={CardImage5} alt="" />
               </div>
               <div className="news-card-description">
-                <h1>In The News</h1>
-                <p className="card-info">
+                <h3 className="news-title">In The News</h3>
+                <p className="news-text">
                   The Global Healthcare sector, in the wake of a pandemic and
                   suffering frequent ransomware.....
                 </p>
-                <div className="read-more">
-                  <p>Read More</p>
-                  <Arrow />
-                </div>
+                <Link to="#" className="read-more">
+                  Read More <Arrow />
+                </Link>
               </div>
             </div>
           </div>
@@ -127,15 +123,14 @@ function PressNewsComponent() {
                 <img src={CardImage6} alt="" />
               </div>
               <div className="news-card-description">
-                <h1>In The News</h1>
-                <p className="card-info">
+                <h3 className="news-title">In The News</h3>
+                <p className="news-text">
                   A blockchain-based healthcare platform is ramping up security
                   even further, ensuring that patient.....
                 </p>
-                <div className="read-more">
-                  <p>Read More</p>
-                  <Arrow />
-                </div>
+                <Link to="#" className="read-more">
+                  Read More <Arrow />
+                </Link>
               </div>
             </div>
           </div>
