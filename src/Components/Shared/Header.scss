@@ -19,7 +19,26 @@
 
 
   .navbar-nav {
-    align-items: center;
+    align-items: start;
+
+    // Extra Small devices (landscape phones, 376px and up)
+    @include media-breakpoint-up(xs) {}
+
+    // Small devices (landscape phones, 576px and up)
+    @include media-breakpoint-up(sm) {
+      align-items: start;
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @include media-breakpoint-up(md) {
+      align-items: center;
+    }
+
+    // Large devices (desktops, 992px and up)
+    @include media-breakpoint-up(lg) {}
+
+    // X-Large devices (large desktops, 1200px and up)
+    @include media-breakpoint-up(xl) {}
 
     .nav-item {
 
@@ -45,5 +64,56 @@
 
   .btn {
     padding: 0.5rem 1.5rem !important;
+  }
+}
+
+.offcanvas {
+  --bs-offcanvas-width: 300px !important;
+  width: var(--bs-offcanvas-width) !important;
+  max-width: 80% !important;
+
+  .offcanvas-header {
+    background-color: $primary;
+
+    .offcanvas-title {
+
+      svg,
+      path {
+        // fill: #000;
+      }
+    }
+
+    .btn-close {
+      padding: 10px;
+      opacity: 1;
+      margin-right: 5px;
+      filter: invert(1);
+      border: 1px solid transparent;
+
+      &:hover {
+        border: 1px solid #000;
+      }
+
+      svg,
+      path {
+        fill: #fff;
+      }
+    }
+  }
+
+  .offcanvas-body {
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          display: block;
+          border-bottom: 1px solid rgb(216, 216, 216);
+          padding: 15px 0;
+        }
+
+        .btn {
+          margin-top: 10px;
+        }
+      }
+    }
   }
 }

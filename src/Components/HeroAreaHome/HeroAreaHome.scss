@@ -11,7 +11,31 @@
 
    .hero-heading {
      color: white;
-     font-size: 50px;
+     font-size: 24px;
+     line-height: 28px;
+
+     // Extra Small devices (landscape phones, 376px and up)
+     @include media-breakpoint-up(xs) {}
+
+     // Small devices (landscape phones, 576px and up)
+     @include media-breakpoint-up(sm) {
+       font-size: 28px;
+       line-height: 34px;
+     }
+
+     // Medium devices (tablets, 768px and up)
+     @include media-breakpoint-up(md) {}
+
+     // Large devices (desktops, 992px and up)
+     @include media-breakpoint-up(lg) {
+       font-size: 40px;
+       line-height: 50px;
+     }
+
+     // X-Large devices (large desktops, 1200px and up)
+     @include media-breakpoint-up(xl) {
+       font-size: 50px;
+     }
 
      sup {
        top: -22px;

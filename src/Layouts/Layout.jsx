@@ -14,46 +14,51 @@ function Layout({ children }) {
     {
       id: 2,
       label: "Radiologex",
-      url: "/radiologex",
+      url: "#",
       dropdown: [
         {
           id: 3,
           label: "Item 1",
-          url: "/radiologex/item1",
+          url: "#",
         },
         {
           id: 4,
           label: "Item 2",
-          url: "/radiologex/item2",
+          url: "#",
         },
       ],
     },
     {
       id: 5,
       label: "Explore",
-      url: "/explore",
+      url: "#",
       dropdown: [
         {
           id: 6,
           label: "Item 1",
-          url: "/explore/item1",
+          url: "#",
         },
         {
           id: 7,
           label: "Item 2",
-          url: "/explore/item2",
+          url: "#",
+        },
+        {
+          id: 71,
+          label: "Item 3",
+          url: "#",
         },
       ],
     },
     {
       id: 8,
       label: "FAQs",
-      url: "/faqs",
+      url: "#",
     },
     {
       id: 9,
       label: "Contact Us",
-      url: "/contact-us",
+      url: "#",
       isButton: true,
     },
   ];
