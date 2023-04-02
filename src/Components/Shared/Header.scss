@@ -1,73 +1,4 @@
-.navbar {
-  background-color: #17171d !important;
-
-  .navbar-brand {
-
-    &:hover {
-
-      path,
-      svg {
-        fill: $success;
-      }
-    }
-  }
-
-  .navbar-toggler {
-
-    .navbar-toggler-icon {}
-  }
-
-
-  .navbar-nav {
-    align-items: start;
-
-    // Extra Small devices (landscape phones, 376px and up)
-    @include media-breakpoint-up(xs) {}
-
-    // Small devices (landscape phones, 576px and up)
-    @include media-breakpoint-up(sm) {
-      align-items: start;
-    }
-
-    // Medium devices (tablets, 768px and up)
-    @include media-breakpoint-up(md) {
-      align-items: center;
-    }
-
-    // Large devices (desktops, 992px and up)
-    @include media-breakpoint-up(lg) {}
-
-    // X-Large devices (large desktops, 1200px and up)
-    @include media-breakpoint-up(xl) {}
-
-    .nav-item {
-
-      .nav-link {
-        padding: 5px 15px;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 21px;
-        color: #FFFFFF;
-
-        &:hover {
-          color: $success;
-        }
-      }
-
-      &.active {
-        .nav-link {
-          color: $success;
-        }
-      }
-    }
-  }
-
-  .btn {
-    padding: 0.5rem 1.5rem !important;
-  }
-}
-
-.offcanvas {
+.offcanvas.show {
   --bs-offcanvas-width: 300px !important;
   width: var(--bs-offcanvas-width) !important;
   max-width: 80% !important;
@@ -112,6 +43,81 @@
 
         .btn {
           margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+.navbar {
+  background-color: #17171d !important;
+
+  .navbar-brand {
+
+    &:hover {
+
+      path,
+      svg {
+        fill: $success;
+      }
+    }
+  }
+
+  .navbar-toggler {
+
+    .navbar-toggler-icon {}
+  }
+
+  .offcanvas {
+    max-width: 100% !important;
+
+    .offcanvas-body {
+
+      .navbar-nav {
+        align-items: start;
+
+        // Extra Small devices (landscape phones, 376px and up)
+        @include media-breakpoint-up(xs) {}
+
+        // Small devices (landscape phones, 576px and up)
+        @include media-breakpoint-up(sm) {
+          align-items: start;
+        }
+
+        // Medium devices (tablets, 768px and up)
+        @include media-breakpoint-up(md) {
+          align-items: center;
+        }
+
+        // Large devices (desktops, 992px and up)
+        @include media-breakpoint-up(lg) {}
+
+        // X-Large devices (large desktops, 1200px and up)
+        @include media-breakpoint-up(xl) {}
+
+        .nav-item {
+
+          .nav-link {
+            padding: 5px 15px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 21px;
+            color: #FFFFFF;
+
+            &:hover {
+              color: $success;
+            }
+          }
+
+          &.active {
+            .nav-link {
+              color: $success;
+            }
+          }
+        }
+
+        .btn {
+          padding: 0.5rem 1.5rem !important;
         }
       }
     }
