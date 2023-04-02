@@ -32,7 +32,13 @@ function DEEPricingComponent() {
             <br />
             <br />
 
-            <img src={image} alt="" className="w-100 img-fluid" />
+            <img
+              src={image}
+              alt=""
+              className="w-100 img-fluid"
+              data-sal="slide-up"
+              data-sal-delay="0"
+            />
           </div>
         </div>
       </div>

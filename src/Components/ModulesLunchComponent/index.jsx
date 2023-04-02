@@ -41,10 +41,13 @@ function ModulesLunchComponent() {
         </div>
 
         <div className="meetUp-container">
-          <h1>
-            Introducing the Two Launch Modules.
-            <br /> <span>Available 7-1-2023:</span>
-          </h1>
+          {/* // section header  */}
+          <div className="section-head text-center">
+            <h2 className="section-heading">
+              Introducing the Two Launch Modules.
+              <br /> <span className="text-green">Available 7-1-2023:</span>
+            </h2>
+          </div>
           <p className="responsive-text">
             R-DEE {""} <span className="connect-text">Connect</span>
             {""} empowers the industry.

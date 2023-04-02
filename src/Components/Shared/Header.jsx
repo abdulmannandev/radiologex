@@ -43,22 +43,25 @@ function Header(props) {
                       ))}
                     </NavDropdown>
                   ) : (
-                    <li className="nav-item" key={menuItem.id}>
-                      <Link className="nav-link" to={menuItem.url}>
-                        {menuItem.label}
-                      </Link>
-                    </li>
-                  )}
-                  {menuItem.isButton && (
-                    <li key={menuItem.id} className="nav-item">
-                      <Link
-                        to={menuItem.url}
-                        className="btn btn-secondary"
-                        role="button"
-                      >
-                        {menuItem.label}
-                      </Link>
-                    </li>
+                    <>
+                      {menuItem.isButton ? (
+                        <li key={menuItem.id} className="nav-item">
+                          <Link
+                            to={menuItem.url}
+                            className="btn btn-secondary"
+                            role="button"
+                          >
+                            {menuItem.label}
+                          </Link>
+                        </li>
+                      ) : (
+                        <li className="nav-item" key={menuItem.id}>
+                          <Link className="nav-link" to={menuItem.url}>
+                            {menuItem.label}
+                          </Link>
+                        </li>
+                      )}
+                    </>
                   )}
                 </>
               ))}

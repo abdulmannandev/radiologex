@@ -59,7 +59,11 @@ function AboutServices() {
                 </div>
               </div>
               <div className="col-lg-8 col-md-14 order-lg-2 order-md-1">
-                <div className="my-4 my-md-4 my-lg-0">
+                <div
+                  className="my-4 my-md-4 my-lg-0"
+                  data-sal="zoom-in"
+                  data-sal-delay="0"
+                >
                   <img className="img-fluid w-100" src={phoneImage} alt="" />
                 </div>
               </div>

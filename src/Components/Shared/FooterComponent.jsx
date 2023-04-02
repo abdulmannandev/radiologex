@@ -8,6 +8,7 @@ import googlePlay from "./Assets/image37.png";
 import webImage from "./Assets/image38.png";
 import image from "./Assets/Vector6.png";
 import mobileImage from "./Assets/Background.png";
+import wavesImg from "./Assets/wave.png";
 
 import { ReactComponent as FooterLogo } from "./../../assets/logo-footer.svg";
 // import IconYoutube from "./../../assets/IconYoutube.svg";
@@ -19,18 +20,22 @@ import { ReactComponent as IconInstagram } from "./../../assets/icon-instagram.s
 function FooterComponent() {
   return (
     <footer className="footer">
-      <div className="container-fluid footer-top">
-        <div className="container pt-lg">
+      <div className="container-fluid px-0 footer-top">
+        <img src={wavesImg} alt="" className="w-100" />
+        <div className="container">
           <div className="row align-items-end">
-            <div className="col-md-10">
+            <div className="col-md-10 order-2 order-md-1">
               <img src={mobileImage} alt="" className="w-100" />
             </div>
-            <div className="col-md-14">
-              <div className="available-device pb-5">
-                <h1>
-                  Available on Any <br /> Device
-                </h1>
-                <ul className="store-links d-flex ps-0">
+            <div className="col-md-14 order-1 order-md-2">
+              <div className="available-device pb-5 pt-5 pt-md-0">
+                {/* // section header  */}
+                <div className="section-head px-0">
+                  <h2 className="section-heading text-white">
+                    Available on Any <br /> Device
+                  </h2>
+                </div>
+                <ul className="store-links d-flex flex-wrap ps-0">
                   <li>
                     <a href="#" target="_blank">
                       <img className="icon" src={appStore} alt="" />

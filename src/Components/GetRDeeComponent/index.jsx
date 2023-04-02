@@ -15,13 +15,19 @@ function GetRDeeComponent() {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-12 col-md-24">
-            <img className="sec-img img-fluid w-100" src={iphone} alt="" />
+            <div data-sal="fade" data-sal-delay="0">
+              <img className="sec-img img-fluid w-100" src={iphone} alt="" />
+            </div>
           </div>
           <div className="col-lg-12 col-md-24">
             <div className="text-content">
-              <h3>
-                <span>GET R-DEE.</span> Meet the R-DEE Network.
-              </h3>
+              {/* // section header  */}
+              <div className="section-head px-0">
+                <h2 className="section-heading">
+                  <span className="text-main">GET R-DEE.</span> <br />
+                  Meet the R-DEE Network.
+                </h2>
+              </div>
               <p>
                 The Radiologex Digital Encryption Environment (R-DEE, pronounced
                 "ahr-dee") is a Web3-powered, next-generation distributed global

@@ -82,6 +82,8 @@ function YourData() {
               className="img-fluid w-100 mt-4 mb-md-5 mb-lg-0"
               src={phoneImage}
               alt=""
+              data-sal="zoom-in"
+              data-sal-delay="0"
             />
           </div>
         </div>

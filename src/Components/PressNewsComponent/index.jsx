@@ -169,7 +169,13 @@ function PressNewsComponent() {
               </div>
             </div>
             <div className="col-md-11">
-              <img className="img-fluid w-100" src={sectionLogos} alt="" />
+              <img
+                className="img-fluid w-100"
+                src={sectionLogos}
+                alt=""
+                data-sal="slide-up"
+                data-sal-delay="0"
+              />
             </div>
           </div>
         </section>
