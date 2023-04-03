@@ -83,7 +83,8 @@ function YourData() {
               src={phoneImage}
               alt=""
               data-sal="zoom-in"
-              data-sal-delay="0"
+              data-sal-delay="1"
+              style={{ "--sal-duration": "1s" }}
             />
           </div>
         </div>

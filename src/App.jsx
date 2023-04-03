@@ -7,7 +7,12 @@ import ViewRoutes from "./ViewRoutes";
 function App() {
   useEffect(() => {
     // Initialize SAL
-    sal();
+    sal({
+      threshold: 0.7,
+      once: true,
+      // animateClassName: ""
+      // selector: ""
+    });
   }, []);
 
   const [count, setCount] = useState(0);

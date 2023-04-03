@@ -37,7 +37,8 @@ function DEEPricingComponent() {
               alt=""
               className="w-100 img-fluid"
               data-sal="slide-up"
-              data-sal-delay="0"
+              data-sal-delay="1"
+              style={{ "--sal-duration": "1s" }}
             />
           </div>
         </div>

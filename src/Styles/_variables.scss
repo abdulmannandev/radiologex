@@ -84,8 +84,7 @@
  // Typography 
  $font-family-sans-serif: $font-family-main;
 
- // DARK & LIGHT Mode
- .dark-mode,
+ // LIGHT Mode 
  :root {
    --bs-body-font-family: #{$font-family-main};
    --font-family-sec: #{$font-family-sec};
