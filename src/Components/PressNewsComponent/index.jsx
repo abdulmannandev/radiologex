@@ -175,7 +175,7 @@ function PressNewsComponent() {
                 alt=""
                 data-sal="slide-up"
                 data-sal-delay="1"
-              style={{ "--sal-duration": "1s" }}
+              data-sal-duration="700"
               />
             </div>
           </div>

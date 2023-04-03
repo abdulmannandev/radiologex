@@ -63,7 +63,7 @@ function AboutServices() {
                   className="my-4 my-md-4 my-lg-0"
                   data-sal="zoom-in"
                   data-sal-delay="1"
-              style={{ "--sal-duration": "1s" }}
+              data-sal-duration="700"
                 >
                   <img className="img-fluid w-100" src={phoneImage} alt="" />
                 </div>

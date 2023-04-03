@@ -84,7 +84,7 @@ function YourData() {
               alt=""
               data-sal="zoom-in"
               data-sal-delay="1"
-              style={{ "--sal-duration": "1s" }}
+              data-sal-duration="700"
             />
           </div>
         </div>
