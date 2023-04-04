@@ -1,27 +1,32 @@
 import React from "react";
 import image from "./Assets/sec-image-123.jpg";
+// import imageNew from "./Assets/sec-image-new.png";
 
 function DEEPricingComponent() {
   return (
     <section className="pt-normal pb-0 dee-pricing-box">
       <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-24 col-md-24">
+        {/* <div className="container container mx-auto mr-0 ml-0 px-0"> */}
+        <div className="row align-items-end justify-content-center">
+          <div className="col-lg-12 col-md-12">
             {/* // section header  */}
-            <div className="section-head text-center">
+            <div className="section-head px-0 pb-normal">
               <h2 className="section-heading">A Growing Platformials</h2>
+              <p className="lead text-pink">
+                R-DEE uses blockchain technology and AI to improve healthcare
+                deliveryvia the first all-in-one health IT ecosystem.
+              </p>
               <p className="section-text">
-                Seven additional modules (coming soon) that further SECURE,
-                SPEED, and OPTIMIZE healthcare data-related productivity.
-                Meticulously chosen tools help eliminate most Health IT
-                fragmentation pain points that exist today, helping to
-                drastically reduce costs, increase workflow output, and save
-                valuable time. Real-time healthcare curated content streaming, a
-                secure marketplace for verified goods and services,
-                smart-contract-based borderless transactions, clinical
-                management, an entire PACS system, data storage, and more.
-                tools. R-DEE untethers the healthcare industry from the problems
-                of trust (identification), authentication, obsolescence, and
+                Seven additional modules (coming soon) further SECURE,SPEED and
+                OPTIMIZE healthcare data-related productivity. Real-time
+                healthcare curated content streaming, a marketplace of verified
+                medical goods and services, smart-contract-basedborderless
+                transactions, clinical management, a completePACS system, data
+                storage, transaction settlement, and more
+              </p>
+              <p className="section-text">
+                R-DEE untethers the healthcare industry from the problems of
+                trust (identification), authentication, obsolescence, and
                 redundancy, all of which severely impact healthcare quality and
                 delivery.
               </p>
@@ -29,9 +34,8 @@ function DEEPricingComponent() {
                 Get R-DEE Pricing
               </a>
             </div>
-            <br />
-            <br />
-
+          </div>
+          <div className="col-lg-12 col-md-12">
             <img
               src={image}
               alt=""

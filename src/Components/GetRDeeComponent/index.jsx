@@ -9,7 +9,7 @@ import "./GetRDeeComponent.scss";
 function GetRDeeComponent() {
   return (
     <section
-      className="pt-5 pb-lg getrdee-sec"
+      className="pt-lg pb-lg getrdee-sec"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       <div className="container">
@@ -66,7 +66,6 @@ function GetRDeeComponent() {
           </div>
         </div>
       </div>
-
       <div className="cards-section">
         <div className="container">
           <div className="row">

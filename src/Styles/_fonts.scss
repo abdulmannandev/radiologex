@@ -51,10 +51,19 @@
 // =============================
 
 
+
+
 @font-face {
   font-family: 'HelveticaNeue';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
+  src: local('HelveticaNeue'), url('./Font/HelveticaNeueUltraLightv130.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  font-style: normal;
+  font-weight: 300;
   src: local('HelveticaNeue'), url('./Font/Light.woff') format('woff');
 }
 
@@ -63,20 +72,6 @@
   font-style: normal;
   font-weight: 400;
   src: local('HelveticaNeue'), url('./Font/HelveticaNeueHv.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'HelveticaNeue';
-  font-style: normal;
-  font-weight: 5;
-  src: local('HelveticaNeue'), url('./Font/HelveticaNeueIt.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'HelveticaNeue';
-  font-style: normal;
-  font-weight: 250;
-  src: local('HelveticaNeue'), url('./Font/HelveticaNeueUltraLightv130.woff') format('woff');
 }
 
 // ---------------------------

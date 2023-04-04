@@ -11,7 +11,7 @@ function HealthcareHappensHere() {
       <div className="container">
         <div className="row">
           <div className="col-md-24">
-            <h4 className="text-green">
+            <h4 className="text-green fw-light">
               R-DEE by Radiologex <sup>®</sup>
             </h4>
             <h2 className="hero-heading mb-4">
@@ -34,21 +34,21 @@ function HealthcareHappensHere() {
                 Patients
               </a>
             </div>
-            <div>
-              <div className="hero-image">
-                <img
-                  src={HeroMobileImage}
-                  className="img-fluid w-100 hero-image__image desktop"
-                  alt=""
-                />
-                <img
-                  src={HeroImage}
-                  className="img-fluid w-100 hero-image__image mobile"
-                  alt=""
-                />
-              </div>
-            </div>
           </div>
+        </div>
+      </div>
+      <div className="container-fluid">
+        <div className="hero-image">
+          <img
+            src={HeroMobileImage}
+            className="img-fluid w-100 desktop"
+            alt=""
+          />
+          <img
+            src={HeroImage}
+            className="img-fluid w-100 mobile"
+            alt=""
+          />
         </div>
       </div>
     </section>

@@ -17,22 +17,25 @@ function YourData() {
             Your Health. Your Data.
           </h4>
           <h2 className="section-heading">
-            <span>
-              R-DEE Go<sup>TM</sup>
-            </span>{" "}
+            R-DEE&nbsp;
+            <span className="text-blue-l">
+              Go <sup>TM</sup>
+            </span>
+            <br />
             Gives Power To The Patient.
           </h2>
           <p className="section-text">
             The first PHR gives full custodianship and control to the patient
-            user. Your entire healthcare record is permanently secured and
-            accessible anywhere globally from the palm of your hand.
+            user. <br />
+            Your entire healthcare record is permanently secured and accessible
+            anywhere globally from the palm of your hand.
           </p>
           <br />
           <br />
         </div>
 
         <div className="row align-items-center justify-content-center">
-          <div className="col-lg-15 col-md-24 col-24 order-2 order-md-2 order-lg-1">
+          <div className="col-lg-14 col-md-24 col-24 order-2 order-md-2 order-lg-1">
             <div className="row">
               <div className="col-md-12 mb-3">
                 <div className="card data-card">
@@ -77,7 +80,7 @@ function YourData() {
               </div>
             </div>
           </div>
-          <div className="col-lg-9 col-md-18 col-24 order-1 order-md-1 order-lg-2">
+          <div className="col-lg-10 col-md-18 col-24 order-1 order-md-1 order-lg-2">
             <img
               className="img-fluid w-100 mt-4 mb-md-5 mb-lg-0"
               src={phoneImage}

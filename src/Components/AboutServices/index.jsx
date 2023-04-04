@@ -18,20 +18,18 @@ function AboutServices() {
           <div className="col-md-24">
             {/* // section header  */}
             <div className="section-head text-center">
-              <h4>
-                Healthcare is about more than just medical treatment.
-                <br /> It is about ensuring data integrity and saving time.
-                <br /> This helps save lives.
-              </h4>
               <h2 className="section-heading">
-                <span className="text-green">
-                  R-DEE Connect<sup>TM</sup>
-                </span>{" "}
-                Transforms An <br /> Industry into a Network
+                R-DEE&nbsp;
+                <span className="text-pink">
+                  Connect<sup>TM</sup>
+                </span>
+                <br />
+                Transforms An Industry into a Network.
               </h2>
               <p className="section-text">
-                Healthcare workflow reimagined. Handle sensitive healthcare
-                communication and data with peace of mind and ease.
+                Healthcare workflow reimagined. <br />
+                Handle sensitive healthcare communication <br />
+                and data with peace of mind and ease.
               </p>
             </div>
 
@@ -63,7 +61,7 @@ function AboutServices() {
                   className="my-4 my-md-4 my-lg-0"
                   data-sal="zoom-in"
                   data-sal-delay="1"
-              data-sal-duration="700"
+                  data-sal-duration="700"
                 >
                   <img className="img-fluid w-100" src={phoneImage} alt="" />
                 </div>
@@ -88,7 +86,7 @@ function AboutServices() {
                     <div className="icon">
                       <img src={lessClutter} alt="" />
                     </div>
-                    <p>lessClutter integration with any health IT platforms.</p>
+                    <p>Seamless integration with any health IT platforms.</p>
                   </div>
                 </div>
               </div>
@@ -103,8 +101,9 @@ function AboutServices() {
                     </div>
                     <p>
                       Built-in KYC and a biometric technology that positively
-                      Identifies users while eliminating inefficient usernames
-                      and passwords
+                      Identifies users with a unique Healthcare Digital-ID
+                      (HDID),while eliminating inefficient usernames and
+                      passwords.
                     </p>
                   </div>
                   <div className="feature-box">
