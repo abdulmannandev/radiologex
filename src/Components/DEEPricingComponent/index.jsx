@@ -11,7 +11,9 @@ function DEEPricingComponent() {
           <div className="col-lg-12 col-md-12">
             {/* // section header  */}
             <div className="section-head px-0 pb-normal">
-              <h2 className="section-heading">A Growing Platformials</h2>
+              <h2 className="section-heading">
+                A Growing Platform. <br /> One Solution.
+              </h2>
               <p className="lead text-pink">
                 R-DEE uses blockchain technology and AI to improve healthcare
                 deliveryvia the first all-in-one health IT ecosystem.
