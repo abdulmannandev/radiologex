@@ -27,10 +27,10 @@ function HealthcareHappensHere() {
             </div>
 
             <div className="d-flex gap-3 flex-wrap justify-content-center mb-5">
-              <a className="btn btn-secondary mb-3" href="#healthcare_btn">
+              <a className="btn btn-secondary mb-3" href="#pricing">
                 Healthcare Professionals
               </a>
-              <a className="btn btn-green text-white mb-3" href="#patients">
+              <a className="btn btn-green text-white mb-3" href="#price-plan-patients">
                 Patients
               </a>
             </div>

@@ -58,8 +58,9 @@ function Layout({ children }) {
     {
       id: 9,
       label: "Contact Us",
-      url: "#",
+      url: "mailto:launch@radiologex.com",
       isButton: true,
+      target: "_blank",
     },
   ];
 

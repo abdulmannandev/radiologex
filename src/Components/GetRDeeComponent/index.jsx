@@ -13,6 +13,7 @@ function GetRDeeComponent() {
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       <br />
+      <br />
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-12 col-md-24 order-2 order-lg-1">

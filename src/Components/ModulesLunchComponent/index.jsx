@@ -61,10 +61,10 @@ function ModulesLunchComponent() {
               </div>
               <div className="col-md-12">
                 <div className="text-start mt-4 mt-md-3">
-                  <h3 className="fw-normal">
+                  <h2 className="fw-bold">
                     R-DEE <span className="text-pink">Connect</span> <br />
                     Empowers The Industry.
-                  </h3>
+                  </h2>
                   <p className="text">
                     One app that connects global healthcare like never before.
                     Communciate within your healthcare oranization or the globe.
@@ -77,10 +77,10 @@ function ModulesLunchComponent() {
             <div className="row align-items-center">
               <div className="col-md-12 order-2 order-md-1">
                 <div className="text-start mt-4 mt-md-3">
-                  <h3 className="fw-normal">
+                  <h2 className="fw-bold">
                     R-DEE <span className="text-blue-l">Go</span> <br />
                     enfranchises patients.
-                  </h3>
+                  </h2>
                   <p className="text">
                     A PHR app unlike any else. Full identity-proofing, builtin
                     authentication and automatic data uploads, gives full

@@ -85,7 +85,7 @@ function Pricing() {
           </div>
         </div>
       </div>
-      <div className="container price-plan-patients">
+      <div className="container price-plan-patients" id="price-plan-patients">
         {/* // section header  */}
         <div className="section-head px-0">
           <h2 className="section-heading">

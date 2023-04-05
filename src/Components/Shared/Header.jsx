@@ -74,6 +74,7 @@ function Header(props) {
                           <li key={menuItem.id} className="nav-item">
                             <Link
                               to={menuItem.url}
+                              target={menuItem.target}
                               className="btn btn-secondary"
                               role="button"
                             >
