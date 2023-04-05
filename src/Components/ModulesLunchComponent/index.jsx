@@ -45,7 +45,7 @@ function ModulesLunchComponent() {
             </div>
           </div>
 
-          <div className="pt-normal meetUp-container">
+          <div className="pt-lg meetUp-container">
             {/* // section header  */}
             <div className="section-head text-center">
               <h2 className="section-heading">
@@ -60,8 +60,8 @@ function ModulesLunchComponent() {
                 <img className="" src={SecImg1} alt="" />
               </div>
               <div className="col-md-12">
-                <div className="text-start">
-                  <h3>
+                <div className="text-start mt-4 mt-md-3">
+                  <h3 className="fw-normal">
                     R-DEE <span className="text-pink">Connect</span> <br />
                     Empowers The Industry.
                   </h3>
@@ -75,9 +75,9 @@ function ModulesLunchComponent() {
               </div>
             </div>
             <div className="row align-items-center">
-              <div className="col-md-12">
-                <div className="text-start">
-                  <h3>
+              <div className="col-md-12 order-2 order-md-1">
+                <div className="text-start mt-4 mt-md-3">
+                  <h3 className="fw-normal">
                     R-DEE <span className="text-blue-l">Go</span> <br />
                     enfranchises patients.
                   </h3>
@@ -90,7 +90,7 @@ function ModulesLunchComponent() {
                   </p>
                 </div>
               </div>
-              <div className="col-md-12">
+              <div className="col-md-12 order-1 order-md-2">
                 <img className="" src={SecImg2} alt="" />
               </div>
             </div>

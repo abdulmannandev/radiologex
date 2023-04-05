@@ -32,26 +32,30 @@ function FooterComponent() {
                 {/* // section header  */}
                 <div className="section-head px-0">
                   <h2 className="section-heading text-white">
-                    Available on Any <br /> Device
+                    Available on Any
+                    <span className="d-none d-lg-inline">
+                      <br />
+                    </span>
+                    Device
                   </h2>
                 </div>
-                <ul className="store-links d-flex flex-wrap ps-0">
-                  <li>
-                    <a href="#" target="_blank">
+                <div className="store-links row flex-wrap g-2">
+                  <div className="col-md-8 col-sm-8 col-12">
+                    <a href="#" target="_blank" className="d-block mt-3">
                       <img className="icon" src={appStore} alt="" />
                     </a>
-                  </li>
-                  <li>
-                    <a href="#" target="_blank">
+                  </div>
+                  <div className="col-md-8 col-sm-8 col-12">
+                    <a href="#" target="_blank" className="d-block mt-3">
                       <img className="icon" src={googlePlay} alt="" />
                     </a>
-                  </li>
-                  <li>
-                    <a href="#" target="_blank">
+                  </div>
+                  <div className="col-md-8 col-sm-8 col-12">
+                    <a href="#" target="_blank" className="d-block mt-3">
                       <img className="icon" src={webImage} alt="" />
                     </a>
-                  </li>
-                </ul>
+                  </div>
+                </div>
               </div>
               <br /> <br /> <br />
             </div>
@@ -73,7 +77,7 @@ function FooterComponent() {
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-md col-sm-6 col-12">
+            <div className="col-lg col-md-8 col-sm-8 col-xs-12 col-12">
               <div className="footer-box mb-5 mb-md-5">
                 <h2 className="footer-heading">About Us</h2>
                 <ul className="footer-links">
@@ -89,7 +93,7 @@ function FooterComponent() {
                 </ul>
               </div>
             </div>
-            <div className="col-md col-sm-6 col-12">
+            <div className="col-lg col-md-8 col-sm-8 col-xs-12 col-12">
               <div className="footer-box mb-5 mb-md-5">
                 <h2 className="footer-heading">R-DEE</h2>
                 <ul className="footer-links">
@@ -111,7 +115,7 @@ function FooterComponent() {
                 </ul>
               </div>
             </div>
-            <div className="col-md col-sm-6 col-12">
+            <div className="col-lg col-md-8 col-sm-8 col-xs-12 col-12">
               <div className="footer-box mb-5 mb-md-5">
                 <h2 className="footer-heading">Resources</h2>
                 <ul className="footer-links">
@@ -124,7 +128,7 @@ function FooterComponent() {
                 </ul>
               </div>
             </div>
-            <div className="col-md col-sm-6 col-12">
+            <div className="col-lg col-md-8 col-sm-8 col-xs-12 col-12">
               <div className="footer-box mb-5 mb-md-5">
                 <h2 className="footer-heading">Explore</h2>
                 <ul className="footer-links">
@@ -143,7 +147,7 @@ function FooterComponent() {
                 </ul>
               </div>
             </div>
-            <div className="col-md col-sm-6 col-12">
+            <div className="col-lg col-md-8 col-sm-8 col-xs-12 col-12">
               <div className="footer-box mb-5 mb-md-5">
                 <h2 className="footer-heading">Contact Us</h2>
                 <ul className="footer-links">
@@ -163,8 +167,8 @@ function FooterComponent() {
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-md-12">
-              <ul className="bottom-links d-flex flex-wrap justify-content-center justify-content-md-start list-inline pl-0">
+            <div className="col-lg-12 col-md-24">
+              <ul className="bottom-links d-flex flex-wrap justify-content-center justify-content-lg-start list-inline pl-0">
                 <li className="list-inline-item">
                   <a href="#">Sitemap</a>
                 </li>
@@ -186,8 +190,8 @@ function FooterComponent() {
                 </li>
               </ul>
             </div>
-            <div className="col-md-12">
-              <div className="d-flex flex-wrap justify-content-center justify-content-md-end">
+            <div className="col-lg-12 col-md-24">
+              <div className="d-flex flex-wrap justify-content-center justify-content-lg-end">
                 <a
                   href="https://www.youtube.com/c/radiologex"
                   target="_blank"

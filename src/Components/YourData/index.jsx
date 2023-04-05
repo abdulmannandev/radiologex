@@ -37,7 +37,7 @@ function YourData() {
         <div className="row align-items-center justify-content-center">
           <div className="col-lg-14 col-md-24 col-24 order-2 order-md-2 order-lg-1">
             <div className="row">
-              <div className="col-md-12 mb-3">
+              <div className="col-md-12 mb-3 mt-4 mb-md-0">
                 <div className="card data-card">
                   <div className="icon simple-bg">
                     <img src={SimpleToUse} alt="" />
@@ -49,7 +49,7 @@ function YourData() {
                   </p>
                 </div>
               </div>
-              <div className="col-md-12 mb-3">
+              <div className="col-md-12 mb-3 mt-4 mb-md-0">
                 <div className="card data-card">
                   <div className="icon technology-bg">
                     <img src={Technology} alt="" />
@@ -63,7 +63,7 @@ function YourData() {
                   </p>
                 </div>
               </div>
-              <div className="col-md-24">
+              <div className="col-md-24 mb-3 mt-4 mb-md-0">
                 <div className="card data-card">
                   <div className="icon permanent-bg">
                     <img src={permanent} alt="" />

@@ -83,10 +83,10 @@
 
   .store-links {
     a {
-      margin-right: 10px;
 
       .icon {
-        height: 50px;
+        width: 100%;
+        height: auto;
       }
 
       &:hover {

@@ -140,14 +140,7 @@ function PressNewsComponent() {
             </div>
           </div>
         </div>
-        <section
-          className="press-news-section"
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-          }}
-        >
+        <section className="pt-normal pb-normal press-news-section">
           <div className="row align-items-center">
             <div className="col-md-13">
               {/* // section header  */}
@@ -175,7 +168,7 @@ function PressNewsComponent() {
                 alt=""
                 data-sal="slide-up"
                 data-sal-delay="1"
-              data-sal-duration="700"
+                data-sal-duration="700"
               />
             </div>
           </div>
