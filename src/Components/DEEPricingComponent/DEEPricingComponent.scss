@@ -1,43 +1,6 @@
 /* ======= DEEPricingComponent style start ======= */
 .dee-pricing-box {
-  padding-top: 190px;
-  text-align: center;
-}
-
-.dee-pricing-box h1 {
-  font-size: 48px;
-  width: 50%;
-  margin: 0 auto;
-  padding-bottom: 30px;
-  font-weight: 700;
-}
-
-.dee-pricing-box p {
-  width: 70%;
-  margin: 0 auto;
-  line-height: 1.8;
-  color: #8e8e8e;
-  padding-bottom: 20px;
-  font-weight: 400;
-}
-
-.pricing__btn {
-  border: 0;
-  padding: 16px 35px;
-  border-radius: 35px;
-  background-color: #fd4b4b;
-  font-size: 16px;
-  margin-top: 40px;
-  margin-bottom: 90px;
-  font-weight: 500;
-}
-
-.pricing__btn a {
-  color: white !important;
-}
-
-.pricing__btn:hover {
-  box-shadow: 0 0 10px 0 #fd4b4b inset, 0 0 10px 4px #fd4b4b !important;
-  cursor: pointer;
-  transition: 0.4s;
+  .lead {
+    line-height: 30px;
+  }
 }

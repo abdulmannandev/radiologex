@@ -8,7 +8,7 @@ function Pricing() {
         <div className="section-head px-0">
           <h2 className="section-heading">
             R-DEE Pricing Plans for Healthcare <br />
-            <span className="text-secondary">Professionals</span>
+            <span className="text-pink">Professionals</span>
           </h2>
           <p className="section-text">
             Choose the plan that works for you or your organizational type
@@ -90,7 +90,7 @@ function Pricing() {
         <div className="section-head px-0">
           <h2 className="section-heading">
             R-DEE Pricing Plans for <br />{" "}
-            <span className="text-secondary">Patients</span>
+            <span className="text-blue-l">Patients</span>
           </h2>
           <p className="section-text">
             Choose the plan that works for you or your family

@@ -146,7 +146,7 @@ function PressNewsComponent() {
               {/* // section header  */}
               <div className="section-head px-0">
                 <h2 className="section-heading mb-4">
-                  A New Standard <br /> And Established Ones Too
+                  A New Standard. <br /> And Established Ones, Too.
                 </h2>
                 <p className="section-text">
                   R-DEE's technology has been tested and certified by the ONC of

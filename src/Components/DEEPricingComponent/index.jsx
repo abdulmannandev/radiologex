@@ -1,6 +1,7 @@
 import React from "react";
 import image from "./Assets/sec-image-123.jpg";
 // import imageNew from "./Assets/sec-image-new.png";
+import "./DEEPricingComponent.scss";
 
 function DEEPricingComponent() {
   return (
