@@ -16,6 +16,7 @@ function YourData() {
           <h4 className="section-sub-heading text-secondary">
             Your Health. Your Data.
           </h4>
+          <br />
           <h2 className="section-heading">
             R-DEE&nbsp;
             <span className="text-blue-l">
@@ -24,6 +25,7 @@ function YourData() {
             <br />
             Gives Power To The Patient.
           </h2>
+          <br />
           <p className="section-text">
             The first PHR gives full custodianship and control to the patient
             user. <br />
@@ -35,7 +37,7 @@ function YourData() {
         </div>
 
         <div className="row align-items-center justify-content-center">
-          <div className="col-lg-14 col-md-24 col-24 order-2 order-md-2 order-lg-1">
+          <div className="col-lg-13 col-md-24 col-24 order-2 order-md-2 order-lg-1">
             <div className="row">
               <div className="col-md-12 mb-3 mt-4 mb-md-0">
                 <div className="card data-card">
@@ -44,8 +46,10 @@ function YourData() {
                   </div>
                   <h3 className="heading-color">Simple To Use</h3>
                   <p>
-                    Global users with access to healthcare who have the right to
-                    control their health identity and records.
+                    A Ul/UX design for simplicity and ease of use for all global
+                    users. Multi-language support and a simple registration
+                    process allow users to take full control of their entire
+                    health records in minutes.
                   </p>
                 </div>
               </div>
@@ -70,17 +74,17 @@ function YourData() {
                   </div>
                   <h3 className="heading-color">Permanent Health Record</h3>
                   <p>
-                    Push-button automated requests and uploads from any R-DEE
-                    Connect provider or anyone outside, including AI tools and
-                    health trackers, make keeping and managing your entire
-                    health records safe, secure, and available anywhere you go.
-                    Your health, your data, your control.
+                    Secure auto-uploads make managing and controlling your
+                    entire health record a breeze. Al tools and health trackers
+                    make it easy to stay organized, informed, and in control of
+                    access and sharing of your entire health record anywhere, at
+                    any time.
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-lg-10 col-md-18 col-24 order-1 order-md-1 order-lg-2">
+          <div className="col-lg-11 col-md-18 col-24 order-1 order-md-1 order-lg-2">
             <img
               className="img-fluid w-100 mt-4 mb-md-5 mb-lg-0"
               src={phoneImage}

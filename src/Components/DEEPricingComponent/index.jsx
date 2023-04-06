@@ -15,10 +15,12 @@ function DEEPricingComponent() {
               <h2 className="section-heading">
                 A Growing Platform. <br /> One Solution.
               </h2>
+              <br />
               <p className="lead text-pink">
                 R-DEE uses blockchain technology and AI to improve healthcare
                 deliveryvia the first all-in-one health IT ecosystem.
               </p>
+              <br />
               <p className="section-text">
                 Seven additional modules (coming soon) further SECURE,SPEED and
                 OPTIMIZE healthcare data-related productivity. Real-time
@@ -33,16 +35,13 @@ function DEEPricingComponent() {
                 redundancy, all of which severely impact healthcare quality and
                 delivery.
               </p>
-              <a className="btn btn-secondary" href="#pricing">
-                Get R-DEE Pricing
-              </a>
             </div>
           </div>
           <div className="col-lg-12 col-md-12">
             <img
               src={image}
               alt=""
-              className="w-100 img-fluid"
+              className="w-100 img-fluid px-3"
               data-sal="slide-up"
               data-sal-delay="1"
               data-sal-duration="700"

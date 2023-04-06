@@ -30,7 +30,7 @@ function ModulesLunchComponent() {
                 <div className="icon">
                   <img src={GlobleNode} alt="" />
                 </div>
-                <p>5000 Global Nodes</p>
+                <p>2500 Global Nodes</p>
               </div>
             </div>
             <div className="col-md-8 mb-4">
@@ -57,7 +57,7 @@ function ModulesLunchComponent() {
             <br />
             <div className="row align-items-center">
               <div className="col-md-12">
-                <img className="" src={SecImg1} alt="" />
+                <img className="w-100 img-fluid" src={SecImg1} alt="" />
               </div>
               <div className="col-md-12">
                 <div className="text-start mt-4 mt-md-3">
@@ -91,7 +91,7 @@ function ModulesLunchComponent() {
                 </div>
               </div>
               <div className="col-md-12 order-1 order-md-2">
-                <img className="" src={SecImg2} alt="" />
+                <img className="w-100 img-fluid" src={SecImg2} alt="" />
               </div>
             </div>
           </div>

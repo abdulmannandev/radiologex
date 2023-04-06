@@ -26,13 +26,20 @@ function HealthcareHappensHere() {
               </p>
             </div>
 
-            <div className="d-flex gap-3 flex-wrap justify-content-center mb-5">
-              <a className="btn btn-secondary mb-3" href="#pricing">
-                Healthcare Professionals
-              </a>
-              <a className="btn btn-green text-white mb-3" href="#price-plan-patients">
-                Patients
-              </a>
+            <div className="row justify-content-center mb-5">
+              <div className="col-lg-6 col-md-10 col-sm-12">
+                <a className="btn btn-secondary w-100 mb-3" href="#pricing">
+                  Healthcare Professionals
+                </a>
+              </div>
+              <div className="col-lg-6 col-md-10 col-sm-12">
+                <a
+                  className="btn btn-green text-white w-100 mb-3"
+                  href="#price-plan-patients"
+                >
+                  Patients
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -44,11 +51,7 @@ function HealthcareHappensHere() {
             className="img-fluid w-100 desktop"
             alt=""
           />
-          <img
-            src={HeroImage}
-            className="img-fluid w-100 mobile"
-            alt=""
-          />
+          <img src={HeroImage} className="img-fluid w-100 mobile" alt="" />
         </div>
       </div>
     </section>

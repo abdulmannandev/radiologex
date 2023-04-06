@@ -1,4 +1,6 @@
 .section-head {
+  margin-bottom: 20px;
+
   .section-sub-heading {
     font-style: normal;
     font-weight: 500;
@@ -12,27 +14,33 @@
     font-weight: 600;
     color: #17171D;
     font-size: 22px;
-    line-height: 30px;
+    line-height: 32px;
+    margin-bottom: 10px;
 
     // Extra Small devices (landscape phones, 376px and up)
     @include media-breakpoint-up(xs) {
       font-size: 24px;
-      line-height: 32px;
+      line-height: 36px;
+      margin-bottom: 10px;
     }
 
     // Small devices (landscape phones, 576px and up)
     @include media-breakpoint-up(sm) {
       font-size: 28px;
-      line-height: 34px;
+      line-height: 38px;
+      margin-bottom: 10px;
     }
 
     // Medium devices (tablets, 768px and up)
-    @include media-breakpoint-up(md) {}
+    @include media-breakpoint-up(md) {
+      margin-bottom: 10px;
+    }
 
     // Large devices (desktops, 992px and up)
     @include media-breakpoint-up(lg) {
       font-size: 40px;
-      line-height: 50px;
+      line-height: 54px;
+      margin-bottom: 10px;
     }
 
     // X-Large devices (large desktops, 1200px and up)

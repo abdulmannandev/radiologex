@@ -14,7 +14,7 @@ import { ReactComponent as FooterLogo } from "./../../assets/logo-footer.svg";
 // import IconYoutube from "./../../assets/IconYoutube.svg";
 import { ReactComponent as IconLinkedIn } from "./../../assets/linkedin.svg";
 import { ReactComponent as IconTwitter } from "./../../assets/twitter.svg";
-import { ReactComponent as IconVimeo } from "./../../assets/vimeo.svg";
+// import { ReactComponent as IconVimeo } from "./../../assets/vimeo.svg";
 import { ReactComponent as IconInstagram } from "./../../assets/icon-instagram.svg";
 
 function FooterComponent() {
@@ -32,11 +32,7 @@ function FooterComponent() {
                 {/* // section header  */}
                 <div className="section-head px-0">
                   <h2 className="section-heading text-white">
-                    Available on Any
-                    <span className="d-none d-lg-inline">
-                      <br />
-                    </span>
-                    Device
+                    Available on Any Device
                   </h2>
                 </div>
                 <div className="store-links row flex-wrap g-2">
@@ -226,15 +222,6 @@ function FooterComponent() {
                 >
                   <div className="social-icon">
                     <IconTwitter />
-                  </div>
-                </a>
-                <a
-                  href="https://vimeo.com/getrdee"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <div className="social-icon">
-                    <IconVimeo />
                   </div>
                 </a>
                 <a

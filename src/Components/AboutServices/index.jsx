@@ -26,15 +26,17 @@ function AboutServices() {
                 <br />
                 Transforms An Industry into a Network.
               </h2>
+              <br />
               <p className="section-text">
                 Healthcare workflow reimagined. <br />
                 Handle sensitive healthcare communication <br />
                 and data with peace of mind and ease.
               </p>
+              <br />
             </div>
 
             <div className="row align-items-center justify-content-center">
-              <div className="col-lg-8 col-md-12 order-lg-1 order-md-2">
+              <div className="col-lg-7 col-md-12 order-lg-1 order-md-2">
                 <div className="feature-box-wrapper">
                   <div className="feature-box">
                     <div className="icon">
@@ -56,7 +58,7 @@ function AboutServices() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-8 col-md-14 order-lg-2 order-md-1">
+              <div className="col-lg-10 col-md-14 order-lg-2 order-md-1">
                 <div
                   className="my-4 my-md-4 my-lg-0"
                   data-sal="zoom-in"
@@ -66,7 +68,7 @@ function AboutServices() {
                   <img className="img-fluid w-100" src={phoneImage} alt="" />
                 </div>
               </div>
-              <div className="col-lg-8 col-md-12 order-lg-3 order-md-3">
+              <div className="col-lg-7 col-md-12 order-lg-3 order-md-3">
                 <div className="feature-box-wrapper">
                   <div className="feature-box">
                     <div className="icon">
