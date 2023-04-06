@@ -1,6 +1,6 @@
 import React from "react";
 
-import HeroImage from "./Assets/hero-img.png";
+import HeroImage from "./Assets/1k.png";
 import HeroMobileImage from "./Assets/hero-mobile.png";
 
 import "./HeroAreaHome.scss";
