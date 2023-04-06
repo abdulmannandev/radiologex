@@ -156,9 +156,6 @@ function PressNewsComponent() {
                   integrates easily and seamlessly, exceeds HIPAA compliance and
                   adheres to CDCA, HL7 FHIR, and SOC2 standardizations.
                 </p>
-                <button className="btn btn-secondary">
-                  View Certifications
-                </button>
               </div>
             </div>
             <div className="col-md-11">

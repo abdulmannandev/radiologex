@@ -1,5 +1,5 @@
 import React from "react";
-import image from "./Assets/sec-image-123.jpg";
+import image from "./Assets/sec-image-123.png";
 // import imageNew from "./Assets/sec-image-new.png";
 import "./DEEPricingComponent.scss";
 
@@ -29,7 +29,7 @@ function DEEPricingComponent() {
                 transactions, clinical management, a completePACS system, data
                 storage, transaction settlement, and more
               </p>
-              <p className="section-text">
+              <p className="section-text mb-0">
                 R-DEE untethers the healthcare industry from the problems of
                 trust (identification), authentication, obsolescence, and
                 redundancy, all of which severely impact healthcare quality and

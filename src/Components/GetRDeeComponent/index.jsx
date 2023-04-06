@@ -19,7 +19,7 @@ function GetRDeeComponent() {
         <div className="row align-items-center">
           <div className="col-lg-12 col-md-24 order-2 order-lg-1">
             <div data-sal="zoom-in" data-sal-delay="1" data-sal-duration="700">
-              <img className="sec-img img-fluid w-100" src={iphone} alt="" />
+              <img className="sec-img img-fluid w-100 px-3" src={iphone} alt="" />
             </div>
           </div>
           <div className="col-lg-12 col-md-24 order-1 order-lg-2">

@@ -55,11 +55,11 @@ function ModulesLunchComponent() {
             </div>
             <br />
             <br />
-            <div className="row align-items-center">
-              <div className="col-md-12">
+            <div className="row justify-content-center align-items-center">
+              <div className="col-md-10">
                 <img className="w-100 img-fluid" src={SecImg1} alt="" />
               </div>
-              <div className="col-md-12">
+              <div className="col-md-10">
                 <div className="text-start mt-4 mt-md-3">
                   <h2 className="fw-bold">
                     R-DEE <span className="text-pink">Connect</span> <br />
@@ -68,14 +68,15 @@ function ModulesLunchComponent() {
                   <p className="text">
                     One app that connects global healthcare like never before.
                     Communciate within your healthcare oranization or the globe.
+                    <br />
                     Produce, optimize, and share healthcare data, all on one
                     screen.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="row align-items-center">
-              <div className="col-md-12 order-2 order-md-1">
+            <div className="row justify-content-center align-items-center">
+              <div className="col-md-11 order-2 order-md-1">
                 <div className="text-start mt-4 mt-md-3">
                   <h2 className="fw-bold">
                     R-DEE <span className="text-blue-l">Go</span> <br />
@@ -90,7 +91,7 @@ function ModulesLunchComponent() {
                   </p>
                 </div>
               </div>
-              <div className="col-md-12 order-1 order-md-2">
+              <div className="col-md-9 order-1 order-md-2">
                 <img className="w-100 img-fluid" src={SecImg2} alt="" />
               </div>
             </div>
