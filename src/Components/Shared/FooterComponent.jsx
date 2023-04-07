@@ -35,22 +35,16 @@ function FooterComponent() {
                     Available on Any Device
                   </h2>
                 </div>
-                <div className="store-links row flex-wrap g-2">
-                  <div className="col-md-8 col-sm-8 col-12">
-                    <a href="#" target="_blank" className="d-block mt-3">
-                      <img className="icon" src={appStore} alt="" />
-                    </a>
-                  </div>
-                  <div className="col-md-8 col-sm-8 col-12">
-                    <a href="#" target="_blank" className="d-block mt-3">
-                      <img className="icon" src={googlePlay} alt="" />
-                    </a>
-                  </div>
-                  <div className="col-md-8 col-sm-8 col-12">
-                    <a href="#" target="_blank" className="d-block mt-3">
-                      <img className="icon" src={webImage} alt="" />
-                    </a>
-                  </div>
+                <div className="store-links flex-wrap g-2">
+                  <a href="#" target="_blank" className="d-block mt-3">
+                    <img className="icon" src={appStore} alt="" />
+                  </a>
+                  <a href="#" target="_blank" className="d-block mt-3">
+                    <img className="icon" src={googlePlay} alt="" />
+                  </a>
+                  <a href="#" target="_blank" className="d-block mt-3">
+                    <img className="icon" src={webImage} alt="" />
+                  </a>
                 </div>
               </div>
               <br /> <br /> <br />

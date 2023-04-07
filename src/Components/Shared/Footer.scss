@@ -82,11 +82,15 @@
   }
 
   .store-links {
+    display: flex;
+    align-items: center;
+
     a {
+      margin-right: 10px;
 
       .icon {
-        width: 100%;
-        height: auto;
+        width: auto;
+        height: 50px;
       }
 
       &:hover {

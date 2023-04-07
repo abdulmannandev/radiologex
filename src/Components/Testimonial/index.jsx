@@ -20,26 +20,8 @@ function Testimonial() {
       companyName: "Trusona",
       founder: "ORI EISEN, Founder &amp; CEO",
       text: "Trusona’s partnership with Radiologex meets the healthcare industry’s strict standards for security, providing passwordless authentication and identity proofing within the platform, mitigating the eight most common attack vectors. Together, Radiologex and Trusona offer healthcare professionals the ability to establish fast, secure communications channels and data transmissions from anywhere — and without the need for a password.",
-      rating: 3,
-    },
-    {
-      companyName: "Acme Inc.",
-      founder: "John Doe &amp; CEO",
-      text: "I found their work to be very effective at solving our problems. The team was very professional and knowledgeable. I would recommend this service to anyone.",
       rating: 5,
-    },
-    {
-      companyName: "Apple Inc.",
-      founder: "Steve Jobs &amp; CEO",
-      text: "This service has been essential for collaborating and ensuring consistency across teams and iterating drafts consistently with minimum friction management smoother -across production & facilities team impatffic coverage:",
-      rating: 4,
-    },
-    {
-      companyName: "Google",
-      founder: "Sunder Pichai &amp; CEO",
-      text: "Really improved productivity no spam: I personally value reliable on how ever entering and dragging encounter cycles visually dash plan load voice spell throughout messages functionality within similiar improvement indeed bear your requirements summary right places iron sweet feeling satisfaction",
-      rating: 5,
-    },
+    }
   ];
   const splideRef = useRef(null);
 
@@ -64,9 +46,9 @@ function Testimonial() {
             <Splide
               ref={splideRef}
               options={{
-                rewind: true,
+                // rewind: true,
                 gap: "0rem",
-                type: "loop",
+                // type: "loop",
                 perPage: 1,
                 focus: "center",
                 isNavigation: false,
