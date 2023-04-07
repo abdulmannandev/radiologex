@@ -80,7 +80,7 @@ function ModulesLunchComponent() {
                 <div className="text-start mt-4 mt-md-3">
                   <h2 className="fw-bold">
                     R-DEE <span className="text-blue-l">Go</span> <br />
-                    enfranchises patients.
+                    Enfranchises Patients.
                   </h2>
                   <p className="text">
                     A PHR app unlike any else. Full identity-proofing, builtin

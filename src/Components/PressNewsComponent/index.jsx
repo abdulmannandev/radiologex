@@ -163,7 +163,7 @@ function PressNewsComponent() {
             </div>
             <div className="col-md-24">
               <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-6 my-2">
                   <div className="logo-wrapper">
                     <img
                       className="img-fluid w-100"
@@ -175,7 +175,7 @@ function PressNewsComponent() {
                     />
                   </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 my-2">
                   <div className="logo-wrapper">
                     <img
                       className="img-fluid w-100"
@@ -187,7 +187,7 @@ function PressNewsComponent() {
                     />
                   </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 my-2">
                   <div className="logo-wrapper">
                     <img
                       className="img-fluid w-100"
@@ -199,7 +199,7 @@ function PressNewsComponent() {
                     />
                   </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 my-2">
                   <div className="logo-wrapper">
                     <img
                       className="img-fluid w-100"
