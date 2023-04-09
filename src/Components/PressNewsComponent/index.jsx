@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import { ReactComponent as Arrow } from "./Assets/Arrow.svg";
-import CardImage from "./Assets/sec-img-1.png";
+// import CardImage from "./Assets/sec-img-1.png";
 import CardImage2 from "./Assets/sec-img-2.png";
 import CardImage3 from "./Assets/sec-img-3.png";
 import CardImage4 from "./Assets/sec-img-5.png";
@@ -34,25 +34,8 @@ function PressNewsComponent() {
           </div>
         </div>
 
-        <div className="row justify-content-center">
+        <div className="row justify-content-center"> 
           <div className="col-lg-12 col-md-12 col-24 mb-4">
-            <div className="news-cards">
-              <div>
-                <img src={CardImage} alt="" />
-              </div>
-              <div className="news-card-description">
-                <h3 className="news-title">R-DEE News</h3>
-                <p className="news-text">
-                  As talks between Radiologex and Peelaways Pakistan continue,
-                  one thing is clear: Radiologex is the company to watch.
-                </p>
-                {/* <Link to="#" className="read-more">
-                  Read More <Arrow />
-                </Link> */}
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-6 col-md-12 col-24 mb-4">
             <div className="news-cards">
               <div>
                 <img src={CardImage2} alt="" />
@@ -69,7 +52,7 @@ function PressNewsComponent() {
               </div>
             </div>
           </div>
-          <div className="col-lg-6 col-md-12 col-24 mb-4">
+          <div className="col-lg-12 col-md-12 col-24 mb-4">
             <div className="news-cards">
               <div>
                 <img src={CardImage3} alt="" />
